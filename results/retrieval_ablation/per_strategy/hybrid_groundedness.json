@@ -1,0 +1,1975 @@
+{
+  "metric": "groundedness",
+  "model_judge": "gemini-3.5-flash",
+  "total_evaluated": 217,
+  "average_score": 0.9871,
+  "partial": false,
+  "hallucination_risk_count": 2,
+  "by_category": {
+    "unknown": {
+      "count": 320,
+      "avg_score": 0.9894
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "dv_p001",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every definition (domestic violence, domestic relationship, physical, mental, sexual, and economic torture) and section reference (Section 2 and Section 3) matches the retrieved chunks exactly.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p002",
+      "score": 1.0,
+      "reasoning": "The context contains provisions regarding marriage, divorce, and duties of husband and wife, but does not define or mention 'domestic relationships' (घरेलु सम्बन्ध). The generated answer correctly and appropriately states that this information is not available in the provided context.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p003",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly identifies the act as 'शारीरिक यातना' (physical torture) based on Section 2(g) of the Domestic Violence Act, 2066, and accurately references Section 13(1) and Section 5A(1) as supporting legal bases.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p004",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the classification of mental torture, domestic violence, offense, and the specific punishments, is directly supported by the retrieved chunks from the Domestic Violence (Offense and Punishment) Act, 2066.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p005",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly identifies the act as 'आर्थिक यातना' (economic violence) and accurately cites Section 2(cha) of the Domestic Violence (Offence and Punishment) Act, 2066, matching Chunk 4 exactly.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p006",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 3(1) and 3(2) regarding the offense of attempting or instigating domestic violence, and Section 13(2) regarding the half punishment for such acts, matching the context exactly.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p007",
+      "score": 0.8,
+      "reasoning": "The answer is highly grounded and accurately retrieves the correct sections (Dafa 4, 5ka, and 2) regarding who can file a complaint and where. However, there is a minor misinterpretation in section 5ka: the context states 'तेजाब बाहेक' (except acid), whereas the generated answer writes 'तेजाब वा' (acid or), which slightly alters the legal definition of the chemical substances mentioned.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p008",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 4, Subsection (4) of the Domestic Violence (Offence and Punishment) Act, 2066, stating that the perpetrator must be summoned within 24 hours excluding travel time, which matches Chunk 2 exactly.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p009",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the provisions for immediate security under Section 4(7) and interim protective orders under Section 6(1) and (2) of the Domestic Violence Act, 2066, matching the context exactly without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p010",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly states that the requested information about the time limit for mediation in domestic violence complaints is not available in the provided context chunks, which only cover contract performance, house rent, and general domestic violence prohibitions.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p011",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Dafa 5ka and Dafa 13 of the Domestic Violence (Offence and Punishment) Act, 2066, to explain the provisions regarding filing a complaint for domestic violence involving mutilation, chemical substances, or sexual torture.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p012",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim and citation regarding the court's interim protective orders on residence and behavior matches exactly with Section 6 of the Domestic Violence (Offence and Punishment) Act, 2066, as provided in Chunk 1.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p013",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the provisions of Section 9(1) and 9(3) of the Domestic Violence (Offence and Punishment) Act, 2066, regarding how treatment costs are covered when the perpetrator cannot pay immediately, without adding any external information.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p014",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 10 of the Domestic Violence (Offense and Punishment) Act, 2066, and lists the exact criteria the court considers when determining compensation, with no hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p015",
+      "score": 1.0,
+      "reasoning": "The answer is perfectly grounded in the provided context. It correctly identifies the basic punishment for general domestic violence from Section 13(1a) and the rule for repeat offenses (double punishment) from Section 13(3), and accurately calculates the doubled penalty without introducing any external facts.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p001",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately cites Section 95(c) and Section 96 from the context to address the divorce aspect, and correctly identifies that information regarding domestic violence protection is missing from the provided context, appropriately refusing to answer that part.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p002",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately cites Section 91 of the Muluki Devani Samhita regarding the prohibition on preventing a spouse or family member from working, and correctly refuses to answer the parts of the question regarding economic deprivation and 'both acts' due to lack of information in the provided context.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p003",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly identifies the grounds for divorce under Section 95(b) of the Muluki Devani Samhita from Chunk 1, and appropriately refuses to answer the domestic violence part since it is not mentioned in the provided context.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p004",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly states that there is no direct provision for immediate protection from domestic violence in the context, makes a valid inference from Section 117(1) regarding court-ordered restrictions on visitation for the minor's safety, and accurately details the custody and maintenance rules from Sections 114, 115, and 116.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p005",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly handles the query by explicitly stating that a direct answer is not explicitly mentioned in the context. It then provides a logical deduction based strictly on the provided sections (Dafa 93, 96 of the Civil Code and Dafa 4 of the Domestic Violence Act) without introducing any external legal provisions or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0001",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the definitions and section citations (Dafa 67 and 68), is directly traceable to Chunk 1 without any hallucinations or external knowledge.",
+      "split": "development"
+    },
+    {
+      "id": "md_0002",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly identifies the minimum age for marriage as 20 years and accurately cites Section 70(1)(d) of the Civil Code, 2074, which is directly supported by Chunk 1.",
+      "split": "development"
+    },
+    {
+      "id": "md_0003",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 70(1)(d) for the age requirement and Section 73(1)(a) and 73(2) for the legal consequences and exceptions regarding voiding an underage marriage, all of which are directly supported by Chunks 1 and 5.",
+      "split": "development"
+    },
+    {
+      "id": "md_0004",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly identifies that the context does not explicitly mention the specific consequences of 'forced marriage' and instead provides a highly accurate, faithful interpretation using only the provided sections (Dafa 68, 70, 71, and 74) regarding consent and marriage validity. No external knowledge or hallucinations are introduced.",
+      "split": "development"
+    },
+    {
+      "id": "md_0005",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 70(1)(b) and Section 70(2) of the Muluki Devani Sanhita Act, 2074, to explain the general prohibition of marriage within incestuous relationships and the exception for community/clan customs.",
+      "split": "development"
+    },
+    {
+      "id": "md_0006",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 70(1)(c) for the requirement of not having an active marriage, Section 68(2) for the duration of the marriage bond, and Section 83 for the conditions of remarriage, all of which are present in the context.",
+      "split": "development"
+    },
+    {
+      "id": "md_0007",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 76(1) for the general rule of marriage registration, Section 76(8) for marriages prior to the Act, and Section 80(3) for marriage by registration, without adding any external information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0008",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific section (Dafa) and sub-section references, is directly traceable to the retrieved chunks without any hallucinations or external knowledge.",
+      "split": "development"
+    },
+    {
+      "id": "md_0010",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly notes that general 'family expenses' are not explicitly defined in the context, and then accurately summarizes the specific maintenance and funeral expenses from the provided sections (Dafa 101, 656, 655, and 150) without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0011",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, section reference (Dafa 82, 93, 94, 95, 97, 98, and 706), and condition matches the retrieved chunks exactly without any hallucinations or external knowledge.",
+      "split": "development"
+    },
+    {
+      "id": "md_0012",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly cites Muluki Devani (Sanhita) Ain, 2074, Part 3, Chapter 3, Section 93, and accurately states that husband and wife can divorce at any time by mutual consent.",
+      "split": "development"
+    },
+    {
+      "id": "md_0013",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately lists the grounds for divorce by mutual consent (Dafa 93) and the specific grounds for a wife to divorce without the husband's consent (Dafa 95) exactly as stated in the retrieved chunks.",
+      "split": "development"
+    },
+    {
+      "id": "md_0014",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites the relevant sections (95, 85, 82, and 83) to explain the legal effects of separation, and correctly identifies that the provided context does not contain information regarding a 'missing' husband, appropriately refusing that part of the query.",
+      "split": "development"
+    },
+    {
+      "id": "md_0015",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly states that the application must be filed in court, citing Dafa 96 of the Muluki Devani (Sanhita) Act, 2074, which matches Chunk 1 exactly.",
+      "split": "development"
+    },
+    {
+      "id": "md_0016",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific section references (Dafa 99, 95, 94) and their sub-clauses, matches the retrieved chunks exactly without any hallucinations or external knowledge.",
+      "split": "development"
+    },
+    {
+      "id": "md_0017",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the provisions for monthly expenses during the partition process from Section 99(5) and the exceptions under Section 99(6) and Section 94, without adding any external information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0018",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly states that the specific procedure for securing an unborn child's share is not explicitly mentioned in the context. It then faithfully presents the relevant provisions (Dafa 106, 207, and 99) exactly as they appear in the context and draws a logical conclusion without introducing any external legal provisions or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0019",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately cites and explains Dafa 121 from the context, and correctly notes that while the specific term 'guardian' is not explicitly defined in the text, the decision-making authority lies with the parent with whom the minor resides.",
+      "split": "development"
+    },
+    {
+      "id": "md_0020",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the citations of Sections 82, 83, and 70 of the Muluki Devani Samhita, is directly supported by the retrieved chunks. No hallucinations or external knowledge were introduced.",
+      "split": "development"
+    },
+    {
+      "id": "md_0021",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly deduces that living apart does not lead to automatic divorce by citing Section 82 (grounds for termination of marriage), Sections 94(a) and 95(a) (living apart for 3+ years as a ground to file for divorce), and Sections 97 and 98 (mandatory court reconciliation process), all of which match the retrieved chunks exactly.",
+      "split": "development"
+    },
+    {
+      "id": "md_0023",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly notes that the context does not explicitly mention how normal family expenses are shared, and then accurately details the provisions of Sections 86, 495, 498, 100, and 101 as they relate to mutual responsibilities, obligations, and divorce maintenance. No hallucinations are present.",
+      "split": "development"
+    },
+    {
+      "id": "md_0025",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately interprets Section 100 (which allows maintenance only if partition of property is not taken) and Section 99(5) (which allows interim maintenance only until partition is completed) to answer the question correctly without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0026",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 118(1) and Section 207 of the Muluki Devani (Samhita) Act, 2074, to explain that the rights and liabilities of parents and children remain intact after divorce. No hallucinations or external information were introduced.",
+      "split": "development"
+    },
+    {
+      "id": "md_0028",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately presents the provisions of Section 699 of the Muluki Devani Sanhita, 2074, and transparently notes that while 'registration' is not explicitly mentioned, it is inferred under 'formalities' (औपचारिकता).",
+      "split": "development"
+    },
+    {
+      "id": "md_0029",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific section references (Dafa 95(b), 96, 97, and 98) of the Muluki Devani (Sanhita) Ain, 2074, is directly traceable to the retrieved chunks without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0030",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly notes that the context does not explicitly state whether a daughter's coparcenary status in her maternal home ends after divorce. It then draws highly reasonable, logical inferences based strictly on the provided sections (Dafa 82, 99, 103, 205, and 206) to conclude that her status remains intact.",
+      "split": "development"
+    },
+    {
+      "id": "md_0031",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly identifies the right to divorce under Dafa 95(gh) from Chunk 1 and the property rights under Dafa 210(2) from Chunk 2, without introducing any external information or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0033",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the provisions of Section 223 (sub-sections 1, 2, and 3) of the Muluki Devani (Samhita) Act, 2074, regarding the partition of undisclosed property discovered later, matching the context exactly without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0034",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Dafa 141, 139, and 149 to logically conclude that a guardian can be changed if found unfit, without introducing any external information or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0038",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the 272-day rule after the termination of marriage (Dafa 106), the general presumption of paternity (Dafa 105), and the 2-year limitation for claiming paternity (Dafa 108), is directly supported by the retrieved chunks without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0039",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 116 (sub-sections 1 and 2) of the Muluki Devani (Samhita) Act, 2074, to explain who bears the child's education and upbringing expenses after divorce, without adding any external information or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "sl_001",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provisions of Section 67 of the Muluki Devani (Sanhita) Act, 2074, exactly as described in Chunk 1 without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "sl_002",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 70(1)(d) of the Muluki Devani (Sanhita) Act, 2074, stating that both men and women must be at least 20 years old to marry, which matches Chunk 1 exactly.",
+      "split": "development"
+    },
+    {
+      "id": "sl_003",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately retrieves and lists the provisions of Section 94 (दफा ९४) from the provided context without any hallucinations or external additions.",
+      "split": "development"
+    },
+    {
+      "id": "sl_004",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately lists all the conditions under which a wife can divorce her husband without his consent from Section 95 of the Muluki Devani (Sanhita) Act, 2074, exactly as described in Chunk 1.",
+      "split": "development"
+    },
+    {
+      "id": "md_0041",
+      "score": 1.0,
+      "reasoning": "Every claim in the generated answer is fully supported by the provided context chunks. The citations for Dafa 68, 69, 70, and 79 are perfectly accurate and directly traceable to the text.",
+      "split": "development"
+    },
+    {
+      "id": "md_0042",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 74(1) and 74(2) of the Muluki Devani Samhita Act, 2074, including the exceptions for rape and incest, with correct references to Section 70(2) without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0043",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 75 of the Muluki Devani (Sanhita) Act, 2074, and correctly explains the exceptions under Section 74(2) (rape and incest) using the exact details from Chunk 1 and Chunk 3.",
+      "split": "development"
+    },
+    {
+      "id": "md_0044",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every step of the marriage by registration process, including the specific section citations (Dafa 77, 78, 79, and 80), matches the retrieved legal text exactly without any hallucinations or external additions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0045",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Muluki Devani (Sanhita) Ain, 2074, Section 81, Subsections (1), (2), and (3) regarding the surname options for a married woman, with no hallucinations or external knowledge added.",
+      "split": "development"
+    },
+    {
+      "id": "md_0046",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Sections 97 and 98 of the Muluki Devani (Sanhita) Ain, 2074, regarding the court's duty to attempt reconciliation and the one-year waiting period if reconciliation fails, with no hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0047",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, section reference (Dafa 99 and Dafa 94), and exception is directly traceable to Chunk 1 and Chunk 3. No hallucinations or external knowledge were introduced.",
+      "split": "development"
+    },
+    {
+      "id": "md_0048",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 100 of the Muluki Devani (Sanhita) Ain, 2074, and correctly explains the provision for a lump sum payment instead of property partition, including the condition regarding remarriage.",
+      "split": "development"
+    },
+    {
+      "id": "md_0049",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly accurate and directly traces back to the provided context chunks (Dafa 99, 100, 101, and 211). It receives a 0.8 instead of 1.0 due to a minor insertion of external knowledge in the parenthesis '(अर्थात् पत्नीकै गल्तीका कारण)' to explain Dafa 94, which was not explicitly defined in the retrieved context.",
+      "split": "development"
+    },
+    {
+      "id": "md_0050",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the conditions under which a child is presumed to be born from a married husband, correctly citing Dafa 106, Dafa 105(2), and Dafa 109 without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0051",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the conditions for denying paternity from Section 107 and the presumption of paternity from Section 105, with no hallucinations or external information added.",
+      "split": "development"
+    },
+    {
+      "id": "md_0052",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 109 of the Muluki Devani (Sanhita) Act, 2074, and correctly states that the paternity of a child born through artificial insemination with the consent of both spouses belongs to the married husband.",
+      "split": "development"
+    },
+    {
+      "id": "md_0053",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including specific age limits, conditions, and section citations (Dafa 115 and 121), is directly traceable to the retrieved chunks without any external additions or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0054",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim regarding the legal conditions of marriage is directly supported by Dafa 67, 68, and 79 from the retrieved chunks, with accurate citations and no hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0055",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the difference between 'void' (बदर) and 'invalid' (अमान्य) marriages using exact citations from Dafa 72, 73, 82, and 70 of the Civil Code, without introducing any external information or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0056",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly notes that there is no direct provision for a couple's property management in the context, and then accurately explains the rules for joint property (Section 260) and divorcee property (Section 103) using only the provided text without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0057",
+      "score": 1.0,
+      "reasoning": "Every claim in the generated answer is perfectly grounded in the provided context. The citations of Dafa 68(1), 70(1)(a), 79, and 102 are completely accurate and directly traceable to the text.",
+      "split": "development"
+    },
+    {
+      "id": "md_0058",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, section reference (Dafa 99, 216, 103), and legal provision matches the retrieved chunks exactly, with no hallucinations or external knowledge added.",
+      "split": "development"
+    },
+    {
+      "id": "md_0059",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every point, including the specific conditions for separation and the corresponding section (Dafa) citations, is directly traceable to the retrieved chunks without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0060",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every section, clause, and exception mentioned (including Dafa 238, 239, 240, 241, 242, 243, and 695) matches the retrieved chunks exactly without any external additions or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0061",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly answers the first question using Dafa 406 from the context and appropriately states that information for the second question is not available in the provided context.",
+      "split": "development"
+    },
+    {
+      "id": "md_0062",
+      "score": 1.0,
+      "reasoning": "Every claim in the generated answer is directly supported by the provided context chunks (specifically Dafa 504 and 505). The citations are accurate and there are no hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0063",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the cancellation of contract (Section 535), non-performance (Section 527), and compensation determination (Section 543), is directly traceable to the retrieved chunks with accurate citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0064",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately maps 'mental instability' to 'होस ठेगानमा नरहेको' from Section 71(2)(घ) and correctly explains the legal consequences of voidability and compensation under Sections 71(3), 73(1)(ख), and 73(2) using only the provided text.",
+      "split": "development"
+    },
+    {
+      "id": "md_0066",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the provisions of Dafa 137, 139, 141, and 704, and even correctly notes that the details of Dafa 136 are missing from the context.",
+      "split": "development"
+    },
+    {
+      "id": "md_0067",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately defines adoption using Dafa 169 and correctly details the provisions regarding surname usage (Dafa 179) and child welfare (Dafa 190) exactly as stated in the retrieved chunks.",
+      "split": "development"
+    },
+    {
+      "id": "md_0068",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately summarizes the consent requirements from Dafa 175 and the special care provisions from Dafa 198 without adding any external information or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0069",
+      "score": 1.0,
+      "reasoning": "Every claim in the generated answer is perfectly supported by the provided context chunks. The citations of Dafa 216, 229, and 232 are accurate and faithful to the text, with no external knowledge or hallucinations introduced.",
+      "split": "development"
+    },
+    {
+      "id": "md_0071",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly notes that specific administrative registration details are missing from the context, and accurately details the legal conditions for remarriage using only the provided sections (Dafa 67, 70, 82, 83, and 98) without any external knowledge or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0072",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains how joint ownership is determined using Dafa 258 and Dafa 707, with precise citations and no hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0076",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly identifies that the provided context does not contain information on how property is divided in a joint family system (सगोलको सम्पत्ति). It accurately cites Dafa 255, 258, 263, and 418 to explain the distinction between joint family property and joint property, and appropriately refuses to answer due to lack of information in the context.",
+      "split": "development"
+    },
+    {
+      "id": "md_0077",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Sections 32, 129, and 153 of the Muluki Devani Samhita, 2074, and draws direct, logical conclusions about a minor's legal capacity based strictly on those sections without introducing any external legal concepts or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0078",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains when legal liability arises by citing Dafa 493 and Dafa 494 from the retrieved chunks, with no hallucinations or external information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0079",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly states that the provided context does not contain information regarding the legal consequences of hiding property. This is an appropriate refusal since none of the retrieved chunks address this topic.",
+      "split": "development"
+    },
+    {
+      "id": "md_0080",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 75 of the Muluki Devani (Sanhita) Act, 2074, confirming that the legal rights of a child born from a void or voided marriage are not affected, which directly matches Chunk 1.",
+      "split": "development"
+    },
+    {
+      "id": "md_0081",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly states that the requested information is not available in the provided context. The retrieved chunks do not contain any provisions regarding contracts made without free consent, coercion, or fraud.",
+      "split": "development"
+    },
+    {
+      "id": "md_0082",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the conditions for lump-sum payments (Dafa 100), maintenance expenses (Dafa 101), interim monthly expenses (Dafa 99(5)), and the exceptions/restrictions (Dafa 99(6) and Dafa 94), is directly traceable to the retrieved chunks without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0083",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 73(1)(b) and Section 73(2) of the Muluki Devani Samhita Act, 2074, regarding the voidability of a marriage done through deceit (झुक्याई/धोखाधडी) and the conditions involving pregnancy or childbirth, without adding any external information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0084",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the relationship between ceremonial marriage and marriage registration using Dafa 67, 76, and 80, with no hallucinations or external knowledge added.",
+      "split": "development"
+    },
+    {
+      "id": "md_0085",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Dafa 501 and Dafa 502 (subsections 1, 2, and 3) to explain the conditions under which a liability does not need to be fulfilled, with no hallucinations or external information introduced.",
+      "split": "development"
+    },
+    {
+      "id": "md_0086",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states that the deed of transfer of immovable property must be registered/passed by the relevant office (citing Section 464) and that in case of double transfer, the first registered deed gets legal recognition (citing Section 422). All citations and claims are fully supported by Chunks 1 and 2.",
+      "split": "development"
+    },
+    {
+      "id": "md_0087",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 202 of the Muluki Devani (Samhita) Act, 2074, to explain the specific time limit (one year) for filing a case to cancel adoption, without adding any external information or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0088",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately cites Dafa 143 and Dafa 428 from the context to explain that guardians and curators manage the property of incompetent or semi-competent persons, and it correctly notes that the term 'minor' is not directly mentioned in the text but logically addresses the user's query without hallucinating.",
+      "split": "development"
+    },
+    {
+      "id": "md_0090",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, section reference (Dafa 7, 11, 517, 505, 519), and legal provision matches the retrieved chunks exactly without any external knowledge or hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0092",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific legal provisions (Dafa 222, 223, 225, 99, and 230) regarding property inventory and freezing, is directly traceable to the retrieved chunks without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0095",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly states that the information is not available in the provided legal context. Since the retrieved chunks indeed do not contain any information about what happens to property when there is no legal heir, this is an appropriate refusal.",
+      "split": "development"
+    },
+    {
+      "id": "md_0099",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately deduces that while Dafa 67, 70, and 71 do not mention witnesses for ceremonial marriages, Dafa 79 and 80 explicitly require the signatures of present witnesses for registered marriages.",
+      "split": "development"
+    },
+    {
+      "id": "md_0102",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 272 of the Muluki Devani (Sanhita) Ain, 2074, and lists the exact conditions under which the right of possession ends, without any hallucinations.",
+      "split": "development"
+    },
+    {
+      "id": "civil_new_001",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the commencement date of the Act from Dafa 1, sub-section (2) as found in Chunk 1, without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_002",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately retrieves and presents the exact text of Section 5 from the Muluki Devani (Sanhita) Act, 2074, without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_003",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately utilizes the provided context chunks (including Sections 10, 245, 665 of the Civil Code and Section 10 of the Domestic Violence Act) to explain how the principle of not taking advantage of one's mistake is applied, without introducing any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_004",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains Section 14 of the Muluki Dewani (Samhita) Act, 2074, stating that criminal proceedings (or lack thereof) do not exempt a person from civil liability, which directly matches Chunk 1.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_005",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 18(1) regarding non-discrimination, Section 17 regarding equality before the law, and Section 19 regarding the exception for special provisions, drawing a logical conclusion without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_006",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately quotes Dafa 23 of the Muluki Devani (Sanhita) Ain, 2074, and correctly points out the discrepancy in the question's phrasing ('can be levied' vs 'cannot be levied') based strictly on the retrieved text.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_007",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the text of Section 27 (sub-sections 1 and 2) as provided in Chunk 1 of the context. There are no hallucinations or external additions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_008",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately completes the sentence from Section 31(1) of the Muluki Devani Sanhita, 2074, and correctly details all sub-sections of Section 31 without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_009",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the exceptions to organ/corpse donation from Section 38(3) of the Muluki Devani Sanhita, namely the unavailability of a recipient and the impossibility of separating the organ/part, and correctly mentions the requirement to perform funeral rites under Section 37.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately summarizes Section 43(1) and (2) of the Muluki Dewani Samhita Act, 2074, and correctly references Section 42's provisions without introducing any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_011",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provisions of Dafa 48, sub-sections (1) and (2), regarding the transfer of rights and liabilities when a legal person merges, matching Chunk 1 exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_012",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately states the provisions of Section 52 of the Muluki Devani (Sanhita) Ain, 2074, regarding the settlement of property and liabilities of a dissolved legal person, matching Chunk 1 exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_013",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the procedures under Dafa 56(1), 56(2), and Dafa 57(4) regarding notifying creditors and publishing notices, with exact matches to the retrieved chunks.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_014",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the priority order of debt payment from Section 61 and the exception from Section 62, matching the source text exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_015",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts and summarizes the provisions of Section 66 (Dafa 66) of the Muluki Devani (Sanhita) Ain, 2074, including all the specific limitation periods (3 years, 2 years, and 6 months) without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_016",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the exception/limitation under Section 108(2) regarding the death of the child, matching the exact text of Chunk 1 without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_017",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately reproduces all six subsections of Section 113 from the retrieved context (Chunk 1) without any hallucinations or external additions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_018",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provisions of Dafa 121 from Chunk 1, explaining that if a dispute arises regarding the welfare of a minor whose parents' marriage cannot be maintained or has ended, the decision of the parent with whom the minor is currently residing shall prevail.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_019",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the exceptions under Section 125(2) and correctly identifies other limitations from Sections 131, 132, and 133, all of which are present in the retrieved chunks.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_020",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately summarizes Dafa 130 from Chunk 1 and correctly notes that the details of Dafa 129 are not present in the context, avoiding any hallucination.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_021",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately quotes Dafa 134 of the Muluki Dewani Samhita Act, 2074, including the correct chapter, section, and the exact limitation period of six months.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_022",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately identifies the main rule of keeping accounts under Section 144(1) and its exception under the proviso of Section 144(1) referencing Section 136(1), exactly as stated in Chunk 1.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_023",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately extracts the main rule and its exception from Section 149 as provided in Chunk 1, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_024",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the exceptions/limitations to Section 153(1) using Section 153(2) from Chunk 1 and Section 155 from Chunk 4, with exact matches of the legal provisions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately summarizes and concludes based on Section 157 (sub-sections 1, 2, and 3) of the Muluki Devani (Sanhita) Ain, 2074, without adding any external information or hallucinating details.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_026",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the exception to the rule in Section 162 (that the curator is not liable if the property is damaged due to a disaster) directly from Chunk 1, and provides precise citations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_027",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provisions of Section 166 of the Muluki Dewani Samhita Act, 2074, matching Chunk 1 exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_028",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the exceptions to the rule under Section 171 (sub-sections 2 and 3) regarding judicial separation and financial capacity, matching the text of Chunk 1 exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_029",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the provisions of Section 179 regarding the surname of an adopted child, including the options to use the adoptive parents' surname, the biological parents' surname, and the reversion to the biological parents' surname if the adoption is annulled. It also correctly notes that this provision applies to adoptions by foreigners as per Section 203.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_030",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the obligation under Section 183 using Chunk 1 and addresses the jurisdictional aspect of disputes using Section 703 from Chunk 2, without introducing any external information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_031",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately quotes Section 187 of Chapter 8, Part 3 of the Civil Code, 2074, stating that a lawsuit must be filed within one year, which matches Chunk 1 exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_032",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately reproduces all the sub-sections and clauses of Section 192 from Chunk 1 without adding any external information or making any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_033",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts and summarizes the provisions of Section 196 of the Muluki Devani (Sanhita) Act, 2074, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_034",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every detail regarding the reporting requirements under Section 200, including the frequency, content, and submission channels, is accurately extracted from Chunk 1 without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_035",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the provisions of Section 204 of the Muluki Devani (Sanhita) Ain, 2074, including the specific conditions for separate limitations and the default one-year limitation period, without adding any external information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately reproduces the provisions of Dafa 208 (sub-sections 1 and 2) from Chunk 1 without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_037",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the main rule from Section 210(1) and its exception/limitation from Section 210(2) of the Civil Code, matching the text in Chunk 1 exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_038",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the main rule from Section 214(1) and its exception/limitation from Section 214(2) without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_039",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every point, including the sub-clauses of Dafa 216 and the additional references to Dafa 205 and 206, is directly supported by the retrieved chunks without any external additions or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_040",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts the main rule from Section 218(1) and its exception from Section 218(2) without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_041",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the provisions of Section 220(1) and its explanation regarding the 'date of separation of mess' without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_042",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context, specifically Chunk 1 (Section 224 of the Muluki Devani Sanhita Ain, 2074). It accurately breaks down the legal provision regarding opening locks to take a property inventory without adding any external information or hallucinating details.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_043",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provision of Dafa 227 from Chunk 1, confirming that if a co-parcener does not have a legal right to a property received in partition, they must be compensated proportionally by all co-parceners.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_044",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the provisions of Section 229 (sub-sections 1, 2, and 3) of the Muluki Devani (Sanhita) Ain, 2074, without adding any external information or making unsupported claims.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_045",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately summarizes and cites Section 232 (sub-sections 1 and 2) of the Muluki Devani Samhita, 2074, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_046",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately reproduces the provisions of Section 234, Subsections (1) and (2) of the Muluki Devani (Sanhita) Ain, 2074, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_047",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provisions of Section 237 of the Muluki Dewani (Sanhita) Act, 2074, including the definition of 'aputali' from the explanation, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_048",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the provision of Section 240 of the Muluki Devani Code, 2074, stating that the distant heir living with the deceased will receive the inheritance, which matches Chunk 1 exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_049",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies and quotes Section 242, including the main rule in sub-section (1) and its exception/limitation in sub-section (2) directly from Chunk 1 without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_050",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every point (the obligation to perform funeral rites, the 3-year limit to notify the District Court in writing, and the transfer of inheritance to the next heir) is directly extracted from Section 244 of the Muluki Devani Code, 2074, as provided in Chunk 1.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_051",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately reproduces the provisions of Section 246, sub-sections (1) and (2), of the Muluki Devani (Sanhita) Ain, 2074, without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_052",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the limitations and exceptions of Section 249 by referencing Section 696 (determination of heir based on foreign law), Section 249(6) (10% fee and funeral cost deduction), and Section 249(8) (public interest use restriction), all of which are fully supported by Chunks 1, 2, and 4.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_053",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts and explains the provisions of Section 251 (Dafa 251) regarding what constitutes property, including the explanation of 'object' (vastu), without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_054",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the application of Section 253(1)(a), 253(1)(b), and 253(2) of the Muluki Devani (Samhita) Act, 2074, without introducing any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_055",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every point, including the specific section citations (Dafa 255, 266, 267, 345, and 707), is fully supported by the retrieved chunks, and no external information or hallucinations were introduced.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_056",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately lists all the clauses under Section 256(1) and Section 256(2) of the Civil Code, matching the retrieved context exactly without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_057",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provisions of Section 270, sub-sections (1) and (2) of the Muluki Devani (Sanhita) Act, 2074, exactly as they appear in Chunk 1.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_058",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 282, sub-sections (1) and (2) of the Muluki Devani (Sanhita) Ain, 2074, without adding any external information or making any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_059",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the provisions of Dafa 295 of the Muluki Devani Samhita Act, 2074, using only the information available in Chunk 1 without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_060",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately identifies the exceptions to the rule of not building structures on public, government, or community land as specified in Section 307(1) of the Muluki Devani (Sanhita) Ain, 2074, without adding any external information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_061",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the exception to the refusal of Guthi registration from Section 319(3) of the Muluki Devani (Sanhita) Ain, 2074, which states that if the applicant corrects the errors and reapplies, the registrar must register it within 15 days.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_062",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provisions of Section 330 of the Muluki Devani (Sanhita) Ain, 2074, matching Chunk 1 exactly without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_063",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every point listed under Section 342 matches Chunk 1 exactly, with no hallucinations or external information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_064",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific section references (Dafa 354, 464, and 358) and their sub-clauses, is directly traceable to the retrieved chunks without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_065",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts the rule and its limitation (the 45-day notice requirement) from Section 365 of Chunk 1 without adding any external or hallucinated information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_066",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately reproduces the provisions of Section 377, sub-sections (1) and (2), from the provided context without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_067",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately presents the provisions of Section 388, sub-sections (1) and (2), directly from the provided context without any external additions or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_068",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the conditions under Dafa 400(1) and the notice requirements under Dafa 400(2) and (3), is directly traceable to Chunk 1 without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_069",
+      "score": 0.8,
+      "reasoning": "The answer is mostly grounded and accurately reflects the retrieved context. There is a minor citation discrepancy where the answer mentions 'Dafa 413' instead of 'Dafa 414' when explaining the provisions of Dafa 416(1).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_070",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific sub-sections of Section 424 (1, 2, 3, and 5) and Section 421, is fully supported by the retrieved chunks without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_071",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately states the provisions of Dafa 436, sub-sections (1) and (2), exactly as provided in Chunk 1 of the retrieved context, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_072",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately and faithfully reproduces the provisions of Section 447 (subsections 1, 2, and 3) from Chunk 1 without any hallucinations or external additions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_073",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 459 of the Muluki Devani (Sanhita) Act, 2074, and correctly states that joint housing is the exception where pre-emption (haksafa) cannot be claimed, matching Chunk 1 exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_074",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the application of Dafa 472 by integrating definitions and rules from Dafa 463, 464, and 465, all of which are present in the retrieved chunks, without introducing any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_075",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately extracts the main rule from Section 484(1) and its exceptions/limitations from Section 484(2) exactly as described in Chunk 1 of the provided context, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_076",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately quotes Section 485 of the Muluki Devani (Sanhita) Act, 2074, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_077",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately quotes Section 499 of the Muluki Devani (Sanhita) Ain, 2074, stating that obligations created under Section 494 must be performed in good faith by the responsible person, which matches Chunk 1 exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_078",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately states the provisions of Section 514 of the Muluki Devani (Sanhita) Act, 2074, directly from Chunk 1 without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_079",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately identifies the exception to the transfer of contractual rights and liabilities under Section 528 as 'rights and liabilities acquired on the basis of personal skill or qualification shall not transfer to the heir', which matches the provided context exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_080",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the limitation period of two years from the date the cause of action arose under Section 544, as specified in Chunk 1, without introducing any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_081",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately reproduces the provisions of Section 555 (sub-sections 1, 2, and 3) of the Muluki Devani (Sanhita) Ain, 2074, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_082",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly states that Section 567 does not contain an explicit exception, accurately identifies the prerequisite condition from Section 567(1) as a limitation, and appropriately refuses to provide further exceptions since they are not present in the context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_083",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately completes the sentence from Section 579(1) of the Civil Code, stating that the object must be returned once the purpose for which it was kept is fulfilled.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_084",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately breaks down the provisions of Dafa 591 regarding agency contracts without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_085",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the exceptions and limitations of Section 602 (Dafa 602) regarding the exclusion of air/maritime transport and employees/representatives from the definition of a transporter, directly matching the explanation and proviso in Chunk 1.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_086",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately quotes Section 614, sub-sections (1), (2), and (3) from Chunk 1 without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_087",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately reproduces the provisions of Section 626, sub-sections (1) and (2), from the Muluki Dewani Samhita Act, 2074, without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_088",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every detail, including the refund of the hire-purchase amount, the calculation of the value on the date of confiscation, the 30-day payment timeline, and the 10% annual interest rate, is directly extracted from Section 637 of the retrieved context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_089",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the provisions of Dafa 649 regarding the management of another person's property without their authorization, matching the exact conditions and terms specified in Chunk 1.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_090",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately summarizes the provisions of Dafa 661 of the Muluki Devani (Sanhita) Ain, 2074, regarding recovering the value of goods or services provided to an incompetent person or their caretaker, without adding any external information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_091",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately reproduces the provisions of Section 672 (sub-sections 1 to 4 and the explanation) from Chunk 1 without any hallucinations or external additions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_092",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately quotes Section 684 from Chunk 1, including the correct act, part, chapter, and the exact text regarding the limitation period of six months.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_093",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provisions of Section 685(1) and 685(2) of the Civil Code, 2074, regarding the prohibition of selling defective products and the liability arising from them, without adding any external information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_094",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the provisions of Section 694 (Dafa 694) regarding the presumption of disappearance or death of a foreign national, matching the exact clauses of sub-sections (1) and (2) without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_095",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the main rule and exceptions of Section 704 (Dafa 704) regarding the determination of a guardian or curator, matching the text in Chunk 1 exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_096",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately presents all three sub-sections of Section 712 of the Muluki Devani (Sanhita) Ain, 2074, without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_097",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the main rule from Section 721(1) and its exception/alternative regulation from Section 721(2) without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_001",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It explains the meaning and legal effect of Section 1(1) by correctly referencing the Preamble, Section 1(2), and Section 3, all of which are present in the retrieved chunks without introducing any external information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_002",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately lists all the definitions from Section 2 (clauses ka to tha) of the Domestic Violence (Offence and Punishment) Act, 2066, exactly as provided in the retrieved context chunks, without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_003",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the procedures for filing complaints, actions by authorities, medical treatment, safety measures, and reconciliation as specified in Section 4 of the Domestic Violence (Offence and Punishment) Act, 2066, which is fully present in Chunk 3.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_004",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Dafa 4(1) for the conditions of reporting domestic violence and correctly draws a logical distinction between general domestic violence (Dafa 4) and severe cases (Dafa 5ka) using only the provided text.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_005",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the legal consequences under Section 5(1) and Section 4(11) of the Domestic Violence Act, 2066, and correctly references the closed bench hearing option under Section 7(1) without introducing any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_006",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately interprets the exceptions and inclusions of Section 5ka(1) and Section 13(1) regarding 'acid' and 'dismemberment' without introducing any external information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_007",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately reproduces the provisions of Section 6 (Dafa 6) of the Domestic Violence (Offence and Punishment) Act, 2066, including sub-sections (1) and (2) without any hallucinations or external additions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_008",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately uses Chunk 1 for the victim's process, Chunks 3 and 4 for the entity's (nikaya/legal person) process, and Chunk 2 for the procedural aspect, without introducing any external facts or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_009",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Dafa 7 and Dafa 5 of the Domestic Violence (Offense and Punishment) Act, 2066, and correctly explains the conditions under which the closed-bench hearing applies without introducing any external information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 8 of the Domestic Violence (Offence and Punishment) Act, 2066, stating that the procedure under the Summary Procedure Act, 2028 must be followed for case proceedings and settlement. No hallucinations are present.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_011",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the legal meaning and effect of Dafa 9(1) in conjunction with Dafa 4(6) using only the provided text, with no hallucinations or external knowledge added.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_012",
+      "score": 0.0,
+      "reasoning": "Evaluation error: 500 Internal error encountered.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_013",
+      "score": 0.0,
+      "reasoning": "Evaluation error: 500 Internal error encountered.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_014",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the relevant act (Domestic Violence Act, 2066) and correctly explains the conditions under which the Service Fund provision applies by referencing Section 11(1) and Section 12(1) exactly as they appear in Chunks 2 and 3.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_015",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, section reference (Dafa 12ka and Dafa 4), and sub-section detail matches the retrieved chunks exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_016",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately breaks down the provisions of Section 12B (Dafa 12kha) and Section 2(cha) of the Domestic Violence Act, explaining the conditions, responsible authority, and mechanism of legal aid without introducing any external hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_017",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly accurate and directly uses the provided context chunks. It correctly identifies the provisions of Dafa 12ga, 5ka, and 4. There is a minor, highly reasonable inference in section 4 where it interprets the proviso 'तर दफा ५क. बमोजिम परेको जाहेरीको सम्बन्धमा प्रचलित कानून बमोजिम हुनेछ' as meaning 'mediation cannot be done', which aligns perfectly with the context of the proviso excluding these cases from standard mediation.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_018",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites and details the procedures from Dafa 5ka (filing a complaint and investigation), Dafa 8 (summary procedure), and Dafa 13 (punishment) of the Domestic Violence (Offense and Punishment) Act, 2066, without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_019",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly identifies that the 90-day limitation applies to offenses under the Domestic Violence (Offense and Punishment) Act, 2066, citing Section 14 (Chunk 1) and Section 5 (Chunk 4) accurately without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_020",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 15 (Dafa 15) of the Domestic Violence (Offense and Punishment) Act, 2066, and its explanation and logical conclusion are directly derived from the text of Chunk 1 without adding any external or hallucinated information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_021",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately explains the legal meaning of Section 16 using only the provided context, correctly referencing Section 2 and Section 3 from the other chunks to illustrate its points without introducing any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_022",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately states the provision of Section 17 (Dafa 17) regarding the power to make rules, matching Chunk 1 exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_023",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific sub-sections of Section 4 of the Domestic Violence (Offence and Punishment) Act, 2066, is directly traceable to Chunk 3 without any hallucinations or external additions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_024",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly identifies that the queried provision is not present in the provided context chunks (Sections 7, 11, 501, 672, and 721). Since the context truly lacks this information, the refusal is appropriate and fully grounded.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately interprets and presents the provisions of Section 4(2) of the Domestic Violence (Offence and Punishment) Act, 2066, regarding the registration of written and oral complaints without adding any external information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_026",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly identifies Section 5A (दफा ५क) as the exception/limitation to Section 5(2) using the exact text and conditions (dismemberment, acid attack, sexual violence) specified in Chunk 4.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_027",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 5ka, Subsection 2 of the Domestic Violence (Offense and Punishment) Act, 2066, and correctly quotes the provision regarding investigation and filing of cases being in accordance with prevailing law.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_028",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. Every claim, including the complaint registration, summoning of the perpetrator, sending the file to court, and issuing the interim protective order, is directly supported by the provided context chunks (Dafa 4 and Dafa 6) with exact citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_029",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies that the provision applies when the victim requests a closed bench hearing under Section 7(1) of the Domestic Violence (Offense and Punishment) Act, 2066, and correctly cites both sub-sections (1) and (2) of Section 7 without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_030",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific provisions of Dafa 9 (sub-sections 2 and 3) and Dafa 4 (sub-section 6), is directly traceable to the retrieved chunks without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_031",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every point, including the authority to establish service centers, their purpose, monitoring responsibility, assistance to victims, financial management, and operation procedures, is directly supported by the text in Chunk 1, Chunk 2, and Chunk 5, with accurate citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_032",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the provisions for the management, funding, and monitoring of service centers established under Section 11(1a) and (1b) by citing Section 12(1a), Section 11(2a), and Section 11(5) exactly as they appear in the context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_033",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly identifies the legal provision mentioned in the prompt (Section 13(1क)) and accurately details the entire complaint and handling process from Section 4 of the Act as provided in the context, without any hallucinations or external additions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_034",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly states that the requested information about 'domestic relationship' (घरेलु सम्बन्ध) is not available in the provided context. Since the retrieved chunks indeed do not contain this definition or provision, the refusal is appropriate and fully grounded.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_035",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Dafa 4, sub-sections (1) and (3) of the Domestic Violence (Offense and Punishment) Act, 2066, to explain the legal conclusion regarding complaints registered with the National Women's Commission. No hallucinations or external knowledge were introduced.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific section references (Section 6, Section 9, and Section 2 definitions), matches the retrieved chunks exactly without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_037",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts the exceptions and limitations from Section 9, Sub-section (3) of the Domestic Violence (Offense and Punishment) Act, 2066, without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_038",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly states that no process is specified for victims, and accurately details the transfer, fund establishment, and monitoring processes for government entities using exact citations from Dafa 11 and 12 of the Domestic Violence (Offence and Punishment) Act, 2066.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_039",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context, specifically Chunk 4. It accurately identifies the Act, Section, and conditions under which the specified provision applies, and lists the exact sources of funds without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_040",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 13(2) for the half-punishment rule and Section 3(1) and (2) for the definition of the offense, matching the retrieved chunks exactly.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_041",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. Every claim, section reference, and punishment detail matches the provided context chunks exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_042",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 4, Sub-section (4) of the Domestic Violence (Offence and Punishment) Act, 2066, and correctly states the legal provision without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_043",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately details the process of filing a complaint under Section 4 and the court's authority to issue an interim protective order for separate living arrangements under Section 6(1)(c), with exact citations matching the context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_044",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 11 and Section 12 of the Domestic Violence (Offense and Punishment) Act, 2066, and correctly explains the conditions under which an organization can establish a service center based on the text.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_045",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly states that the provided context does not contain information regarding funds received from domestic or foreign organizations. Since the context indeed lacks this information, the refusal is highly appropriate and fully grounded.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_046",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the legal meaning of Section 13(3) regarding repeat offenses and correctly references Section 13(1a) as an illustrative example, all of which are directly sourced from Chunk 1.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_047",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including definitions, prohibitions, and specific punishments under Dafa 2, 3, and 13, is directly traceable to the retrieved chunks. No hallucinations or external knowledge were introduced.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_048",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific sub-sections of Section 4 of the Domestic Violence (Offence and Punishment) Act, 2066, is directly traceable to the retrieved chunks without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_049",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies that the provision applies under Section 6(1)(d) of the Domestic Violence (Offence and Punishment) Act, 2066, when the court issues an interim protective order during the preliminary investigation of a complaint.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_050",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts the legal conclusions regarding the monitoring, assistance, and management of service centers established by provincial or local governments from Section 11 of the Act, with no hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_051",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately connects Dafa 12(3) with the definition of 'as prescribed' in Dafa 2(th) and correctly references the relationship between the service fund and service centers from Dafa 11(3) and Dafa 12(1).",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_052",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately cites Section 13, Subsection (4) of the Domestic Violence (Offence and Punishment) Act, 2066, and correctly states that a person in a position of public accountability committing such an offense will face an additional ten percent punishment, exactly as provided in Chunk 2.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_053",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the definition of sexual torture, the complaint filing process, the duties of the respective agencies, and the reference to punishment, is directly traceable to the retrieved chunks (Sections 2, 4, and 13 of the Domestic Violence Act, 2066).",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_054",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Dafa 4, sub-section 6 of the Domestic Violence (Offence and Punishment) Act, 2066, and correctly explains the conditions and procedures for immediate medical treatment and injury examination as described in the context without any external additions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_055",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 6(1) and Section 6(1)(e) of the Domestic Violence (Offense and Punishment) Act, 2066, to explain that the court can issue an interim protective order prohibiting the perpetrator from harassing the victim at their separate residence, path, office, or via communication.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_056",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the legal meaning and effect of Section 11(3) by referencing Section 11(2), 11(4), 12(1), and 12(2) exactly as they are described in the retrieved chunks, without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_057",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 13(5) of the Domestic Violence (Offense and Punishment) Act, 2066, and correctly states the penalty of a fine from 2,000 to 15,000 rupees, up to four months of imprisonment, or both, without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_058",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately utilizes the definitions of economic torture, domestic violence, and the relevant authorities (police, local level, court) from the context to explain the process, while correctly noting that the detailed procedures under Sections 4 and 5 are missing from the context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_059",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 6, Sub-sections (1) and (2) of the Domestic Violence (Offence and Punishment) Act, 2066, to explain when the protective measures apply to victims and their dependents, without adding any external information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_060",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies Section 6, Subsection (1), Clause (cha) of the Domestic Violence (Offense and Punishment) Act, 2066, which states that the court can issue an interim protective order for the benefit and safety of the victim.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_061",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately completes the sentence from Section 11(4) using Chunk 1, and correctly references the definitions and related provisions (Sections 2, 11, 12, and 12b) exactly as they appear in the retrieved chunks without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_062",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 2, Clause (cha) of the Domestic Violence (Offence and Punishment) Act, 2066, and correctly defines 'victim' exactly as stated in the context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_063",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately identifies the exception to the reconciliation provision in Section 4(8) of the Act, which is that the provision does not apply to FIRs filed under Section 5A, exactly as stated in the retrieved context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_064",
+      "score": 1.0,
+      "reasoning": "The provided context chunks do not contain any information regarding the preliminary investigation of complaints or provisions for victims and their dependent children. The generated answer correctly and appropriately states that this information is not available in the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_065",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific sub-sections of Section 11 of the Domestic Violence (Offence and Punishment) Act, 2066, is directly traceable to Chunk 2 without any hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_066",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every legal definition, section reference (such as Dafa 2 and Dafa 4), and specific timeline (like 24 hours, 30 days, and 15 days) matches the retrieved chunks exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_067",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 4, Subsection (9) of the Domestic Violence (Offence and Punishment) Act, 2066, and correctly details the provisions regarding the involvement of psychiatrists, sociologists, and others during mediation, as well as the need to respect the victim's privacy and psychological/social impacts.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_068",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly defines 'Police Office' and 'Complaint' using Section 2 of the Domestic Violence Act from the context. It then appropriately states that the detailed procedure is not available in the provided context, which is a correct and faithful refusal.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_069",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately synthesizes the procedural steps of Section 4 (complaint registration, statement taking, mediation, and referral to court) to explain when the provision of keeping the perpetrator on date (Section 4(10)) applies, using only the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_070",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the definitions from Section 2(ञ), the complaint procedures from Section 4, and the provision for a protection officer in Section 12क, is directly traceable to the retrieved chunks without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_071",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately explains the legal effect of Section 4, sub-section (11) of the Domestic Violence (Offense and Punishment) Act, 2066, including the requirement of the complainant's consent and the 15-day timeline after the expiry of the 30-day reconciliation period, all of which are directly supported by the retrieved chunks.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_072",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites Section 2, Clause (Ta) of the Domestic Violence (Offense and Punishment) Act, 2066, and provides the exact definition of 'court' as stated in the context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_073",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly acknowledges the lack of specific details for sub-sections (5) and (7) in the context, while accurately summarizing the available processes from Section 4 of the Domestic Violence Act, 2066. Every cited sub-section and process matches the retrieved context exactly.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_074",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately identifies the definition of 'complaint' from Section 2(ट१) of the Domestic Violence (Offence and Punishment) Act, 2066, and correctly explains the conditions under which it applies using Sections 2, 4, and 5a, all of which are present in the retrieved chunks.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_075",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately cites Section 2(tha) of the Domestic Violence (Offense and Punishment) Act, 2066, and correctly explains the definition of 'prescribed' or 'as prescribed' based entirely on the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_001",
+      "score": 1.0,
+      "reasoning": "The context chunks do not contain any information regarding deprivation of economic resources or stoppage of employment. The generated answer correctly states that this information is not available in the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_002",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly identifies that only one Act is present in the context, accurately cites the relevant sections (Dafa 2, 4, 5, 6, and 9) of the Domestic Violence Act, and contains no hallucinations or external knowledge.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_003",
+      "score": 1.0,
+      "reasoning": "The retrieved context chunks do not contain any information regarding being deprived of economic resources or employment stoppage under the mentioned acts. The generated answer correctly and appropriately states that the information is not available in the provided legal context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_004",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately defines physical and mental torture using Chunk 1 and connects them to the divorce grounds for a husband under Section 94(c) of the Civil Code from Chunk 5, while correctly noting the limitation of the retrieved context regarding the wife's grounds for divorce.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_005",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately details the immediate protection and treatment provisions from the provided context (citing Sections 2, 4, and 9 of the Domestic Violence Act) and correctly refuses to answer the part about divorce grounds, explicitly stating that this information is not available in the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_006",
+      "score": 0.8,
+      "reasoning": "The answer is highly grounded and accurately synthesizes the provided legal chunks. However, there is a minor citation mismatch where the text correctly refers to Section 94(ga) of the Muluki Devani Sanhita, but the bracketed citation incorrectly points to Section 94(ka).",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_007",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately details the provisions of the Domestic Violence Act, 2066 from the context, and correctly identifies that the provided context for the Muluki Devani (Sanhita) Act, 2074 only contains provisions about Guthi (Section 338) and appropriately refuses to speculate on husband-wife responsibilities under that Act.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_008",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately cites Section 4(6), 4(7), and 4(11) of the Domestic Violence Act from the context for immediate security and treatment, and correctly refuses to answer the part about the second civil act as it is not present in the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_009",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly identifies the limitations of the provided context, explicitly refuses to answer sections where information is missing (such as the details of the Muluki Devani Sanhita), and accurately summarizes the available sections without introducing any external knowledge or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim regarding domestic violence complaints and divorce procedures, including specific section citations (Dafa numbers), is fully supported by the retrieved chunks without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_011",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the specific section citations (Dafa 4, 6, 9 of the Domestic Violence Act and Dafa 96, 97, 98 of the Muluki Civil Code), is fully supported by the retrieved chunks without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_012",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It strictly uses the provided context, explicitly acknowledges when information is missing (such as the specific remedies or procedures of the Domestic Violence Act), and correctly synthesizes the relationship between the two acts using only the provided sections (Section 3 of the Civil Code and Section 16 of the Domestic Violence Act).",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_013",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately cites the definitions of complaint/Jaheri and police office from Dafa 2, and the punishment for severe physical/sexual torture from Dafa 13, while correctly stating that information regarding divorce grounds is not available in the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_014",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, definition, and section reference (Dafa 2, 4, and 9) matches the context exactly, and the system correctly refused to answer the part about divorce as it was not present in the retrieved chunks.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_015",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately extracts the objectives, definitions, and procedures of the Domestic Violence Act from the provided context, and correctly refuses to answer the portion regarding divorce grounds under the Muluki Devani Sanhita, explicitly stating that the information is missing from the context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_016",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately distinguishes between property division before divorce and interim monthly expenses using Section 99 of the Muluki Devani Samhita, 2074, with precise citations and no external or fabricated information.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_017",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately compares interim protection under Section 6 of the Domestic Violence Act, 2066, and partition of property before divorce under Section 99 of the Muluki Civil Code, 2074, using only the facts and conditions present in the retrieved chunks.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_018",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly identifies that only one Act is provided in the context, appropriately maps 'interim protection' to 'monthly expenses' under Section 99(5) as a logical inference, and accurately details the provisions of Section 99 and Section 102 without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_019",
+      "score": 1.0,
+      "reasoning": "The context does not contain information comparing 'immediate maintenance of the victim' with 'lump sum or monthly amount in divorce'. Therefore, the system's refusal to answer due to lack of information is correct and appropriate.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_020",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately compares the provisions of Section 6 of the Domestic Violence Act, 2066 (Chunk 3) and Section 100 of the Civil Code, 2074 (Chunk 4) without adding any external information or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_021",
+      "score": 1.0,
+      "reasoning": "The answer is perfectly grounded. It correctly notes that the specific term 'immediate maintenance of victim' is not in the context, and then accurately compares the interim monthly maintenance (Dafa 99(5)) and the lump-sum/monthly payment in lieu of partition (Dafa 100) using only the provided text.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_022",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, including the custody rules based on age, the role of the protection officer, and the maintenance expenses, is directly supported by the retrieved chunks with accurate citations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_023",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately cites the relevant sections of the Domestic Violence Act and the Muluki Civil Code, and correctly identifies and handles the missing information regarding Section 115 without hallucinating.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_024",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately extracts the objectives, procedures, and remedies of the Domestic Violence Act from the provided context, and correctly refuses to answer the part about divorce and custody of minors since that information is not present in the context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim regarding domestic violence treatment expenses and post-divorce maintenance is directly traceable to Chunk 1, Chunk 2, and Chunk 4, with accurate citations and no external additions.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_026",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It accurately details the conditions for domestic violence treatment expenses using the provided sections of the Domestic Violence Act and the Muluki Civil Code, and correctly states that information regarding post-divorce maintenance is not available in the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_027",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, section reference (Section 9 of the Domestic Violence Act, Section 101 of the Muluki Civil Code, and the Preamble), and condition matches the retrieved chunks exactly without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_028",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately distinguishes between domestic violence compensation and property division before divorce by citing the exact sections (Section 10 of the Domestic Violence Act and Sections 99, 223, and 225 of the Muluki Devani Samhita) and their respective criteria as detailed in the chunks.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_029",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly uses Dafa 10 and Dafa 2(ch) from the context, and appropriately refuses to answer the part about 'partition of property before divorce' since that information is not available in the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_030",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately analyzes the objectives, procedures, and remedies based strictly on the retrieved chunks, and correctly identifies and refuses to speculate on details not present in the context (such as domestic violence procedures and specific compensation).",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_031",
+      "score": 0.8,
+      "reasoning": "The answer is highly grounded and accurately compares the two concepts using the provided legal chunks. It correctly cites the relevant sections. A minor score deduction is made because it defines 'minor' (नाबालक) as 'under 18 years of age' (१८ वर्ष मुनिका बालबालिका), which is external knowledge not explicitly mentioned in the context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_032",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. Every claim, comparison, and citation of the Domestic Violence (Offense and Punishment) Act and the Muluki Civil Code is fully supported by the retrieved chunks without any external knowledge or hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_033",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately compares the provisions of Section 11 of the Domestic Violence Act, 2066 and Section 198 of the Muluki Devani (Sanhita) Act, 2074, using only the facts, procedures, and terms present in the retrieved chunks.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_034",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately synthesizes the provisions of the Domestic Violence Act (Section 13) and the Muluki Devani Samhita (Sections 95, 97, and 98) to explain how domestic violence punishment and divorce proceedings can run parallelly, without introducing any external information or hallucinated claims.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_035",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly handles the missing information about divorce by stating it is not in the context. It then accurately explains how immediate protection and interim protective orders (civil-like remedies) can run concurrently using only the provided sections (Dafa 4, 6, and 9) without any hallucinations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts the objectives, processes, and remedies from the respective acts, correctly notes the lack of detailed process for the Domestic Violence Act in the context, and provides a logical synthesis of how both laws operate together using only the provided sections (Dafa 95, 97, 98, and the Preamble).",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_037",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly handles the lack of information in the context. It correctly notes that the Domestic Violence Act chunk only contains the preamble and no limitation period, and that while Section 204 of the Civil Code provides a 1-year limitation, the context does not explicitly label it as the divorce section. The refusal to compare due to missing information is entirely appropriate and grounded.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_038",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly identifies the 3-month limitation for civil remedies from Chunk 5 and accurately states that the provided chunks for the Domestic Violence Act do not contain a limitation period, appropriately refusing to make a full comparison based on the limited context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_039",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately extracts the objectives, process, and offenses of the Domestic Violence Act from Chunks 1, 2, and 4, and the limitation period from Chunk 3, while correctly identifying and refusing to speculate on the missing details (such as the limitation for domestic violence and the specific details of divorce) that were not present in the context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_040",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly states that the provided context does not contain information regarding whether domestic violence proceedings bar a separate divorce petition. This is an appropriate refusal based on the retrieved chunks.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_041",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly identifies that the provided context does not contain information regarding whether domestic violence proceedings bar a separate divorce petition. Since the context truly lacks this information, the refusal is appropriate and perfectly grounded.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_042",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It accurately compares the objectives, procedures, and remedies of both acts using exact citations (Sections 93, 94, 96, 97, 98 of the Civil Code and Section 4 & Preamble of the Domestic Violence Act) and draws a logical conclusion without introducing external information.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_043",
+      "score": 1.0,
+      "reasoning": "The provided context chunks do not contain any information regarding the custody of minors in the context of economic or mental domestic violence. The generated answer correctly and appropriately states that the information is not available in the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_044",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded in the provided context. It correctly identifies Section 6 of the Domestic Violence Act, 2066 for immediate protection of minors, and Section 116 (referencing Section 114) of the Muluki Devani (Sanhita) Ain, 2074 for long-term custody and maintenance, with all details matching the context exactly.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_045",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly grounded. It correctly uses Section 3 of the Civil Code and Section 16 of the Domestic Violence Act from the context to explain the relationship between the laws, and appropriately refuses to answer the parts of the prompt regarding custody details and remedies that were not present in the context.",
+      "split": "test"
+    }
+  ],
+  "hallucination_risks": [
+    {
+      "id": "dv_new_012",
+      "score": 0.0,
+      "reasoning": "Evaluation error: 500 Internal error encountered."
+    },
+    {
+      "id": "dv_new_013",
+      "score": 0.0,
+      "reasoning": "Evaluation error: 500 Internal error encountered."
+    }
+  ],
+  "aggregation_policy": {
+    "primary_split": "test",
+    "primary_use": "paper_main_result",
+    "combined_use": "supplementary_only",
+    "out_of_scope_policy": "excluded_from_answer_metric"
+  },
+  "by_split": {
+    "development": {
+      "n_evaluated": 103,
+      "average_score": 0.9942
+    },
+    "test": {
+      "n_evaluated": 217,
+      "average_score": 0.9871
+    },
+    "combined": {
+      "n_evaluated": 320,
+      "average_score": 0.9894
+    }
+  },
+  "primary_split": "test",
+  "combined_average_score": 0.9894,
+  "combined_total_evaluated": 320,
+  "dataset_split_counts": {
+    "development": 103,
+    "test": 217
+  }
+}

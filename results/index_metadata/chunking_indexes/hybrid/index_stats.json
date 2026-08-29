@@ -1,0 +1,9 @@
+{
+  "out_dir": "B:\\Projects\\LawBot\\backend\\experiments\\chunking_ablation\\indexes\\hybrid",
+  "chunk_count": 745,
+  "avg_chars": 583.84,
+  "min_chars": 69,
+  "max_chars": 1600,
+  "multi_dafa": 31,
+  "built_at": "2026-08-25T04:04:06.661135"
+}

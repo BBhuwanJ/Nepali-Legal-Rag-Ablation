@@ -1,0 +1,9 @@
+{
+  "out_dir": "B:\\Projects\\LawBot\\backend\\experiments\\chunking_ablation\\indexes\\dafa",
+  "chunk_count": 745,
+  "avg_chars": 739.41,
+  "min_chars": 190,
+  "max_chars": 3170,
+  "multi_dafa": 0,
+  "built_at": "2026-08-25T03:53:53.689857"
+}

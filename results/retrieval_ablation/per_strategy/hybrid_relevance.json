@@ -1,0 +1,2142 @@
+{
+  "metric": "relevance",
+  "model_judge": "gemini-3.5-flash",
+  "total_evaluated": 217,
+  "average_score": 0.9742,
+  "partial": false,
+  "low_relevance_count": 7,
+  "by_legal_domain": {
+    "domestic_violence_definitions": {
+      "count": 2,
+      "avg_score": 0.6
+    },
+    "physical_violence": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "mental_violence": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "economic_violence": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "offence_elements": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "complaint_procedure": {
+      "count": 3,
+      "avg_score": 1.0
+    },
+    "victim_protection": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "serious_offence_procedure": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "interim_protection": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "treatment_and_relief": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "compensation": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "punishment": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "violence_and_divorce": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "economic_violence_and_spousal_rights": {
+      "count": 1,
+      "avg_score": 0.8
+    },
+    "mental_economic_violence_and_divorce": {
+      "count": 1,
+      "avg_score": 0.8
+    },
+    "child_protection_and_custody": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "parallel_remedies": {
+      "count": 1,
+      "avg_score": 1.0
+    },
+    "marriage_law": {
+      "count": 32,
+      "avg_score": 0.9938
+    },
+    "divorce_law": {
+      "count": 26,
+      "avg_score": 0.9846
+    },
+    "family_law": {
+      "count": 7,
+      "avg_score": 0.9714
+    },
+    "property_law": {
+      "count": 9,
+      "avg_score": 0.9111
+    },
+    "inheritance_law": {
+      "count": 1,
+      "avg_score": 0.8
+    },
+    "contract_law": {
+      "count": 4,
+      "avg_score": 0.8
+    },
+    "procedural_law": {
+      "count": 4,
+      "avg_score": 0.95
+    },
+    "civil_rights_capacity_and_obligations": {
+      "count": 15,
+      "avg_score": 1.0
+    },
+    "parent_child_and_family_relations": {
+      "count": 4,
+      "avg_score": 1.0
+    },
+    "guardianship_and_curatorship": {
+      "count": 8,
+      "avg_score": 1.0
+    },
+    "adoption": {
+      "count": 8,
+      "avg_score": 1.0
+    },
+    "partition": {
+      "count": 11,
+      "avg_score": 1.0
+    },
+    "succession": {
+      "count": 9,
+      "avg_score": 1.0
+    },
+    "property_and_transactions": {
+      "count": 20,
+      "avg_score": 1.0
+    },
+    "obligations_contracts_and_torts": {
+      "count": 17,
+      "avg_score": 1.0
+    },
+    "private_international_law": {
+      "count": 5,
+      "avg_score": 1.0
+    },
+    "domestic_violence_act": {
+      "count": 75,
+      "avg_score": 0.976
+    },
+    "cross_act_legal_remedies": {
+      "count": 45,
+      "avg_score": 0.9156
+    }
+  },
+  "by_category": {
+    "unknown": {
+      "count": 320,
+      "avg_score": 0.97
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "dv_p001",
+      "score": 1.0,
+      "reasoning": "The question asks for the definition of domestic violence under the Domestic Violence Act. The generated answer directly provides the definition from Section 2(a) of the Act and comprehensively explains all its components (physical, mental, sexual, and economic abuse) with precise legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p002",
+      "score": 0.2,
+      "reasoning": "The question asks for the definition of domestic relationships under Nepali law. The generated answer is a refusal stating the information is not available, which is inappropriate for a standard and easily answerable legal query.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p003",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately answers the question by identifying the act as 'physical torture' (शारीरिक यातना) and provides the exact legal citations from the Domestic Violence Act to support it.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p004",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by explaining how the specified acts are classified under the Domestic Violence (Offense and Punishment) Act, 2066. It provides precise legal classifications (mental torture, domestic violence, and offense) with correct section citations.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p005",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately answers the question by identifying the act as 'economic torture' (आर्थिक यातना) and provides the exact legal provision from the Domestic Violence Act. It is perfectly relevant with no tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p006",
+      "score": 1.0,
+      "reasoning": "The question asks whether attempting or instigating domestic violence is considered a legal offense. The generated answer directly and clearly confirms that it is, providing precise citations from the Domestic Violence (Offense and Punishment) Act, 2066, including the specific sections and the corresponding penalties.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p007",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers both parts of the question: who can file a domestic violence complaint and where it can be filed, citing the relevant sections of the Domestic Violence (Offense and Punishment) Act, 2066.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p008",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and precisely answers the question regarding the timeframe for summoning a perpetrator after a police complaint is filed. It cites the specific legal provision from the Domestic Violence Act, Section 4(4), and states the exact 24-hour limit.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p009",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the conditional question by citing specific sections of the Domestic Violence (Offense and Punishment) Act, 2066. It outlines both immediate security measures and interim protective orders required when a victim is in danger during a preliminary investigation.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p010",
+      "score": 1.0,
+      "reasoning": "The generated answer is a polite refusal stating that the information is not available in the legal context. Since appropriate refusals are considered relevant when the system lacks the necessary source information to prevent hallucination, this is a perfectly relevant response.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p011",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely answers the question by confirming that a complaint can be filed for domestic violence involving mutilation, chemical substances, or sexual torture, and provides the exact legal provisions from Section 5A of the Domestic Violence (Offence and Punishment) Act, 2066.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p012",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding what orders a court can issue concerning a victim's residence and treatment under an interim protective order. It provides precise legal provisions from the Domestic Violence Act with appropriate citations, staying perfectly on topic without any tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p013",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the conditional question of how a victim's immediate treatment expenses are covered when the perpetrator cannot pay, providing specific legal procedures and citations from the Domestic Violence Act.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p014",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question by listing the exact factors the court considers when determining compensation for domestic violence, citing Section 10 of the Domestic Violence (Offence and Punishment) Act, 2066.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p015",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question by citing the relevant sections of the Domestic Violence Act, 2066. It clearly explains both the base punishment and the double punishment rule for repeat offenders, providing a logical and accurate calculation of the potential penalty.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p001",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the user's question. It provides the specific legal provisions for seeking a divorce due to physical or mental suffering, and appropriately handles the domestic violence protection aspect by stating that the provided legal context does not contain information on seeking both simultaneously.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p002",
+      "score": 0.8,
+      "reasoning": "The answer directly addresses the first part of the conditional question regarding employment restrictions with a specific legal citation. For the second part regarding economic deprivation and 'both acts', it provides an appropriate refusal due to context limitations, making it highly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p003",
+      "score": 0.8,
+      "reasoning": "The answer directly addresses both parts of the question. It confirms that kicking a wife out is grounds for divorce with a specific legal citation, and appropriately refuses to answer the domestic violence part due to lack of information in the provided context.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p004",
+      "score": 1.0,
+      "reasoning": "The answer perfectly addresses both parts of the question. It provides a highly detailed and structured explanation of long-term custody after divorce based on Section 115 of the Civil Code, and appropriately handles the limitation regarding immediate domestic violence protection by stating the lack of direct provisions in the code while offering a highly relevant logical inference from Section 117.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p005",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question of whether a domestic violence victim can simultaneously initiate a separate divorce process. It logically analyzes the relevant provisions of the Domestic Violence Act and the Muluki Devani Samhita to provide a clear, well-reasoned affirmative conclusion despite the limitations in the source text.",
+      "split": "development"
+    },
+    {
+      "id": "md_0001",
+      "score": 1.0,
+      "reasoning": "The question asks for the legal definition of marriage in Nepal. The generated answer directly and comprehensively defines marriage by citing the relevant sections of the Muluki Devani (Sanhita) Act, 2074, making it perfectly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0002",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately answers the question by stating the minimum marriage age is 20 years. It also provides the exact legal citation from the Muluki Devani Code, making it perfectly relevant without any tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0003",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the legal status of marriages contracted under the age of twenty, citing specific sections of the Muluki Devani (Sanhita) Act, 2074. It covers eligibility, voidability, and special conditions regarding pregnancy, making it perfectly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0004",
+      "score": 1.0,
+      "reasoning": "The answer directly and comprehensively addresses the conditional question regarding the legal status of forced marriage. It correctly identifies that forced marriage lacks the legally required 'free consent' under the Muluki Devani Samhita and cites relevant sections (68, 70, 71, and 74) to support this conclusion.",
+      "split": "development"
+    },
+    {
+      "id": "md_0005",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question of whether one can marry a close relative. It clearly explains the general legal prohibition under the Civil Code, 2074, while also detailing the specific customary exceptions with precise legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0006",
+      "score": 1.0,
+      "reasoning": "The answer directly and comprehensively addresses the yes/no question by stating that remarriage is not allowed while the first marriage is active. It provides precise legal citations from the Muluki Devani Samhita Act, 2074, to support this conclusion without any irrelevant information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0007",
+      "score": 1.0,
+      "reasoning": "The question asks whether marriage registration is mandatory or not. The generated answer directly and comprehensively addresses this by explaining the general requirement, the rules for marriages prior to the current Act, and court marriages with precise legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0008",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses both parts of the question regarding the mutual obligations of husband and wife and their representation in general household affairs, citing the correct sections of the Muluki Devani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0010",
+      "score": 0.8,
+      "reasoning": "The answer addresses the question by explaining that while 'general family expenses' are not explicitly defined in a single legal clause, specific family-related expenses (such as maintenance for divorced wives, minors, funeral costs, and incapacitated members) are legally assigned to specific individuals. It provides highly relevant legal citations from the Civil Code to support this.",
+      "split": "development"
+    },
+    {
+      "id": "md_0011",
+      "score": 1.0,
+      "reasoning": "The question asks for the definition of divorce ('सम्बन्ध विच्छेद भनेको के हो?'). The generated answer directly and completely addresses this by providing the legal definition from the Muluki Devani Samhita, 2074, and further elaborates on the legal provisions governing it, making it perfectly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0012",
+      "score": 1.0,
+      "reasoning": "The question asks whether divorce by mutual consent is allowed. The generated answer directly confirms this with a clear 'Yes' and provides the exact legal citation from Section 93 of the Civil Code 2074, making it perfectly relevant and precise.",
+      "split": "development"
+    },
+    {
+      "id": "md_0013",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively lists the legal grounds under which a wife can seek a divorce according to the Muluki Devani (Sanhita) Act, 2074, citing the exact sections (93 and 95). It perfectly addresses the user's question without any irrelevant information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0014",
+      "score": 0.8,
+      "reasoning": "The answer directly and comprehensively addresses the effects of long-term separation on marriage with precise legal citations. For the 'missing' part of the question, it appropriately states that the provided legal context lacks this information, making the overall response highly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0015",
+      "score": 1.0,
+      "reasoning": "The question asks where a husband or wife wishing for a divorce should file an application. The generated answer directly and accurately states that they must file it in court, citing Section 96 of the Muluki Devani Sanhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0016",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers whether a wife receives a share of property after divorce. It outlines the specific legal conditions under which she is entitled to the property, as well as the exceptions where she is not, citing the relevant sections of the Muluki Devani Samhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0017",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding maintenance after divorce by citing the relevant sections of the Muluki Devani Samhita, 2074. It details the provisions for monthly maintenance until property division and the exceptions, while appropriately noting the limitations of the provided context.",
+      "split": "development"
+    },
+    {
+      "id": "md_0018",
+      "score": 1.0,
+      "reasoning": "The answer directly and comprehensively addresses the conditional question by explaining how the unborn child's property rights are legally secured through paternity presumption and inheritance laws, despite the lack of an explicit reservation procedure in the text.",
+      "split": "development"
+    },
+    {
+      "id": "md_0019",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question of child guardianship after divorce by citing Section 121 of the Muluki Devani (Sanhita) Act, 2074, explaining that the parent with whom the child resides holds the decision-making authority.",
+      "split": "development"
+    },
+    {
+      "id": "md_0020",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers the yes/no question about remarriage after divorce, citing the exact sections of the Muluki Devani (Sanhita) Act, 2074. It is perfectly relevant with no tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0021",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers the yes/no question by stating that automatic divorce does not occur due to long-term separation. It provides excellent legal context, citing specific sections of the Muluki Devani (Code) Act, 2074 to explain that separation is only a ground for filing a petition, not an automatic dissolution.",
+      "split": "development"
+    },
+    {
+      "id": "md_0023",
+      "score": 1.0,
+      "reasoning": "The answer directly and comprehensively addresses how husbands and wives should handle family expenses and care responsibilities by citing relevant sections of the Muluki Devani (Samhita) Act, 2074. It logically structures the response into mutual cooperation, division of liabilities, and specific scenarios like divorce, providing a complete and highly relevant legal explanation.",
+      "split": "development"
+    },
+    {
+      "id": "md_0025",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers the yes/no question regarding whether a wife can claim maintenance after receiving her share of property post-divorce. It cites the relevant sections of the Muluki Devani Samhita, 2074, to support its conclusion.",
+      "split": "development"
+    },
+    {
+      "id": "md_0026",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding parental rights after divorce. It cites specific sections of the Muluki Devani Samhita, 2074, to explain that both parents' rights and duties toward their children remain intact even if the child resides with only one of them.",
+      "split": "development"
+    },
+    {
+      "id": "md_0028",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the conditions and registration obligations for Nepali citizens marrying abroad by citing the relevant sections of the Muluki Devani Code, 2074. It provides precise legal provisions without any tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0029",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the yes/no question by confirming that expelling a wife or not providing food/clothing constitutes a legal ground for divorce. It cites the exact legal provision (Section 95(b) of the Muluki Devani Samhita Act, 2074) and provides relevant procedural context without being tangential.",
+      "split": "development"
+    },
+    {
+      "id": "md_0030",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the yes/no question regarding whether a daughter's coparcenary rights in her maternal home end after divorce. It provides a clear, logical conclusion backed by relevant sections of the Civil Code (Sections 205, 206, 99, 82, and 103) without any tangential content.",
+      "split": "development"
+    },
+    {
+      "id": "md_0031",
+      "score": 1.0,
+      "reasoning": "The question asks about the specific rights a wife can claim if her husband remarries while abroad. The generated answer directly and completely addresses this by identifying the right to divorce and the right to property division (Ansha), citing the correct sections of the Muluki Devani Samhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0033",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers the conditional question by confirming that undisclosed or hidden property found after partition can indeed be claimed. It provides precise legal citations from the Muluki Devani (Sanhita) Act, 2074, Section 223, to support this.",
+      "split": "development"
+    },
+    {
+      "id": "md_0034",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers the yes/no question by confirming that a guardian can indeed be changed if found unfit. It provides precise citations from the Muluki Devani (Sanhita) Act, 2074, to support this conclusion, making it perfectly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0038",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question of how paternity is determined after divorce by citing the specific legal provisions, including the 272-day rule under Section 106(b) of the Muluki Devani (Samhita) Act, 2074, and the limitation period for claiming paternity.",
+      "split": "development"
+    },
+    {
+      "id": "md_0039",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers who bears the child's education and upbringing expenses after divorce by citing Section 116 of the Muluki Devani (Sanhita) Act, 2074. It clearly outlines the conditions based on custody and income levels without any irrelevant information.",
+      "split": "development"
+    },
+    {
+      "id": "sl_001",
+      "score": 1.0,
+      "reasoning": "The question asks for the contents of Section 67, and the generated answer directly and accurately cites Section 67 of the Muluki Civil Code, 2074, explaining what constitutes a marriage. It is perfectly relevant with no tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "sl_002",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question regarding the marriage age provision in Section 70. It correctly cites Section 70(1)(d) of the Civil Code, 2074, and specifies the age requirement of 20 years without any tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "sl_003",
+      "score": 1.0,
+      "reasoning": "The question asks for the contents of Section 94, and the generated answer directly and accurately details the provisions of Section 94 of the Muluki Devani (Sanhita) Act, 2074, regarding the conditions under which a husband can file for divorce. It is perfectly relevant and comprehensive.",
+      "split": "development"
+    },
+    {
+      "id": "sl_004",
+      "score": 1.0,
+      "reasoning": "The question asks for the contents of Section 95. The generated answer perfectly and directly addresses this by identifying Section 95 of the Muluki Devani (Sanhita) Act, 2074, and listing all the specific legal conditions under which a wife can initiate a divorce.",
+      "split": "development"
+    },
+    {
+      "id": "md_0041",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question about how the freedom to marry is legally structured under Nepali law. It provides precise citations from the Muluki Devani (Sanhita) Ain, 2074, covering key aspects like free consent, the right to start a family, and the inviolability of family life without any tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0042",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers the question by citing Section 74 of the Muluki Devani Code, explaining both the general rule (that it is considered marriage) and the specific legal exceptions (rape and incest).",
+      "split": "development"
+    },
+    {
+      "id": "md_0043",
+      "score": 1.0,
+      "reasoning": "The question asks whether a child's rights are affected after a marriage is annulled. The generated answer directly and completely addresses this by citing Section 75 of the Muluki Devani (Sanhita) Act, 2074, confirming that the child's legal rights remain unaffected.",
+      "split": "development"
+    },
+    {
+      "id": "md_0044",
+      "score": 1.0,
+      "reasoning": "The question asks for the procedure of marriage by registration in Nepal. The generated answer provides a comprehensive, step-by-step legal process with exact citations from the Muluki Devani (Sanhita) Ain, 2074, directly and completely addressing the query.",
+      "split": "development"
+    },
+    {
+      "id": "md_0045",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding which surname a married woman can use by citing Section 81 of the Muluki Dewani (Samhita) Act, 2074. It outlines all legal options (father/mother's surname, husband's surname, or both) and provides relevant context for disputes and divorce.",
+      "split": "development"
+    },
+    {
+      "id": "md_0046",
+      "score": 1.0,
+      "reasoning": "The question asks whether the court must attempt reconciliation in divorce cases. The generated answer directly answers 'Yes' and provides precise legal provisions from the Muluki Devani Samhita Act, 2074, detailing the court's duty to reconcile and the procedure if reconciliation fails.",
+      "split": "development"
+    },
+    {
+      "id": "md_0047",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses whether property division must be done before divorce under Nepali law. It details the general requirements, specific conditions under which it is mandatory, and the legal exceptions with precise citations to the Muluki Devani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0048",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately answers the yes/no question, confirming that a divorcing wife can receive a lump sum instead of a partition share. It provides the exact legal provision from Section 100 of the Muluki Civil Code, 2074, along with relevant conditions, making it perfectly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0049",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers the yes/no question, confirming that a wife who has not received a property share can claim maintenance. It provides precise citations from the Muluki Devani Sanhita, 2074, covering various scenarios such as divorce, ongoing lawsuits, and living together, without any irrelevant information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0050",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by listing all the legal conditions under which a child is presumed to be born from a married husband, citing the relevant sections of the Muluki Devani (Sanhita) Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0051",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers the question regarding the conditions under which a husband can deny paternity by citing Section 107 of the Muluki Devani (Sanhita) Ain, 2074. It also provides relevant exceptions and legal presumptions, making it perfectly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0052",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately answers the question regarding the paternity of a child born through artificial insemination by citing Section 109 of the Muluki Devani Samhita Act, 2074. It clearly explains that the paternity belongs to the married husband if there was mutual consent.",
+      "split": "development"
+    },
+    {
+      "id": "md_0053",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding minor custody after the dissolution of marriage. It provides precise legal provisions from the Muluki Civil Code, 2074, categorized by age, mutual agreement, and other conditions, with no tangential content.",
+      "split": "development"
+    },
+    {
+      "id": "md_0054",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by listing the legal conditions required for a valid marriage under the Muluki Devani Samhita, 2074, complete with accurate legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0055",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the difference between 'विवाह बदर' (void/voidable marriage) and 'विवाह अमान्य' (invalid marriage) under the Muluki Devani Samhita Act, 2074. It provides clear legal citations, explains both concepts, and concludes with a structured comparison of their differences.",
+      "split": "development"
+    },
+    {
+      "id": "md_0056",
+      "score": 0.8,
+      "reasoning": "The answer directly addresses the procedural question of how a couple's property is managed by applying the joint property management rules (Section 260) since direct marital property management provisions were absent in the context. It includes minor tangential information about divorce property rights (Section 103) but remains highly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0057",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the legal importance of consent in a marital relationship under Nepali law, covering its role in marriage formation, registration, and divorce with precise legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0058",
+      "score": 1.0,
+      "reasoning": "The question asks how property division is determined after divorce. The generated answer directly and comprehensively explains the legal procedures, conditions, and rules for property division during and after divorce under the Muluki Devani Samhita Act, 2074, with precise section citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0059",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by listing all the legal conditions under which coparceners can separate and take their share of partition, citing the relevant sections of the Muluki Devani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0060",
+      "score": 1.0,
+      "reasoning": "The question asks how the priority order of heirs for inheritance is applied. The generated answer perfectly and comprehensively addresses this by detailing the priority list, the rules of application, and the legal exceptions under the Civil Code, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0061",
+      "score": 0.8,
+      "reasoning": "The generated answer directly and accurately answers the first part of the question regarding when the post-death gift becomes effective. For the second part, it provides an appropriate refusal stating that the information is not available in the provided context, which is a correct handling of missing information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0062",
+      "score": 1.0,
+      "reasoning": "The question asks for the definition of a contract ('करार के हो?'). The generated answer directly and comprehensively defines a contract according to the Muluki Devani (Samhita) Act, 2074, and provides highly relevant context on its formation, legal effects, and medium with proper citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0063",
+      "score": 1.0,
+      "reasoning": "The question asks about the consequences of a breach of contract. The generated answer directly and comprehensively addresses this by detailing contract cancellation, non-performance, and compensation determination under the Civil Code, 2074, with precise legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0064",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses whether mental imbalance affects the validity of marriage under Nepali law. It cites the relevant sections of the Muluki Devani Samhita, 2074, explaining the legal consequences, conditions for voiding the marriage, and exceptions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0066",
+      "score": 1.0,
+      "reasoning": "The question asks how a guardian is determined or appointed for an incompetent or semi-competent person. The generated answer directly and comprehensively explains the legal procedures, court appointment processes, and international determination rules under the Civil Code, 2074, perfectly addressing the procedural query.",
+      "split": "development"
+    },
+    {
+      "id": "md_0067",
+      "score": 1.0,
+      "reasoning": "The question asks for the definition of adoption (दत्तक ग्रहण). The generated answer directly and clearly defines it according to Section 169 of the Muluki Devani Samhita, 2074, and provides highly relevant additional legal context regarding surnames and child welfare.",
+      "split": "development"
+    },
+    {
+      "id": "md_0068",
+      "score": 1.0,
+      "reasoning": "The question asks for the conditions required for adoption, and the generated answer directly and comprehensively lists these conditions with precise legal citations from the Muluki Devani Samhita Act, 2074. It is perfectly relevant and contains no tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0069",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how the shares of coparceners are determined during the partition of joint family property, citing specific sections of the Muluki Devani Samhita, 2074. It covers equal division, consent/lottery methods, and handling of debts and mortgages, making it perfectly relevant.",
+      "split": "development"
+    },
+    {
+      "id": "md_0071",
+      "score": 0.8,
+      "reasoning": "The answer highly addresses the legal conditions and requirements for remarriage after divorce under the Muluki Devani Samhita Act, 2074. While it notes that specific administrative registration steps are missing from the context, it appropriately provides the substantive legal criteria (consent, age, eligibility) and handles the limitation well.",
+      "split": "development"
+    },
+    {
+      "id": "md_0072",
+      "score": 1.0,
+      "reasoning": "The question asks how joint ownership is determined under Nepali law. The generated answer directly and comprehensively addresses this by citing the relevant sections of the Muluki Devani Samhita, 2074, explaining the criteria based on deeds, equal shares, and property location.",
+      "split": "development"
+    },
+    {
+      "id": "md_0076",
+      "score": 1.0,
+      "reasoning": "The generated answer appropriately refuses to answer because the provided legal context only covers joint property of non-family members and explicitly excludes joint family partition. It explains this distinction clearly, making it a highly accurate and relevant refusal.",
+      "split": "development"
+    },
+    {
+      "id": "md_0077",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the legal capacity of minors under Nepalese law. It cites specific sections of the Civil Code, 2074, explaining their lack of full legal competence, inability to independently exercise rights, and the requirement of guardians.",
+      "split": "development"
+    },
+    {
+      "id": "md_0078",
+      "score": 1.0,
+      "reasoning": "The question asks when legal liability arises. The generated answer directly and comprehensively addresses this by citing the specific conditions and legal provisions (Sections 493 and 494 of the Civil Code, 2074) under which legal liability is created.",
+      "split": "development"
+    },
+    {
+      "id": "md_0079",
+      "score": 1.0,
+      "reasoning": "The generated answer is an appropriate refusal, stating that the legal consequences of hiding property are not available in the provided legal context. Since it correctly identifies the lack of information rather than hallucinating, it is considered a perfectly relevant response under the special cases guidelines.",
+      "split": "development"
+    },
+    {
+      "id": "md_0080",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the rights of children born from void or invalid marriages. It correctly cites Section 75 of the Muluki Devani (Sanhita) Act, 2074, explaining that their legal rights remain completely unaffected.",
+      "split": "development"
+    },
+    {
+      "id": "md_0081",
+      "score": 0.2,
+      "reasoning": "The question asks about the legal status of a contract signed without free consent, under duress, or fraud, which is a standard topic in Nepali contract law. The generated answer is a refusal stating the information is not available, which is inappropriate for a standard legal query and fails to address the question.",
+      "split": "development"
+    },
+    {
+      "id": "md_0082",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the conditions under which a wife can receive maintenance or a lump sum during a divorce, citing specific sections of the Civil Code, 2074. It is perfectly relevant and structured.",
+      "split": "development"
+    },
+    {
+      "id": "md_0083",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question regarding legal remedies for fraud in marriage. It accurately cites the relevant sections of the Muluki Devani (Sanhita) Act, 2074, explaining the conditions under which such a marriage can be annulled.",
+      "split": "development"
+    },
+    {
+      "id": "md_0084",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the relationship between ceremonial/traditional marriage and marriage registration under Nepali law. It cites specific sections of the Civil Code, 2074, explaining the legal recognition, registration obligations, and the legal consequences of non-registration.",
+      "split": "development"
+    },
+    {
+      "id": "md_0085",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by listing the specific legal conditions under which an obligation does not need to be fulfilled, citing the relevant sections of the Civil Code, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0086",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by explaining the legal requirement of registering/passing the deed at the relevant office to validate immovable property transfers, citing specific sections of the Muluki Devani Samhita Act.",
+      "split": "development"
+    },
+    {
+      "id": "md_0087",
+      "score": 0.8,
+      "reasoning": "The question asks whether there is a time limit (statute of limitations) for filing a case in court. The answer directly confirms that there is a time limit and provides a specific legal example regarding adoption laws to support this, making it highly relevant though slightly narrow in its example.",
+      "split": "development"
+    },
+    {
+      "id": "md_0088",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively answers who manages the property of a minor, incompetent, or semi-competent person by identifying the 'Guardian' (संरक्षक) and 'Curator' (माथवर) with precise references to the Muluki Devani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0090",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question of when a legal agreement becomes invalid by citing specific provisions, void conditions, and procedural failures from the Muluki Civil Code, 2074. It is highly structured, accurate, and contains no tangential information.",
+      "split": "development"
+    },
+    {
+      "id": "md_0092",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses both aspects of the question: what the court can do regarding property inventory (फाँटवारी) and property freezing (सम्पत्ति रोक्का) in partition disputes, citing specific sections of the Muluki Devani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0095",
+      "score": 0.2,
+      "reasoning": "The question asks about a specific legal condition regarding property disposition when there is no legal heir, which is a standard answerable topic under Nepali law. The generated answer is a refusal stating the information is unavailable, which is inappropriate for this answerable question, thus failing to address the user's query.",
+      "split": "development"
+    },
+    {
+      "id": "md_0099",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question of whether marriage is valid without witnesses. It provides a clear, nuanced explanation by distinguishing between traditional marriage (where witnesses are not explicitly mandatory) and registration marriage (where witnesses are legally required), citing the correct sections of the Muluki Devani Samhita.",
+      "split": "development"
+    },
+    {
+      "id": "md_0102",
+      "score": 1.0,
+      "reasoning": "The question asks for the conditions under which the right of possession over property is terminated. The generated answer directly and completely addresses this by citing Section 272 of the Muluki Devani Samhita Act, 2074, and listing the exact legal conditions.",
+      "split": "development"
+    },
+    {
+      "id": "civil_new_001",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provision regarding the commencement date under Section 1, sub-section (2) of the Muluki Dewani (Sanhita) Ain, 2074. The generated answer directly and accurately provides the exact commencement date (2075 Bhadra 1) with the correct citation, addressing the query perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_002",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provision of Section 5 regarding the ignorance of law. The generated answer directly and accurately cites Section 5 of the Civil Code, 2074, providing the exact legal text requested.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_003",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question of what must be done under the principle of 'not taking advantage of one's own mistake' by citing specific, highly relevant provisions of the Civil Code (such as returning mistakenly received goods under Section 665). It perfectly bridges the general principle of Section 10 with actionable legal consequences.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_004",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately explains how Section 14 of the Muluki Dewani Sanhita, 2074 applies to the specific condition mentioned in the question. It clearly details the independence of civil liability from criminal proceedings without any tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_005",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the legal conclusions of a dispute under Section 18. It correctly explains the general prohibition of discrimination under Section 18(1) and balances it with the legal exceptions (special provisions) under Section 19, providing a complete and highly relevant legal conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_006",
+      "score": 1.0,
+      "reasoning": "The answer perfectly addresses the section lookup query by citing Section 23 of the Muluki Civil Code, 2074. It accurately provides the legal provision regarding taxation and helpfully clarifies the negative formulation ('cannot be levied') of the law in response to the user's phrasing.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_007",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the section lookup question by providing the exact provisions of Section 27, specifically focusing on sub-section (1) as requested, along with sub-section (2) for complete context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_008",
+      "score": 1.0,
+      "reasoning": "The question asks to complete and explain an incomplete clause from Section 31 regarding the right to a name. The generated answer directly and accurately completes the sentence with 'उपयोग गर्न पाउनेछ' (can use it) and provides the full context of the relevant sub-sections of the Civil Code.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_009",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the specific exceptions and limitations to organ or corpse donation under Section 38, Subsection (3) of the Muluki Dewani Sanhita, 2074. It provides the exact legal conditions and consequences without any unnecessary tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the legal conclusions to be drawn from Section 43 of the Muluki Devani Code. It accurately explains the legal capacity acquired upon incorporation and its continuity, providing a clear and structured conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_011",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the section lookup question by providing the exact legal provisions of Section 48, sub-section (1) and (2) of the Muluki Devani Code regarding the merger of legal persons.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_012",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provision under Section 52 regarding the settlement of property or liability of a dissolved legal person. The generated answer directly and accurately cites Section 52 of the Muluki Dewani (Sanhita) Act, 2074, providing the exact legal rule requested without any unnecessary information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_013",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific legal provision of Section 56 regarding giving notice to creditors when a debtor files for insolvency. It provides the exact steps the court must take, including the 35-day notice period and publication requirements, with precise citations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_014",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 61 of the Muluki Devani Samhita applies regarding the priority of debt payments during insolvency, citing specific sub-sections and relevant exceptions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_015",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the limitation periods under Section 66. It breaks down the specific conditions and timelines (3 years, 2 years, and 6 months) and provides a clear, relevant conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_016",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the specific exception/limitation in Section 108 of the Civil Code, which states that a paternity claim cannot be made after the death of the child. It is highly precise and contains no tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_017",
+      "score": 1.0,
+      "reasoning": "The question asks for the provisions under Section 113 regarding the birth registration of a son or daughter. The generated answer directly and comprehensively provides the exact legal provisions of Section 113 (sub-sections 1 to 6) from the Muluki Devani Samhita, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_018",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question regarding Section 121 of the Civil Code. It clearly explains what happens when there is a dispute between parents whose marriage is dissolved, stating that the decision of the parent with whom the minor resides will prevail.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_019",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the exceptions and limitations of Section 125 regarding joint parental authority, citing the specific sub-sections and relevant legal provisions accurately.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_020",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding Section 130 of the Muluki Devani Samhita. It clearly explains the legal conclusions regarding the authority of teachers/principals and notes the legal boundaries, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_021",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific legal provision regarding the limitation period under Section 134 of the Guardianship and Curatorship chapter. The generated answer directly and accurately cites Section 134 of the Civil Code, 2074, providing the exact text and the limitation period of six months.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_022",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the specific exception to the rule of keeping accounts under Section 144(1) of the Civil Code, citing the proviso regarding guardians in the priority order of Section 136(1).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_023",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the main rule and the specific exception/limitation under Section 149 of the Civil Code, 2074, with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_024",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately identifies the exceptions and limitations to Section 153(1) of the Civil Code, citing Section 153(2) and Section 155. It perfectly addresses the user's question with precise legal references.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding Section 157 of the Muluki Devani Code. It provides a clear, structured breakdown of the legal provisions and draws a logical conclusion about the court's authority to appoint a Mathawar.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_026",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the specific exception (loss due to disaster) to the rule in Section 162, along with the correct legal citation. It is perfectly relevant and concise.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_027",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provision of Section 166 regarding court certification for guardians. The generated answer directly and accurately cites Section 166 of the Muluki Dewani Sanhita, 2074, and explains the exact requirement, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_028",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the exceptions to the rule in Section 171 regarding adoption when one already has children, citing the specific sub-sections (2 and 3) with clear explanations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_029",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 179 of the Muluki Civil Code, 2074 applies to the surname of an adopted child. It covers all key aspects including using the adopting parents' surname, retaining the biological parents' surname, and the reversion of the surname if the adoption is cancelled.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_030",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the conclusions to be drawn if a dispute arises under Section 183. It correctly outlines the legal obligation of providing meeting/correspondence facilities and references Section 703 for dispute resolution mechanisms.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_031",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provision under Section 187 regarding the limitation period starting with 'एक' (one...). The generated answer directly and accurately provides the complete text of Section 187 of the Civil Code, 2074, specifying 'एक वर्षभित्र' (within one year) as the limitation period.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_032",
+      "score": 1.0,
+      "reasoning": "The question asks for the provisions of Section 192 regarding foreigners who can adopt. The generated answer directly and comprehensively details all the sub-sections of Section 192 of the Civil Code, 2074, addressing the query perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_033",
+      "score": 1.0,
+      "reasoning": "The question asks about the specific procedure under Section 196 of the Civil Code regarding the selection and recommendation of minors and applicants. The generated answer directly and accurately provides the exact steps and requirements outlined in Section 196, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_034",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how the provisions of Section 200 regarding the submission of details by foreign adoptive parents apply, covering the duration, content, frequency, and submission channels. It perfectly addresses the specific legal query with precise details.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_035",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question regarding the legal conclusion of a dispute under Section 204. It clearly explains the two scenarios (specific limitation vs. general one-year limitation) outlined in the law with precise detail.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the section lookup question by providing the exact provisions of Section 208, Subsections (1) and (2) of the Civil Code, matching the user's query perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_037",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the exception/limitation of Section 210 of the Muluki Devani Samhita, explaining both the main rule (sub-section 1) and its specific limitation (sub-section 2) as requested.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_038",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question by identifying Section 214 of the Civil Code, stating the main rule, and clearly explaining the specific exception/limitation regarding remarriage and children as outlined in sub-section (2).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_039",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 216 of the Muluki Devani (Sanhita) Ain, 2074 applies, breaking down each sub-section (written agreement, equal distribution, mutual consent/lots, and disputed property) as requested by the question.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_040",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the exceptions to the registration of partition deeds under Section 218(2) of the Muluki Devani Samhita. It provides the exact legal provisions and conditions without any irrelevant information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_041",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific legal provision of Section 220, Sub-section 1 of the Civil Code, 2074, as requested by the user. It provides the exact legal requirements and relevant explanations without any tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_042",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question regarding Section 224 of the Civil Code, 2074. It provides the exact legal provisions and steps for taking property inventory by opening locks when a person fails to submit it.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_043",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the conditional question regarding Section 227 of the Muluki Devani Code. It correctly identifies the legal remedy (proportional reimbursement by all coparceners) for the specified condition without any tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_044",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 229 of the Civil Code applies to the partition of mortgaged property under different conditions, citing the relevant sub-sections accurately.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_045",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question regarding the legal conclusion under Section 232 when a dispute arises about assigning a debtor without the creditor's consent. It accurately cites the relevant sub-sections of the Civil Code and provides a clear, concise conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_046",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific legal provision under Section 234, sub-section (1) regarding the recovery of partition share, amount, or expenses. The generated answer directly and accurately cites Section 234 (both sub-sections 1 and 2) of the Muluki Devani (Sanhita) Act, 2074, providing a complete and perfectly relevant response.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_047",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provisions of Section 237 regarding 'aputali' (heirless property). The generated answer directly and accurately cites Section 237 of the Civil Code, 2074, explaining both the condition of opening of 'aputali' upon death and its definition as per the explanation in the statute.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_048",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the conditional question regarding Section 240 of the Muluki Devani Samhita. It accurately explains the legal consequence of a person living with a distant heir after taking their share, leaving no room for ambiguity.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_049",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the exception to the main rule in Section 242, Sub-section 2 of the Muluki Devani Code. It provides the exact legal provision and explains the limitation clearly without any tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_050",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by identifying the exceptions and limitations under Section 244 of the Civil Code, 2074, citing specific sub-sections for funeral obligations and time limits.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_051",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question by providing the exact provisions of Section 246, Subsection (1) regarding the rights and duties of a person receiving heirless property, along with relevant context from Subsection (2).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_052",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the exceptions and limitations of Section 249 regarding the inheritance of a foreigner's property who died in Nepal, citing specific sub-sections and related provisions accurately.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_053",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question regarding Section 251 of the Civil Code. It clearly explains that any cash, object, or act meeting the specified conditions must be legally considered as 'property', providing a perfect and highly relevant response.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_054",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 253 of the Civil Code regarding 'immovable property' applies, breaking down the specific clauses and exceptions. It perfectly addresses the user's query with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_055",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding disputes under Section 255 of the Civil Code. It outlines the specific property classifications under Section 255 and provides structured, legally sound conclusions and testing criteria to resolve such disputes, referencing relevant sections of the law.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_056",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the section lookup question by providing the exact provisions of Section 256(1) of the Civil Code regarding what constitutes private property, along with a highly relevant additional note on Section 256(2).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_057",
+      "score": 1.0,
+      "reasoning": "The question asks for the provisions under Section 270 regarding who can acquire usufruct, specifically mentioning sub-sections (1) and (2). The generated answer directly and accurately provides the exact provisions for both sub-sections from the Civil Code, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_058",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question regarding Section 282 of the Civil Code. It accurately outlines the prohibition of building a safety tank adjoining a neighbor's land and the conditions under which it can be built (consent or maintaining a setback).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_059",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 295 of the Civil Code applies to the specific condition mentioned in the question. It outlines the conditions and the resulting ownership rights clearly with proper legal citation.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_060",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question by identifying the main rule of Section 307 and clearly listing its exceptions with precise legal citations. There is no tangential content, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_061",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific exception to the rule of refusing Guthi registration under Section 319, citing the correct sub-section and conditions. It is perfectly relevant, precise, and contains no unnecessary information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_062",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provisions of Section 330 regarding the duties of a Guthi operator in special circumstances. The generated answer directly and accurately provides the content of Section 330 of the Civil Code, 2074, explaining that the local level will take over the responsibilities if all positions are vacant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_063",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly addresses the section lookup question by providing a detailed and accurate breakdown of Section 342(1) regarding what a Guthi trustee must not do, along with relevant sub-sections for completeness.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_064",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how the 'requirement of writing' under Section 354 applies, detailing the sub-clauses, registration requirements under Section 464, and related provisions under Section 358. It perfectly addresses the user's query with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_065",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the specific limitation (45 days' prior notice) under Section 365 of the Muluki Dewani Code. It is concise, well-structured, and contains no irrelevant information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_066",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the section lookup question by providing the exact legal provision of Section 377, sub-section (1) of the Muluki Civil Code, 2074, along with sub-section (2) for complete context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_067",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provisions of Section 388 regarding the preparation of an inventory of goods before renting a house. The generated answer directly and accurately provides the details of Section 388, sub-sections (1) and (2), addressing the query perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_068",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the question regarding Section 400 of the Civil Code. It outlines the specific conditions under which a tenant can leave a rented house and details the exact procedure (35 days written notice) required in such cases.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_069",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 413 of the Civil Code regarding the transfer of property applies, detailing the methods of transfer and referencing related sections for completeness.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_070",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the conclusions to be drawn under Section 424 of the Civil Code. It systematically breaks down the sub-sections of Section 424, explaining the rights to refunds, compensation, exceptions, and removal of structures in a highly relevant and structured manner.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_071",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the section lookup question regarding Section 436(1) of the Civil Code. It provides the exact legal provision requested along with relevant context from sub-section (2).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_072",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provisions under Section 447 regarding a third party mortgaging property on behalf of a debtor. The generated answer directly and comprehensively explains all sub-sections of Section 447 of the Civil Code, 2074, addressing the query perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_073",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question regarding the exception to the pre-emption (haksafa) rule in Section 459 of the Civil Code, specifically identifying joint housing as the limitation. It is highly focused and contains no irrelevant information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_074",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 472 of the Muluki Devani (Sanhita) Act, 2074 applies regarding the validity of the earlier registered document. It provides necessary legal context by referencing related sections (463, 464) to explain the process and conditions under which this rule is enforced, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_075",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific question about the exceptions and limitations of Section 484 regarding the duration of home-executed deeds. It clearly distinguishes between the main rule and its exceptions with precise legal details.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_076",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provision under Section 485 regarding transactions with incompetent or semi-competent persons. The generated answer directly cites Section 485 of the Civil Code and provides the exact legal provision, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_077",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provision of Section 499 regarding fulfilling obligations in good faith. The generated answer directly and accurately cites Section 499 of the Muluki Devani (Sanhita) Act, 2074, explaining that obligations created under Section 494 must be fulfilled in good faith.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_078",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question regarding Section 514 of the Civil Code, 2074. It clearly explains the application of the general provisions of contracts as specified in the section without any tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_079",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying Section 528 of the Muluki Devani Sanhita and clearly stating the exception to the transfer of contractual rights and liabilities (personal skill or qualification).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_080",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question regarding Section 544. It clearly explains the two-year limitation period and when it begins, providing a precise legal conclusion based on the specified section.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_081",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific section lookup question regarding Section 555(1) of the Civil Code. It provides the exact legal provision, additional relevant sub-sections for context, and a clear summary.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_082",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question about Section 567's exceptions or limitations. It correctly identifies that no explicit exception is mentioned in the text, explains the inherent precondition/limitation found in the sub-section, and appropriately handles the limits of the provided legal text.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_083",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately completes the legal provision from Section 579(1) of the Civil Code as requested by the question, explaining exactly what must be done when the purpose of the trust is fulfilled.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_084",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 591 of the Civil Code applies regarding the 'deemed agency contract', specifically addressing the exception of personal skills and detailing the conditions under which a representative can be appointed.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_085",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific exceptions and limitations of Section 602 regarding the contract of carriage as requested. It provides a clear, well-structured, and highly relevant response without any tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_086",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific section lookup question by providing the exact provision of Section 614, Sub-section (1) of the Civil Code, along with relevant context from sub-sections (2) and (3).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_087",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific provisions of Section 626 regarding multiple contracts being treated as a single contract. The generated answer directly and accurately provides the text of Section 626, sub-sections (1) and (2), from the Muluki Civil Code, 2074, addressing the query perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_088",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the provisions of Section 637 of the Civil Code. It details the rights of the lessee, the valuation process, and the payment timeline with interest, matching the legal query perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_089",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains how Section 649 of the Muluki Devani Sanhita, 2074 applies regarding the voluntary management of another's property. It outlines the specific conditions and rules of application without any irrelevant information.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_090",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question regarding Section 661 of the Muluki Devani Samhita, 2074. It accurately explains the provision about recovering the cost of goods or services provided to an incompetent person and draws a clear, relevant conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_091",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the section lookup query regarding Section 672 of the Civil Code. It provides the exact provision of sub-section 1 as requested, along with the other sub-sections of the same clause for complete context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_092",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the section lookup question by providing the exact continuation and complete text of Section 684 of the Civil Code, 2074 regarding the limitation period.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_093",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific legal provision of Section 685 of the Civil Code, explaining both the prohibition of selling defective products and the liability associated with it as requested.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_094",
+      "score": 1.0,
+      "reasoning": "The question asks how the provisions of Section 694 regarding the presumption of disappearance or death of a foreign national apply. The generated answer directly and comprehensively explains the application process step-by-step based on the sub-sections of Section 694, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_095",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by identifying Section 704 of the Muluki Dewani Samhita, stating the main rule, and clearly outlining the specific exceptions and limitations as requested.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_096",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the section lookup question by providing the exact provisions of Section 712 of the Civil Code, specifically detailing the sub-sections regarding liability determination for torts.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_097",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific question about the exception or limitation in Section 721 of the Civil Code regarding the non-applicability of the chapter's provisions. It clearly outlines both the main rule and its exceptions with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_001",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains both the legal meaning and the legal effect of Section 1(1) of the Domestic Violence Act, 2066, as requested. It provides structured, highly relevant details without unnecessary tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_002",
+      "score": 1.0,
+      "reasoning": "The question asks what the Domestic Violence Act provides under the introductory definition clause. The generated answer correctly identifies Section 2 of the Act and provides a comprehensive, well-structured list of all the defined terms and their meanings, directly and completely addressing the query.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_003",
+      "score": 1.0,
+      "reasoning": "The question asks for the procedures that a victim or authority must follow in cases of domestic violence. The generated answer directly and comprehensively outlines the step-by-step legal procedures for filing complaints, actions by authorities, immediate protection, and reconciliation under the Domestic Violence (Offence and Punishment) Act, 2066.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_004",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the conditions under which the specified legal provision applies, citing the correct section of the Domestic Violence Act and distinguishing it from other severe cases. It perfectly addresses the user's question with precise legal context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_005",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the conditional question regarding the legal consequences when a complaint is received under Section 4(11) of the Domestic Violence Act. It provides accurate legal conclusions, procedural context, and relevant section citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_006",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the specific question about the exceptions and limitations regarding 'acid' and 'dismemberment' under Section 5A of the Domestic Violence Act. It clearly explains the exclusion of acid and the specific provisions for dismemberment with accurate legal context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_007",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by citing Section 6 of the Domestic Violence (Offense and Punishment) Act, 2066, which specifically governs the issuance of interim protective orders during preliminary investigations. It provides the exact legal provisions and sub-clauses without any irrelevant information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_008",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the procedural requirements for both a victim and an entity to appoint a legal practitioner under the relevant Nepali laws, providing precise citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_009",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the conditions under which a closed bench hearing is conducted. It provides precise legal citations from the Domestic Violence (Offense and Punishment) Act, 2066, and explains the specific scenarios clearly without any irrelevant information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the conditional question by citing Section 8 of the Domestic Violence Act, 2066. It clearly explains that the Summary Procedures Act, 2028 must be applied, providing a precise legal conclusion with no unnecessary information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_011",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the legal meaning and practical implications of Section 9(1) of the Domestic Violence Act. It clearly outlines the perpetrator's liability, the local government's interim role, and the ultimate recovery process, perfectly addressing the user's query.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_012",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question by citing Section 10 of the Domestic Violence (Offense and Punishment) Act, 2066, which contains the exact legal provision regarding compensation based on the criteria mentioned in the query.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_013",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the procedural question regarding what steps the victim or relevant authorities must take for immediate protection, treatment, and staying in a service center under the Domestic Violence Act, 2066. It breaks down the process logically with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_014",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the conditional question by explaining the specific circumstances under which the 'Service Fund' provision applies, citing the relevant sections of the Domestic Violence (Offense and Punishment) Act, 2066.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_015",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the conditional scenario regarding the local level's role and the appointment of a Protection Officer under the Domestic Violence Act. It provides precise legal sections (Section 12A and Section 4) and outlines the exact legal procedures and conclusions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_016",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the legal meaning and implications of Section 12B of the Domestic Violence Act as requested. It breaks down the responsibilities, conditions, and mechanisms involved, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_017",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the legal provisions for cases where the Government of Nepal is the plaintiff under Section 5a of the Domestic Violence Act. It provides precise citations of the relevant sections (12c, 5a, and 4) and explains the implications clearly without any irrelevant information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_018",
+      "score": 1.0,
+      "reasoning": "The question asks for the procedure to be followed by a victim or agency in cases of dismemberment or chemical attacks (excluding acid) under domestic violence. The generated answer directly and comprehensively outlines the steps, including filing a complaint, investigation, and court procedures with correct legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_019",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately identifies the specific law (Domestic Violence Act, 2066) and the conditions under which the 90-day limitation period applies, citing the relevant sections (Section 14 and Section 5). It perfectly addresses the user's question.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_020",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by citing Section 15 of the Domestic Violence (Offense and Punishment) Act, 2066. It clearly explains the legal implication of the clause regarding prosecution under other prevailing laws and provides a precise logical conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_021",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the legal meaning and effect of Section 16 of the Domestic Violence Act. It breaks down the specific clause into clear, logical components and provides an accurate legal conclusion regarding special versus general law applicability.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_022",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying Section 17 of the Domestic Violence (Offense and Punishment) Act, 2066, which grants the Government of Nepal the authority to make rules. It is perfectly relevant with no tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_023",
+      "score": 1.0,
+      "reasoning": "The question asks for the procedures that a victim or authority must follow in cases of domestic violence. The generated answer directly and comprehensively outlines the legal procedures for filing complaints and the subsequent actions to be taken by relevant authorities under the Domestic Violence Act, 2066.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_024",
+      "score": 1.0,
+      "reasoning": "The generated answer is an appropriate refusal, clearly stating that the specific provision is not found in the provided legal context of the Muluki Devani Samhita Act, 2074. Since the information is unavailable in the context, the refusal is correct and highly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the conditional question regarding the legal procedure when a complaint is received in writing or orally under the Domestic Violence Act, citing the correct section (Section 4, Sub-section 2) and explaining the exact legal outcomes.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_026",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying Section 5A of the Domestic Violence Act as the specific exception/limitation to the direct court filing provision in Section 5. It clearly explains the conditions (serious offenses like acid attacks, sexual violence, and dismemberment) under which direct court filing is restricted in favor of police complaints.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_027",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific legal provision in the Domestic Violence Act regarding the completion of a clause about police investigation and case filing. The generated answer perfectly addresses this by citing Section 5A, sub-section (2) of the Domestic Violence (Offense and Punishment) Act, 2066, and providing the exact text.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_028",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively outlines the step-by-step legal procedures (complaint, summoning, court referral, and interim protective orders) that the victim or relevant authorities must follow under the Domestic Violence (Offense and Punishment) Act, 2066, to address the specific situation mentioned in the question.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_029",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific condition under which the closed bench proceedings provision applies. The generated answer directly and accurately identifies the condition (when the victim requests a closed bench hearing under the Domestic Violence Act) and provides the correct legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_030",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the conditional question regarding the legal consequences when a domestic violence victim is hospitalized. It accurately cites relevant sections of the Domestic Violence Act, 2066, detailing treatment expenses, court orders, and recovery processes.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_031",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the legal meaning and implications of the specified clause under Section 11 of the Domestic Violence Act. It breaks down the authority, purpose, monitoring, assistance, and financial aspects of the service centers with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_032",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question regarding the management of service centers established under Section 11, sub-sections (1a) and (1b) of the Domestic Violence Act. It provides precise legal provisions, including fund establishment, monitoring, and general management, with accurate section citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_033",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly addresses the question by first identifying the specific legal provision referenced in the prompt (Section 13(1a) of the Domestic Violence Act) and then detailing the exact procedural steps that victims and relevant authorities must take under Section 4 of the Act.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_034",
+      "score": 0.2,
+      "reasoning": "The question asks about the conditions under which the legal definition of 'domestic relationship' applies. The generated answer is a refusal stating the information is unavailable, which is inappropriate because this is a standard provision under the Domestic Violence (Offence and Punishment) Act of Nepal.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_035",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the conditional question regarding the legal conclusion under the Domestic Violence Act when a complaint is registered with the National Women's Commission. It cites the correct sections (Section 4) and provides a clear, precise conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the legal meaning and effect of the specified clause under Section 6 of the Domestic Violence Act. It correctly contextualizes it as an interim protective order, links it to the definition of injuries in Section 2, and explains the recovery mechanism in Section 9, providing a perfect legal explanation.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_037",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific exception in Section 9, sub-section (3) of the Domestic Violence Act regarding the perpetrator's inability to immediately pay for treatment expenses. It provides the exact legal provisions and consequences clearly.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_038",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the question. It correctly identifies that there is no specific process for victims under this provision, while comprehensively detailing the exact legal procedures, fund establishment, and monitoring steps that the relevant government agencies must follow with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_039",
+      "score": 1.0,
+      "reasoning": "The question asks about the specific condition under which the provision regarding the fund's composition applies. The generated answer directly and accurately identifies the relevant law (Domestic Violence Act, 2066, Section 12) and explains the exact condition (establishment of a service fund to operate service centers) under which this provision is triggered.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_040",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the conditional question regarding the legal consequences of attempting, abetting, or being an accomplice to domestic violence. It correctly cites the relevant sections of the Domestic Violence (Offense and Punishment) Act, 2066, explaining that such actions constitute an offense and carry half the punishment of the main offender.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_041",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the legal meaning and consequences of 'physical torture' under Section 2 of the Domestic Violence Act, citing the exact sections and corresponding punishments.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_042",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific conditional question by citing Section 4(4) of the Domestic Violence (Offense and Punishment) Act, 2066. It provides the exact legal provision required for the situation described in the prompt without any tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_043",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly addresses the procedural question by outlining the step-by-step process (complaint filing, preliminary investigation, and court order) that the victim or relevant body must follow to arrange for the perpetrator to live separately under the Domestic Violence Act, 2066.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_044",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the conditional question by identifying the specific legal context (Domestic Violence Act, 2066, Section 11) and outlining the exact conditions under which an organization can establish a service center. It provides precise citations and a logical conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_045",
+      "score": 1.0,
+      "reasoning": "The generated answer is an appropriate refusal. It correctly identifies that the specified sections of the Domestic Violence Act do not contain provisions regarding funds received from domestic or foreign organizations, making it a perfectly relevant response to an unanswerable question within the given context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_046",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the legal meaning and effect of the repeat offense clause under Section 13 of the Domestic Violence Act, providing clear points and examples. It is perfectly relevant to the question asked.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_047",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the question by explaining how the Domestic Violence Act defines, prohibits, and punishes 'mental torture' as described in the prompt. It provides precise section citations (Section 2, 3, and 13) and details the exact penalties, making it highly relevant and complete.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_048",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively outlines the exact legal procedures to be followed under the Domestic Violence (Offense and Punishment) Act, 2066 when a perpetrator ignores a 24-hour summons by the local level. It provides precise steps and legal citations, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_049",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the question by identifying the specific legal condition (interim protective orders in domestic violence cases) under which the provision applies, citing the exact section of the Domestic Violence Act, 2066.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_050",
+      "score": 1.0,
+      "reasoning": "The question asks for the legal conclusions under the Domestic Violence Act when a service center is established by provincial or local governments under specific sub-sections. The generated answer directly and comprehensively addresses this conditional scenario by citing the relevant sub-sections of Section 11 of the Act.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_051",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains both the legal meaning and the legal effect of the specified phrase under Section 12 of the Domestic Violence Act, citing relevant definitions and sections accurately.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_052",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific condition queried from the Domestic Violence Act, citing the correct section (Section 13(4)) and explaining the exact legal consequence of an additional 10% punishment without any irrelevant information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_053",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the procedural question. It outlines the exact steps that both the victim (filing a complaint) and the relevant authorities (registration, summoning, medical treatment, security, and mediation) must take under the Domestic Violence (Offence and Punishment) Act, 2066, with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_054",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the specific legal provision (Section 4(6) of the Domestic Violence Act, 2066) and explaining the exact conditions and immediate procedures required when a victim suffers physical or mental harm.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_055",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and completely addresses the conditional question by identifying the specific legal consequence under the Domestic Violence (Offense and Punishment) Act, 2066. It correctly cites Section 6 regarding the issuance of interim protective orders and specific injunctions preventing the perpetrator from contacting or harassing the victim.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_056",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the legal meaning and implications of the specified clause under Section 11 of the Domestic Violence Act, referencing Section 12 and providing a clear, structured breakdown.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_057",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by citing Section 13(5) of the Domestic Violence (Offense and Punishment) Act, 2066. It provides the exact legal consequences (fine of 2,000 to 15,000 rupees, imprisonment up to 4 months, or both) for failing to comply with a court order issued under Section 6.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_058",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the procedural question regarding 'economic torture' under the Domestic Violence Act. It outlines the definition, the filing process (complaint/FIR), and the relevant authorities to approach, while appropriately stating limitations for details not present in the context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_059",
+      "score": 1.0,
+      "reasoning": "The question asks for the specific conditions under which the protection provision for victims and dependents applies. The generated answer directly and comprehensively addresses this by citing the Domestic Violence (Offense and Punishment) Act, 2066, and explaining the exact scenarios for both victims and their dependents.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_060",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by identifying the specific provision (Section 6(1)(f)) of the Domestic Violence Act, 2066, and explaining that it leads to the issuance of an interim protective order. It is perfectly relevant and contains no tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_061",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the question by completing the incomplete legal phrase from Section 11 of the Domestic Violence Act, explaining its legal meaning, and detailing its broader legal implications and related provisions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_062",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by citing the exact section (Section 2, Clause 'g') of the Domestic Violence (Offense and Punishment) Act, 2066, which defines 'victim' as queried. It contains no tangential information and perfectly matches the user's query.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_063",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific exception/limitation in Section 4 of the Domestic Violence Act as requested. It correctly identifies the relevant sub-section (8), explains the general provision, and clearly details the exception regarding Section 5A.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_064",
+      "score": 0.2,
+      "reasoning": "The generated answer is a standard refusal stating that the information is not available in the legal context. While it is a polite refusal, it fails to address the specific legal condition asked in the question, rendering it barely relevant.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_065",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the specific legal phrase mentioned in the question. It provides clear legal conclusions based on Section 11 of the Domestic Violence (Offense and Punishment) Act, 2066, with precise sub-section citations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_066",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the question by explaining both the legal meaning and the legal effects of the definition of 'perpetrator' under Section 2 of the Domestic Violence Act, 2066, with precise legal citations and structured analysis.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_067",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the specific legal provision queried in the question. It correctly identifies Section 4, Sub-section (9) of the Domestic Violence (Offense and Punishment) Act, 2066, and explains the role of psychiatrists, sociologists, and others in the reconciliation process.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_068",
+      "score": 1.0,
+      "reasoning": "The question asks for the procedure to be followed by a victim or agency. The generated answer provides the relevant definitions from the Domestic Violence Act but correctly identifies that the specific procedural details are missing from the context, offering an appropriate refusal. This is a perfectly relevant response under the special cases guidelines.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_069",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by listing the specific conditions under which the perpetrator must be kept on date (tarekha) by the police or local level, citing the relevant sections of the Domestic Violence (Offense and Punishment) Act, 2009 (2066). It is highly accurate, structured, and stays perfectly on topic.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_070",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the conditional question. It correctly identifies the definition of 'local level' under the Domestic Violence Act and details all the legal conclusions, powers, and duties (such as complaint registration, summoning perpetrators, reconciliation, and appointing protection officers) that flow from this definition.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_071",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively explains the legal meaning and consequences of the specified condition under Section 4(11) of the Domestic Violence Act, detailing the transfer of the case to court, consent requirements, and timelines.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_072",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately identifies the specific section (Section 2, Clause 'ta') of the Domestic Violence (Offense and Punishment) Act, 2066, that defines 'Court' exactly as queried. It is perfectly relevant and concise.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_073",
+      "score": 0.8,
+      "reasoning": "The generated answer directly addresses the procedural question regarding Section 4 of the Domestic Violence Act. While it notes that the exact text of sub-sections (5) and (7) is missing from the context, it provides a highly relevant and structured explanation of the overall process (complaint, reconciliation, court referral) based on the available legal provisions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_074",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the question about when the specific definition of 'complaint' applies. It correctly identifies the Domestic Violence (Offence and Punishment) Act, 2066, and details the exact legal and factual conditions under which this provision is applicable.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_075",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and accurately addresses the question by citing Section 2(tha) of the Domestic Violence Act, defining 'prescribed' or 'as prescribed', and explaining its legal implications clearly without any tangential information.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_001",
+      "score": 1.0,
+      "reasoning": "The question asks about what 'both acts' say regarding economic deprivation and employment stoppage without specifying which two acts are being referred to. Since the question is ambiguous and lacks necessary context, the system's refusal to answer due to unavailable legal context is appropriate and highly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_002",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly addresses the hypothetical scenario by explaining the provisions for immediate protection, long-term remedies, and economic deprivation under the Domestic Violence Act. It also appropriately handles the context limitation of having only one Act available instead of two.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_003",
+      "score": 1.0,
+      "reasoning": "The generated answer is an appropriate refusal, stating that the requested information is not available in the provided legal context. Since the question asks for a complex comparative analysis of two unspecified acts, refusing to answer due to lack of context is the correct and relevant response.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_004",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question by explaining how physical and mental torture under the Domestic Violence Act connects to the grounds for divorce under the Civil Code. It provides precise legal citations and logically links the two concepts, while also appropriately noting the limitations of the source context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_005",
+      "score": 1.0,
+      "reasoning": "The generated answer directly addresses the immediate protection aspect of domestic violence using the provided legal context. For the second part regarding divorce grounds, it provides an appropriate refusal stating that the information is not available in the context, which is considered a perfectly relevant response under the evaluation criteria.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_006",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the question by separating the objectives, procedures, and remedies of both the Domestic Violence Act and the Civil Code, and then providing a clear, structured analysis of how they connect in cases of physical or mental torture.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_007",
+      "score": 1.0,
+      "reasoning": "The answer directly addresses the question by detailing the role of the Domestic Violence Act, 2066, and provides an appropriate, context-bound refusal for the Civil Code, 2074, explaining that the provided context only contains unrelated provisions about Guthi.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_008",
+      "score": 1.0,
+      "reasoning": "The generated answer directly addresses the immediate protection aspect under the Domestic Violence Act, 2066. For the second part regarding long-term civil remedies, it provides an appropriate refusal stating the information is missing from the context, which is considered perfectly relevant under the evaluation criteria.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_009",
+      "score": 0.8,
+      "reasoning": "The generated answer directly addresses the comparative structure requested by the user. It provides detailed information for the Domestic Violence Act and appropriately refuses to hallucinate details for the Civil Code due to limited context, while still successfully analyzing the joint role of both acts using legal principles.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly addresses the question by detailing the separate legal provisions, authorities, and procedures for filing a domestic violence complaint and a divorce petition under Nepali law, concluding with a clear distinction between the two.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_011",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the question by outlining the separate legal provisions for immediate protection under the Domestic Violence Act, 2066, and long-term civil remedy (divorce) under the Muluki Civil Code, 2074, with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_012",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and systematically addresses all parts of the prompt by analyzing the objectives, procedures, and remedies of both acts separately, and then explaining the legal basis for proceeding with both cases concurrently.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_013",
+      "score": 0.8,
+      "reasoning": "The answer directly addresses the first part of the question regarding FIR procedures for domestic violence with specific legal citations. For the second part regarding divorce grounds, it provides an appropriate refusal stating the information is not available in the context, which is considered a relevant response.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_014",
+      "score": 0.8,
+      "reasoning": "The generated answer directly addresses the immediate protection, physical/sexual violence definitions, and complaint (jaheri) procedures. For the divorce and long-term civil remedies aspect, it provides an appropriate refusal stating that this information is not available in the provided legal context (Domestic Violence Act), which is a valid and relevant response under the guidelines.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_015",
+      "score": 0.8,
+      "reasoning": "The generated answer directly addresses the Domestic Violence Act, 2066, detailing its objectives, procedures, and grounds. For the Muluki Devani Sanhita, 2074, it appropriately refuses to answer the divorce grounds due to missing information in the provided context, which is considered a relevant response under the evaluation guidelines.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_016",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the question by comparing interim protection (monthly expenses) and property division before divorce. It uses clear structuring, a comparison table, and legal citations to explain how they function as different remedies in the same context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_017",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the question by comparing interim protection and partition of property before divorce across multiple dimensions (purpose, scope, and conditions) with precise legal citations from Nepali law.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_018",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly addresses the complex comparative question. It structures the response exactly as requested (objectives, procedures, and remedies), logically handles the limitation of having only one Act in the context, and provides a clear, well-cited legal analysis of how the two remedies differ.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_019",
+      "score": 0.2,
+      "reasoning": "The generated answer is a refusal stating the information is not available. Since the question asks about standard provisions of Nepali family and criminal law regarding victim maintenance versus divorce alimony, which are standard legal concepts, this refusal is inappropriate and fails to address the user's query.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_020",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the question by comparing immediate maintenance and lump-sum/monthly divorce payments across five distinct legal dimensions with precise citations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_021",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly addresses the question by comparing immediate maintenance (interpreted as interim maintenance during partition under Section 99(5)) and lump sum/monthly divorce payments under Section 100. It systematically breaks down the objectives, procedures, and remedies for both as requested, and provides a clear comparative summary.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_022",
+      "score": 1.0,
+      "reasoning": "The answer directly and comprehensively addresses both parts of the question: immediate protection of minors from domestic violence (citing the Protection Officer provision) and custody arrangements after divorce (detailing the age-based criteria and mutual agreement rules under the Civil Code).",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_023",
+      "score": 0.8,
+      "reasoning": "The generated answer directly addresses both parts of the question. It provides detailed legal provisions for the immediate protection of minors under the Domestic Violence Act, and while it notes that the primary custody determination section (Section 115) is missing from its context, it highly relevantly explains the post-divorce custody responsibilities and maintenance under Section 116 of the Civil Code.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_024",
+      "score": 0.8,
+      "reasoning": "The generated answer directly and thoroughly addresses the first part of the question regarding the Domestic Violence Act. For the second part concerning custody after divorce, it provides an appropriate refusal due to missing context, which is considered relevant under the evaluation guidelines.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses both parts of the question regarding domestic violence treatment expenses and post-divorce maintenance conditions. It provides precise legal citations from the Domestic Violence Act and the Civil Code, making it perfectly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_026",
+      "score": 0.8,
+      "reasoning": "The generated answer directly and comprehensively addresses the first part of the question regarding domestic violence treatment expenses with appropriate legal citations. For the second part regarding post-divorce maintenance, it provides an appropriate refusal stating the information is not available in the provided context, which is considered a relevant response under the guidelines.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_027",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the question by analyzing the objectives, procedures, and conditions/remedies for both domestic violence medical expenses and post-divorce maintenance separately, with clear legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_028",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question of whether domestic violence compensation and partition of property before divorce are the same or different rights. It clearly states they are different and provides structured, legally cited comparisons to support this conclusion.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_029",
+      "score": 0.8,
+      "reasoning": "The generated answer directly addresses the domestic violence compensation aspect of the question using relevant legal sections. For the partition of property aspect, it appropriately refuses to draw a definitive conclusion due to missing information in the provided context, which is an acceptable and relevant response.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_030",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the question by analyzing and comparing the objectives, procedures, and remedies of domestic violence compensation versus partition of property before divorce. It correctly concludes they are different rights and appropriately handles the limitations of the provided context regarding specific procedural details.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_031",
+      "score": 1.0,
+      "reasoning": "The question asks for the differences between service center assistance and the long-term care responsibility of minors. The generated answer directly and comprehensively compares the two concepts across multiple dimensions (objective, responsibility holder, target group, and funding) with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_032",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the comparative question by structuring the differences between service center assistance and long-term minor care obligations across three clear dimensions (purpose, responsible parties, and funding) with precise legal citations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_033",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and systematically addresses the question by comparing the objectives, procedures, and remedies of service center assistance under the Domestic Violence Act and long-term care of minors under the Muluki Devani Code. It provides precise legal citations and clear, structured distinctions.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_034",
+      "score": 1.0,
+      "reasoning": "The generated answer directly and comprehensively addresses the question of how domestic violence punishment and divorce rights coexist. It provides a clear, structured explanation of the dual legal remedies under the Domestic Violence Act, 2066 and the Muluki Devani Samhita, 2074, showing exactly how parallel proceedings work.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_035",
+      "score": 0.8,
+      "reasoning": "The answer highly addresses the user's scenario regarding how immediate protection and civil remedies can run concurrently under the Domestic Violence Act. It appropriately states that specific provisions linking domestic violence punishment directly to divorce rights were not in the provided context, while still providing a detailed, relevant explanation of concurrent interim civil remedies like maintenance and residence.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the question by separating the objectives, procedures, and remedies of both the Domestic Violence Act and the Muluki Civil Code, and then logically analyzing how they can run concurrently.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_037",
+      "score": 1.0,
+      "reasoning": "The generated answer provides an appropriate refusal by clearly explaining that the retrieved context lacks the necessary information on domestic violence limitation periods to make a comparison, while still presenting the available information on divorce limitation periods. This directly and honestly addresses the question within the constraints of the provided context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_038",
+      "score": 1.0,
+      "reasoning": "The answer directly and completely addresses the comparison between the statutes of limitations for divorce and domestic violence. It provides the specific 3-month limitation for civil remedies and appropriately explains that the domestic violence limitation is not available in the provided context, making the refusal highly relevant and accurate.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_039",
+      "score": 0.8,
+      "reasoning": "The generated answer directly addresses the comparative question by breaking down the objectives, procedures, remedies, and limitation periods for both domestic violence and divorce. For the parts where information was missing in the context, it provided appropriate and clear refusals instead of hallucinating, making it highly relevant.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_040",
+      "score": 1.0,
+      "reasoning": "The generated answer is an appropriate refusal. It clearly explains that the provided legal context (Domestic Violence Act and Civil Code sections) does not contain the necessary provisions to answer whether domestic violence proceedings stop a separate divorce petition, thereby avoiding hallucination.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_041",
+      "score": 1.0,
+      "reasoning": "The generated answer is an appropriate refusal, clearly stating that the provided legal context (Domestic Violence Act and Civil Code sections) does not contain information on whether domestic violence proceedings bar a separate divorce petition. This directly and honestly addresses the question based on the available context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_042",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and comprehensively addresses the question. It systematically analyzes the objectives, procedures, and remedies of both the Domestic Violence Act and the Civil Code, and provides a clear, legally-backed conclusion on whether domestic violence proceedings block a divorce petition.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_043",
+      "score": 0.2,
+      "reasoning": "The generated answer is a refusal stating that the information is not available. Since the legal provisions regarding minor custody in domestic violence situations are standard parts of Nepali family and child law, this question is answerable, making the refusal inappropriate and barely relevant.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_044",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and directly addresses the question by identifying and explaining the two specific legal provisions (Section 6 of the Domestic Violence Act, 2066 and Section 116 of the Muluki Civil Code, 2074) relevant to immediate protection and long-term custody of a minor in a domestic violence scenario.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_045",
+      "score": 0.8,
+      "reasoning": "The generated answer directly identifies the two relevant legal provisions (Section 16 of the Domestic Violence Act and Section 3 of the Civil Code) and explains their relevance. It also contains an appropriate refusal for the detailed analysis of objectives, procedures, and remedies due to missing context, which is handled correctly according to the guidelines.",
+      "split": "test"
+    }
+  ],
+  "low_relevance_items": [
+    {
+      "id": "dv_p002",
+      "score": 0.2,
+      "question": "कुन-कुन सम्बन्धलाई घरेलु सम्बन्ध मानिन्छ?"
+    },
+    {
+      "id": "md_0081",
+      "score": 0.2,
+      "question": "स्वतन्त्र सहमति नभएको वा करकाप वा जालसाजबाट भएको करारको अवस्था के हुन्छ?"
+    },
+    {
+      "id": "md_0095",
+      "score": 0.2,
+      "question": "कानुनी उत्तराधिकारी नभए सम्पत्ति के हुन्छ?"
+    },
+    {
+      "id": "dv_new_034",
+      "score": 0.2,
+      "question": "““घरेलु सम्बन्ध” भन्नाले वंशज, विवाह वा धर्मपुत्र वा धर्मपुत्री भएको वा संयुक्त परिवारको” व्यवस्था क"
+    },
+    {
+      "id": "dv_new_064",
+      "score": 0.2,
+      "question": "“उजुरीको प्रारम्भिक छानबिनबाट पीडितको अतिरिक्त निजका नाबालक सन्तान वा निजसँग आश्रित कुनै” व्यवस्था क"
+    },
+    {
+      "id": "cross_new_019",
+      "score": 0.2,
+      "question": "पीडितको तत्काल भरणपोषण र सम्बन्ध विच्छेदमा एकमुष्ठ वा मासिक रकमबीच के भिन्नता छ?"
+    },
+    {
+      "id": "cross_new_043",
+      "score": 0.2,
+      "question": "आर्थिक वा मानसिक घरेलु हिंसाको वातावरणमा नाबालकको जिम्मा निर्धारण गर्दा कुन दुई कानूनी व्यवस्था सान्"
+    }
+  ],
+  "aggregation_policy": {
+    "primary_split": "test",
+    "primary_use": "paper_main_result",
+    "combined_use": "supplementary_only",
+    "out_of_scope_policy": "excluded_from_answer_metric"
+  },
+  "by_split": {
+    "development": {
+      "n_evaluated": 103,
+      "average_score": 0.9612
+    },
+    "test": {
+      "n_evaluated": 217,
+      "average_score": 0.9742
+    },
+    "combined": {
+      "n_evaluated": 320,
+      "average_score": 0.97
+    }
+  },
+  "primary_split": "test",
+  "combined_average_score": 0.97,
+  "combined_total_evaluated": 320,
+  "dataset_split_counts": {
+    "development": 103,
+    "test": 217
+  }
+}

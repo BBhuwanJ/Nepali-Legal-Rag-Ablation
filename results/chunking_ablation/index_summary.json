@@ -1,0 +1,46 @@
+{
+  "recursive": {
+    "out_dir": "B:\\Projects\\LawBot\\backend\\experiments\\chunking_ablation\\indexes\\recursive",
+    "chunk_count": 556,
+    "avg_chars": 786.06,
+    "min_chars": 116,
+    "max_chars": 1025,
+    "multi_dafa": 223,
+    "built_at": "2026-08-25T03:50:51.884933",
+    "strategy": "recursive",
+    "label": "Recursive Character Splitter"
+  },
+  "dafa": {
+    "out_dir": "B:\\Projects\\LawBot\\backend\\experiments\\chunking_ablation\\indexes\\dafa",
+    "chunk_count": 745,
+    "avg_chars": 739.41,
+    "min_chars": 190,
+    "max_chars": 3170,
+    "multi_dafa": 0,
+    "built_at": "2026-08-25T03:53:53.689857",
+    "strategy": "dafa",
+    "label": "Dafa-Based Chunker"
+  },
+  "semantic": {
+    "out_dir": "B:\\Projects\\LawBot\\backend\\experiments\\chunking_ablation\\indexes\\semantic",
+    "chunk_count": 1495,
+    "avg_chars": 289.81,
+    "min_chars": 100,
+    "max_chars": 901,
+    "multi_dafa": 0,
+    "built_at": "2026-08-25T03:59:36.830381",
+    "strategy": "semantic",
+    "label": "Semantic Chunker"
+  },
+  "hybrid": {
+    "out_dir": "B:\\Projects\\LawBot\\backend\\experiments\\chunking_ablation\\indexes\\hybrid",
+    "chunk_count": 745,
+    "avg_chars": 583.84,
+    "min_chars": 69,
+    "max_chars": 1600,
+    "multi_dafa": 31,
+    "built_at": "2026-08-25T04:04:06.661135",
+    "strategy": "hybrid",
+    "label": "Hybrid Legal-First Semantic Chunker"
+  }
+}

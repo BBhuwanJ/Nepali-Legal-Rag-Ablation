@@ -1,0 +1,9 @@
+{
+  "out_dir": "B:\\Projects\\LawBot\\backend\\experiments\\chunking_ablation\\indexes\\semantic",
+  "chunk_count": 1495,
+  "avg_chars": 289.81,
+  "min_chars": 100,
+  "max_chars": 901,
+  "multi_dafa": 0,
+  "built_at": "2026-08-25T03:59:36.830381"
+}

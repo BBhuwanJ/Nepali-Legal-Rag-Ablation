@@ -1,0 +1,4441 @@
+{
+  "metric": "retrieval_relevance",
+  "model_judge": "gemini-3.5-flash",
+  "total_evaluated": 217,
+  "average_score": 0.7235,
+  "avg_relevant_chunk_ratio": 0.325,
+  "required_dafa_hit_rate": 0.6781,
+  "partial": false,
+  "poor_retrieval_count": 78,
+  "by_category": {
+    "unknown": {
+      "count": 320,
+      "avg_score": 0.6588
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "dv_p001",
+      "score": 0.4,
+      "reasoning": "Although Section 2 (Dafa 2) is retrieved in Chunk 2, the specific sub-clause defining 'domestic violence' (घरेलु हिंसा) is missing, as the chunk only contains definitions starting from sub-clause (च). Chunk 4 provides some context on physical and sexual violence, but the core definition is absent.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        2,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p002",
+      "score": 0.2,
+      "reasoning": "Although Dafa 2 of the Domestic Violence Act was retrieved in Chunk 0, it only contains clauses (च) to (ञ) and misses the earlier clauses (specifically clause ग) which define 'domestic relationship' (घरेलु सम्बन्ध). Thus, the retrieved chunks do not contain the necessary information to answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p003",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required information. Chunk 2 contains the exact definition from Dafa 2, which directly answers that splashing chemical substances other than acid is classified as 'शारीरिक यातना' (physical torture). Chunks 0 and 1 also provide highly relevant context regarding the offense and punishment.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p004",
+      "score": 0.8,
+      "reasoning": "The retrieved Chunk 0 contains the exact required Dafa 2 of the Domestic Violence (Offence and Punishment) Act, 2066, which defines 'mental torture' to include threatening and throwing out of the house. Chunk 3 is also partially relevant as it discusses protective orders against such acts. Although there are several irrelevant chunks from the Civil Code, the key legal section is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p005",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 2 of the Domestic Violence (Offense and Punishment) Act, 2066, which directly defines demanding dowry and depriving property use as 'economic torture'. Although there are several irrelevant chunks (1, 2, 3, 4), the key information is perfectly retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p006",
+      "score": 0.8,
+      "reasoning": "The required Dafa 3 is successfully retrieved in Chunk 0, which directly states that attempting or instigating domestic violence is an offense. Chunk 2 is also highly relevant as it details the punishment for such attempts and instigation. Other chunks are less relevant but do not detract from the overall quality.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p007",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence Act, which directly answers who can file a complaint and where. Chunks 0, 1, and 2 are highly relevant, while Chunk 4 is irrelevant noise from the Civil Code.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p008",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence (Offence and Punishment) Act, 2066. Chunk 0 directly answers the question, stating that the perpetrator must be summoned within 24 hours excluding travel time. Chunks 2 and 3 are irrelevant noise from the Civil Code, but they do not detract from the completeness of the correct retrieval.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p009",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks contain the exact answer in Chunk 0 (Dafa 6, which discusses interim protective orders when danger is identified during preliminary investigation) and also include the required Dafa 4 in Chunk 1. Chunks 2, 3, and 4 contain some noise, but the most critical information is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p010",
+      "score": 0.4,
+      "reasoning": "Only Dafa 5ka (Chunk 3) was retrieved, which helps answer the second part of the question regarding serious complaints. However, Dafa 4, which contains the crucial information about the mediation process and its time limit, is missing. There is also significant noise from unrelated sections.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "dv_p011",
+      "score": 1.0,
+      "reasoning": "The exact required section (Dafa 5ka) is retrieved in Chunk 0, which directly and completely answers the question regarding filing a complaint for domestic violence involving mutilation, chemical substances, or sexual torture. The retrieval is highly accurate and contains the precise legal provision needed.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p012",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 6 from the Domestic Violence (Offence and Punishment) Act, 2066, which directly and completely answers the question regarding interim protective orders for residence and behavior. While the other retrieved chunks are irrelevant noise, the primary required section was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p013",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 9 of the Domestic Violence Act, which directly answers how treatment expenses are managed if the perpetrator cannot pay immediately. Chunk 2 is also partially relevant regarding interim protective orders for treatment, while the other chunks are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p014",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 10 of the Domestic Violence (Offence and Punishment) Act, 2066 is retrieved in Chunk 0, which perfectly answers the question. While the remaining chunks are irrelevant noise, the retrieval successfully captured the key legal provision.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "dv_p015",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required section (Dafa 13) which directly answers the question about the punishment for repeating domestic violence (double punishment). The other retrieved chunks are from the same Act but are not directly relevant to the specific question, representing minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "cross_p001",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 95 of the Civil Code (Chunk 0) and Dafa 2 of the Domestic Violence Act (Chunk 4), which are highly relevant to answering the question about divorce grounds and domestic violence. However, Dafa 3 is missing from the retrieved chunks, and there is some minor noise in Chunks 1 and 3.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "cross_p002",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required sections (Dafa 2 or 91) or address the topic of economic deprivation and preventing employment. The retrieved chunks are completely off-topic, focusing instead on partition of property, adoption, service funds, and divorce.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "cross_p003",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 95 of the Civil Code (Chunk 0), which directly addresses the grounds for divorce if a husband kicks his wife out and denies food/clothing. However, Dafa 2 of the Domestic Violence Act, which defines domestic violence, is missing, and only Dafa 3 is retrieved (Chunk 4). Therefore, the retrieval is only partially complete.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "cross_p004",
+      "score": 0.2,
+      "reasoning": "The retrieved chunks do not contain the required legal sections (Dafa 6 of the Domestic Violence Act and Dafa 115 of the Civil Code). While Chunk 2 (Protection Officer) and Chunk 3 (Visitation rights) are tangentially related to protection and post-divorce arrangements, they do not provide the necessary legal provisions to answer how immediate protection and long-term custody are determined.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "cross_p005",
+      "score": 0.4,
+      "reasoning": "Only Dafa 96 (Chunk 3) of the required sections was retrieved. The most critical section, Dafa 15 of the Domestic Violence Act (which explicitly permits concurrent divorce proceedings), and Dafa 95 of the Civil Code are missing, resulting in a retrieval with significant gaps.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        1,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0001",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the required Dafas 67 and 68 in Chunk 1, which directly define what marriage is legally. While Chunk 3 is completely irrelevant noise, the key information is present and the required sections are accurately retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0002",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks include Dafa 70 (Chunk 0), which directly answers the question by stating the minimum age for marriage is 20 years. Chunk 1 is also relevant as it discusses voiding marriage if the age requirement is not met. The remaining chunks (2, 3, and 4) are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0003",
+      "score": 0.4,
+      "reasoning": "Only Dafa 70 was retrieved (Chunk 0), which mentions the age requirement of 20 years for marriage. However, Dafa 73, which explains the legal status/consequences of marriages violating this age limit, is missing. Additionally, there is significant noise with Chunks 1, 2, 3, and 4 being completely irrelevant to marriage law.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0004",
+      "score": 0.2,
+      "reasoning": "The retrieved chunks completely missed the required Dafa 72, which specifically addresses the legal status of forced marriage (marriage without consent). While some general marriage-related sections (Dafa 70, 71, 73) were retrieved, they do not contain the information needed to answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0005",
+      "score": 0.6,
+      "reasoning": "Dafa 70 is retrieved (Chunk 2), which directly addresses marriage restrictions regarding relatives (incest/tradition). However, Dafa 72 is missing, and there is significant noise from unrelated sections like marriage registration (Chunks 1, 3) and funeral expenses (Chunk 4).",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0006",
+      "score": 0.6,
+      "reasoning": "Dafa 70 (Chunk 4) is retrieved and directly answers the question by stating that marriage can only occur if there is no existing marital relationship. However, the other required Dafa 95 is missing, and there is significant noise from unrelated marriage provisions in Chunks 0, 1, and 2.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0007",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the required Dafa 76 (Chunks 0 and 1), which directly answers the question about the necessity of marriage registration. Chunk 2 is also relevant as it discusses marriage registration procedures, while Chunks 3 and 4 are irrelevant noise regarding land and Guthi registration.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0008",
+      "score": 0.4,
+      "reasoning": "Only Dafa 88 (Chunk 2) was retrieved, which covers representation in household affairs, but Dafa 86 regarding mutual obligations is missing. There is also significant noise with four irrelevant chunks about contracts, torts, and property.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0010",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas (89 and 90) which specifically address who must bear family expenses. The retrieved chunks focus on marriage freedom, definition of marriage, general duties of spouses, and post-divorce maintenance, which do not answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0011",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks contain highly relevant information to define and explain divorce, including required Dafas 82 and 98. However, Dafa 96 is missing from the retrieved chunks, preventing a perfect score. Chunk 0 is slightly off-topic but the rest are highly relevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0012",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks contain all the required sections (Dafa 93, 96, 97, and 98) to answer the question about mutual divorce. Chunk 0 directly addresses mutual consent (Dafa 93). There is minor noise in Chunk 1, but the overall retrieval is highly relevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0013",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required legal section (Dafa 95) in Chunk 2, which lists the exact grounds for a wife to divorce. Chunk 0 (Dafa 93) is also relevant as it covers divorce by mutual consent, and the remaining chunks provide highly related procedural context.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0014",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 40 (Chunk 0), which addresses the legal presumption of death for a missing person, and related sections on marriage termination and remarriage (Chunks 3 and 4). However, the retrieval is incomplete as it fails to retrieve Dafa 95, which is crucial for addressing the 'separation' aspect of the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        3,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0015",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required legal section (Dafa 96) in Chunk 0, which directly answers the question that the petition must be filed in court. Chunk 1 is also highly relevant as it details the court procedure following the petition filed under Dafa 96.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0016",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks contain Dafa 99 (Chunk 2), which is highly relevant to property partition before divorce. However, Dafa 100, which is also required to fully answer the question regarding alimony/lump-sum payments, is missing from the retrieved chunks, and there is some noise from unrelated sections.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        2,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0017",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required sections (Dafas 99, 100, and 101) regarding maintenance or alimony after divorce. The retrieved chunks focus on unrelated topics such as hire purchase, private international law, and grounds for divorce, making it impossible to answer the specific question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0018",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly cover the required legal sections. Chunk 0 contains Dafa 99 which addresses partition of property before divorce, and Chunk 1 contains Dafa 206 which explicitly details how the share of an unborn child is secured if a woman is pregnant during partition.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0019",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain Dafa 115, which is the required section regarding child custody and guardianship after divorce. The retrieved chunks focus on property division, grounds for divorce, and mediation, which do not contain the information needed to answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0020",
+      "score": 1.0,
+      "reasoning": "The retrieval is perfect as it contains both of the required sections, Dafa 82 and Dafa 83, which directly address the conditions for remarriage after divorce. Chunk 0 and Chunk 1 provide the exact legal provisions needed to answer the question, with Chunk 3 providing useful supporting context on general marriage conditions.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0021",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 94 and 95, which explain that living separately for three years or more is a ground for filing a divorce rather than an automatic dissolution. Chunk 3 (Dafa 82) is also relevant as it outlines when a marriage is legally terminated. However, required Dafa 96 is missing from the retrieved chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0023",
+      "score": 0.2,
+      "reasoning": "The retrieved chunks do not contain the required Sections 89 and 90, which specifically address family expenses and care between spouses. Only Chunk 4 (Section 86) is weakly relevant as it discusses general husband-wife relations, while the other chunks are completely irrelevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0025",
+      "score": 0.0,
+      "reasoning": "The retrieved chunks do not contain the required Dafas (100 and 101) which specifically address maintenance (भरणपोषण) after divorce and property division. Consequently, the retrieved information is completely insufficient to answer the user's question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0026",
+      "score": 0.2,
+      "reasoning": "The required Dafa 117, which specifically addresses the visitation and meeting rights of the other parent after divorce, was not retrieved. Only Chunk 1 (Dafa 118) is partially relevant regarding the continuity of parental obligations, while the remaining chunks are completely irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0028",
+      "score": 0.8,
+      "reasoning": "The retrieval successfully contains both required Dafas (699 and 76). Chunk 0 (Dafa 699) details the conditions for Nepali citizens marrying abroad, and Chunk 4 (Dafa 76) explains the registration process at embassies abroad. Chunks 1 and 2 are less relevant but do not significantly impact the quality of the retrieval.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0029",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required legal provision. Chunk 0 contains the exact required Dafa 95, which directly answers the question regarding the wife's right to divorce if the husband fails to provide food/clothing or expels her. Other chunks like Chunk 1, 3, and 4 provide highly relevant context regarding mutual divorce, property division, and the duty of maintenance.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0030",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas (205 and 206) which address the coparcenary rights of a daughter in her maternal home. The retrieved chunks focus entirely on divorce procedures and partition between husband and wife, making them irrelevant to the specific question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0031",
+      "score": 0.4,
+      "reasoning": "Only Dafa 95 of the required sections (95, 99, 101, 115) was retrieved, which establishes the wife's right to divorce if the husband remarries. The other crucial sections detailing her specific rights to property partition or alimony (Dafas 99, 101, 115) are missing, and the rest of the retrieved chunks are mostly irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0033",
+      "score": 0.6,
+      "reasoning": "Chunk 0 correctly retrieves Dafa 223, which directly addresses claiming undisclosed property after partition. However, Dafa 235 (which specifically deals with hidden property in the context of divorce) is missing, and the remaining chunks (1-4) are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0034",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly cover the required sections (Dafa 141 and 148) which address the disqualification of a guardian and the termination/change of guardianship. Chunks 0, 1, 2, and 3 are highly relevant to answering the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0038",
+      "score": 0.4,
+      "reasoning": "The retrieval is missing Dafa 106, which is the most critical section for determining paternity after a divorce. While Dafa 105 (Chunk 0) is retrieved and provides general paternity rules, the rest of the chunks are irrelevant noise, making the retrieval incomplete.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0039",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas 116 and 118, which govern child maintenance and education after divorce. The retrieved chunks instead focus on guardianship, quasi-contracts, and alimony for the wife, making them completely irrelevant to answering the specific question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "sl_001",
+      "score": 0.0,
+      "reasoning": "The question specifically asks about Section 67 (दफा ६७), but none of the retrieved chunks contain this section. The retrieved chunks contain completely unrelated sections such as 625, 116, 112, 319, and 391, making the retrieval completely irrelevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "sl_002",
+      "score": 0.2,
+      "reasoning": "The exact Section 70 (Dafa 70) which contains the marriage age requirements was not retrieved. While Chunks 0 and 4 make passing references to Section 70, they do not contain the actual text or the specific age limit required to answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "sl_003",
+      "score": 0.0,
+      "reasoning": "The question specifically asks about Section 94 (दफा ९४), but none of the retrieved chunks contain this section. The retrieval failed to return the correct legal section, making all chunks irrelevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "sl_004",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain Dafa 95, which was specifically requested in the question. All retrieved chunks are completely irrelevant to the query.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0041",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 69, which directly addresses the freedom to marry, was successfully retrieved in Chunk 0. While there are some irrelevant chunks (noise) such as Chunks 2 and 4, the primary legal provision needed to answer the question is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0042",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact required Dafa 74 (Chunk 0), which directly and completely answers the question about marriage being established upon the birth of a child from physical contact. Chunk 1 is also marginally relevant as it discusses marriage validity in relation to childbirth, while the remaining chunks are noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0043",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks contain the exact required Dafa 75 (Chunk 0) which directly answers the question, as well as Dafa 72 (Chunk 4) which provides necessary context on marriage annulment. Although there is some noise regarding contract law (Chunks 2 and 3), the key legal provisions are successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0044",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks contain key sections (Dafa 77, 78, and 79) regarding the process of marriage by registration, but Dafa 80 is missing. Additionally, there is significant noise with three completely irrelevant chunks (Chunks 2, 3, and 4) concerning house rent, hire purchase, and adoption.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0045",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 81) is retrieved in Chunk 0, which perfectly and completely answers the question about a married woman's surname. While the other retrieved chunks (Chunks 1, 2, 3, and 4) are mostly irrelevant noise, the presence of the exact required section ensures high retrieval quality.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0046",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Dafas 97 and 98 in Chunk 0, which directly answer the question regarding the court's obligation to attempt reconciliation. The other chunks are from the same chapter on divorce and provide highly relevant legal context.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0047",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 99) which directly answers the question about property division before divorce is retrieved in Chunk 0. While there are some extra chunks regarding other aspects of divorce and foreign divorce recognition, the primary information needed is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0048",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact required section (Dafa 100 in Chunk 0), which directly answers the question about a divorcing wife receiving a lump sum instead of partition share. Chunk 2 (Dafa 99) is also relevant as it provides necessary context regarding partition before divorce, while the remaining chunks are slightly noisy but harmless.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0049",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required legal provision. Chunk 0 contains Dafa 101, which directly answers the question about a wife claiming maintenance expenses if she hasn't received a property share. Chunks 1 and 2 provide highly relevant context regarding property division and alternative maintenance payments.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0050",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 106) is retrieved in Chunk 0, which directly and completely answers the question. Chunk 1 is also somewhat relevant as it discusses paternity of a child born from artificial insemination, while the remaining chunks are mostly noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0051",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 107) is retrieved in Chunk 0, which perfectly answers the question about denying paternity. Chunk 3 is also somewhat relevant as it discusses paternity claims. Although there are several irrelevant chunks regarding divorce and contract law, the key legal provision is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0052",
+      "score": 0.8,
+      "reasoning": "The retrieval successfully fetched the exact required section (Dafa 109) in Chunk 0, which directly and completely answers the question about paternity in artificial insemination. While the other chunks (1, 2, 3, 4) are less relevant or general, they do not detract from the fact that the primary answer was perfectly retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0053",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Dafa 115 in Chunks 0 and 1, which directly answers who gets custody of a minor after the termination of a marriage. Chunk 4 is also highly relevant to minor custody decisions, and the other chunks provide useful context on marital termination.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0054",
+      "score": 0.2,
+      "reasoning": "The required Dafa 70, which outlines the legal conditions for the validity of marriage, was not retrieved. While Chunks 2 and 3 are weakly related to marriage consequences and registration, they do not contain the core conditions for validity, and the remaining chunks are completely irrelevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0055",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include both required sections, Dafa 72 and Dafa 73, which contain the exact legal provisions needed to distinguish between void and voidable marriages. While Chunk 1 is irrelevant noise, the core information is highly accessible in Chunks 0 and 2.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0056",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas (90 and 257) or any information regarding the management of a married couple's property. The retrieved chunks are completely off-topic, focusing instead on Guthi property and general property custodianship.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0057",
+      "score": 0.2,
+      "reasoning": "The required Dafas (70 and 72) which address the legal necessity of consent for a valid marriage are not retrieved. Only Chunk 2 is partially relevant as it discusses mutual consent in running a household, while the remaining chunks are highly irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0058",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas (99 and 100) which govern property division after divorce. The retrieved chunks focus on unrelated topics such as paternity determination, private international law, and general joint property division, making them completely irrelevant to the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0059",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks contain Dafa 211, which is one of the required sections, along with other highly relevant sections like 213 and 214. However, the required Dafa 212 is missing from the retrieved chunks, and there is some noise in Chunks 3 and 4.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0060",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 239) regarding the priority order of heirs is successfully retrieved in Chunk 0, which directly answers the question. Chunk 4 also provides useful context about heirs receiving inheritance, while the remaining chunks about foreign laws and disqualification represent minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0061",
+      "score": 0.6,
+      "reasoning": "Chunk 0 successfully retrieves Dafa 406, which answers the first part of the question regarding when a post-death gift becomes effective. However, Dafa 464, which is required to answer the second part of the question about the deed of immovable property, is completely missing from the retrieved chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0062",
+      "score": 0.4,
+      "reasoning": "The required Dafa 504, which defines what a contract is, was not retrieved. Chunk 3 (Dafa 505) is partially relevant as it explains how a contract is legally executed and formed, but the rest of the chunks are irrelevant noise regarding hire purchase, company nature, transactions, and breach of contract.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0063",
+      "score": 0.2,
+      "reasoning": "None of the required Dafas (535, 537, 540, 541) regarding breach of contract and its remedies were retrieved. Only Chunk 2 has minor relevance regarding the consequences of contract cancellation, while the other chunks are completely irrelevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0064",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain information regarding how mental imbalance affects the validity of marriage. The required Dafas (33, 71, 72, 73) were not retrieved, and the retrieved chunks are completely off-topic, covering unrelated matters like product liability, property trees, and general marriage registration.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0066",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks contain key information regarding the determination and appointment of guardians (Dafa 135, 139, and 704). However, Dafa 136, which is one of the required sections for a complete answer, is missing from the retrieved chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0067",
+      "score": 0.2,
+      "reasoning": "The required Dafa 169, which defines adoption, was not retrieved. While Chunks 0, 1, and 4 are topically related to adoption (specifically foreign adoption), they do not answer the question of what adoption is, and there is significant noise in Chunks 2 and 3.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0068",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain information about adoption (दत्तक ग्रहण) or the required sections (Dafas 172, 173, 174, 175). The retrieved chunks are completely off-topic, covering hire purchase, domestic violence, and Guthi.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0069",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks do not contain the required Dafas 205 and 206, which establish the core principle of equal shares among coparceners. Only Chunk 0 is partially relevant as it discusses the general process of partition (equal division of assets/debts and division by consent or lottery), while the other chunks represent significant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0071",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include key sections Dafa 82 and 83, which directly address remarriage and the termination of marriage. However, required Dafas 70 and 76 are missing, and there is significant noise from unrelated sections on international marriage and property partition.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0072",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain information about joint ownership (सह-स्वामित्व) or the required Dafa 258. The retrieval system returned completely irrelevant sections that only matched the keyword 'निर्धारण' (determination) in unrelated contexts.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0076",
+      "score": 0.0,
+      "reasoning": "The retrieved chunks discuss co-ownership of property (संयुक्त सम्पत्ति) under Chapter 1, which explicitly excludes joint family coparceners (एकासगोलका अंशियारहरू) as per Dafa 258(1). The required Dafas (205, 206, 257) regarding joint family partition (अंशबण्डा) were not retrieved at all.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0077",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas 33 and 34, which define the legal capacity of a minor. The retrieved chunks instead focus on unrelated topics such as adoption, guardianship, and hire purchase agreements, making them completely irrelevant to the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0078",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas 493 and 494, which address when legal liability arises. The retrieved chunks instead focus on unrelated topics such as limitation periods, capacity, paternity, and private international law torts, making the retrieval completely irrelevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0079",
+      "score": 0.4,
+      "reasoning": "Only Dafa 226 (Chunk 1) was retrieved, which is highly relevant to the consequences of hiding property. However, the other required sections (Dafa 64 and 305) are missing, and the remaining retrieved chunks (0, 2, 3, 4) are completely irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0080",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 75 (Chunk 0), which directly answers the question regarding the rights of children born from void or unrecognized marriages. However, the other required Dafa 207 is missing from the retrieved chunks, and there are some irrelevant chunks (Chunks 1 and 3) about paternity presumption and denial.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        2,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0081",
+      "score": 0.6,
+      "reasoning": "Dafa 518 (Chunk 2) is retrieved, which directly addresses contracts made under coercion (करकाप) as being voidable. However, Dafa 505 regarding free consent is missing, and there is significant noise from unrelated sections like adoption (Chunk 4) and specific performance (Chunk 0).",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0082",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Dafas 100 and 101 in Chunks 0 and 2, which directly address the conditions under which a wife can receive a lump sum or maintenance expenses after a divorce. Chunk 4 is also relevant as it explains the partition of property referenced in those sections.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        2,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0083",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain information about legal remedies for fraud in marriage, nor do they contain the required Dafas 71 and 73. The retrieved chunks are completely off-topic, discussing treatment expenses, domestic violence, hire purchase, and financial transactions.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0084",
+      "score": 0.4,
+      "reasoning": "Dafa 67 (Chunk 0) was successfully retrieved, which explains ceremonial marriage. However, the other required section, Dafa 76 (regarding the registration of such marriages), is missing, and there is significant noise in the other retrieved chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0085",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks contain Dafa 502 (Chunk 3), which directly answers the question regarding when an obligation does not need to be fulfilled. However, the other required section, Dafa 501, is missing, and there is significant noise from other unrelated sections.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0086",
+      "score": 0.6,
+      "reasoning": "Chunk 1 contains Dafa 464, which directly answers the question by stating that deeds transferring immovable property must be registered to gain legal recognition. However, the other required Dafa 471 is missing from the retrieved chunks, and there is significant noise in the other retrieved chunks (0, 2, 3, and 4).",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0087",
+      "score": 0.2,
+      "reasoning": "None of the required Dafas (84, 92, 104, 235, 286) regarding limitation periods (हदम्याद) were retrieved. Only Chunk 0 has minor relevance as it mentions a specific one-year time limit for adoption-related cases, while all other chunks are completely irrelevant to the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0088",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly cover the required Dafas 142 and 143, which directly address the management, care, and protection of the property of incompetent or semi-competent persons by their guardian. All retrieved chunks are highly relevant to the question with no significant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "md_0090",
+      "score": 0.2,
+      "reasoning": "The required Dafa 517, which specifically details when a legal agreement or contract is void/invalid, was not retrieved. The retrieved chunks instead cover general civil law principles (Dafa 7 and 11) and house rent agreements, which are mostly irrelevant to the general question about contract invalidity.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0092",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 222 and 223, which are highly relevant to the property inventory (फाँटवारी) aspect of the question. However, Dafa 230, which is required to address the property freezing (सम्पत्ति रोक्का) aspect, is missing from the retrieved chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0095",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafa 248 or address the question of what happens to property when there is no legal heir. The retrieved chunks are completely off-topic, covering unrelated matters such as Guthi operations, divorce property division, care of disabled persons, hire purchase, and loan transactions.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0099",
+      "score": 0.2,
+      "reasoning": "The retrieved chunks do not contain the required Dafas (67 and 77) necessary to fully answer the question. Only Chunk 0 is partially relevant as it mentions witnesses in the context of marriage registration, while the remaining chunks are completely irrelevant noise concerning property transfer and partition.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": false,
+      "split": "development"
+    },
+    {
+      "id": "md_0102",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 272 is retrieved in Chunk 0, which directly and completely answers the question. Chunks 1 and 4 provide additional context on possession (भोगाधिकार), while Chunks 2 and 3 are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "development"
+    },
+    {
+      "id": "civil_new_001",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Section 1 (दफा १) which perfectly answers the question regarding the short title and commencement of the Act. Chunk 1 provides helpful preamble context, while the remaining chunks are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_002",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 5, which perfectly answers the question. Although the other retrieved chunks (1-4) are irrelevant noise, the key information is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_003",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact required section, Dafa 10, in Chunk 0, which directly addresses the question. Although Chunks 1 to 4 are irrelevant and introduce noise, the primary legal provision needed to answer the question is perfectly retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_004",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact text of Dafa 14, which is the required section to answer the question. The other retrieved chunks (1-4) are irrelevant noise regarding other types of liabilities, but the presence of the exact required section ensures a high score.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_005",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 18) is successfully retrieved in Chunk 0, which contains the complete text needed to answer the question. Although Chunks 1 to 4 are irrelevant noise, the primary information is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_006",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 23) is retrieved in Chunk 0, which contains the precise answer to the question. Although the remaining chunks (1 to 4) are irrelevant noise, the primary information needed is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_007",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact text of Dafa 27 which is requested by the question. Chunk 3 provides useful context as Dafa 27 references Dafa 26. The other chunks are noise but the key information is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_008",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 31) is retrieved in Chunk 0, which contains the complete text needed to answer the question. Although Chunks 1 to 4 are irrelevant noise, the primary target section was successfully and accurately retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_009",
+      "score": 0.8,
+      "reasoning": "The exact required Section 38 (दफा ३८) is retrieved in Chunk 0, which contains the complete information needed to answer the question regarding the exception to organ/corpse donation. Although Chunks 1 to 4 are irrelevant noise, the retrieval is successful as the specific section requested was accurately found.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_010",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the required Dafa 43 (Chunk 0), which directly addresses the question. Additionally, Chunk 1 (Dafa 42) is highly relevant as it is explicitly referenced within Dafa 43. The remaining chunks are mostly noise but do not affect the completeness of the retrieval.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_011",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 48 and directly answers the question. Although the other retrieved chunks (1-4) are irrelevant noise, the key information is perfectly retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_012",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact text of Dafa 52, which is the required section to answer the question. The other retrieved chunks (1-4) discuss insolvency and liabilities of legal/natural persons, which are somewhat related but act as noise for this specific section lookup.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_013",
+      "score": 1.0,
+      "reasoning": "The retrieved Chunk 0 contains the exact text of Dafa 56, which directly and completely answers the question regarding the procedure for notifying creditors. The other chunks are from the same chapter on insolvency and provide useful legal context.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_014",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 61 is retrieved in Chunk 0, which contains the complete priority order for debt and liability payment during insolvency. Although there are several irrelevant chunks (Chunks 1, 2, and 4), the presence of the exact required section ensures the question can be fully answered.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_015",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Section 66 (दफा ६६) which is directly relevant to the question. The remaining chunks (1-4) are noise as they refer to limitation periods of other unrelated sections, but the key information is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_016",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 108 is retrieved in Chunk 0, which contains the complete information needed to answer the question, including the limitation regarding the child's death. While Chunks 2, 3, and 4 are irrelevant noise, the retrieval of the specific requested section is successful.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_017",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 113) is retrieved in Chunk 0, which perfectly contains the information needed to answer the question. The other retrieved chunks (1, 2, 3, and 4) are irrelevant noise regarding marriage registration and non-discrimination, but they do not affect the completeness of the retrieved target section.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_018",
+      "score": 0.8,
+      "reasoning": "The required Dafa 121 is perfectly retrieved in Chunk 0, which directly contains the answer to the question. Chunks 1 and 2 provide additional relevant context regarding children's rights and visitation, while Chunks 3 and 4 are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_019",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 125) is successfully retrieved in Chunk 0, which contains the complete information needed to answer the question about the exceptions to the joint exercise of parental authority. The other retrieved chunks are mostly irrelevant noise, but the primary required section is present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_020",
+      "score": 1.0,
+      "reasoning": "The exact required section (Dafa 130) is retrieved in Chunk 0, which contains the complete text needed to answer the question. The other retrieved chunks are from the same chapter regarding parental authority and provide useful legal context without introducing harmful noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_021",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 134) is successfully retrieved in Chunk 2, which contains the precise answer to the question. Although there are several other irrelevant chunks regarding limitation in other chapters (noise), the key information is present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_022",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 144 is retrieved in Chunk 0, which contains the complete information to answer the question, including the specific exception to the rule of keeping accounts. Although Chunks 1 to 4 are irrelevant noise, the primary legal section was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_023",
+      "score": 1.0,
+      "reasoning": "The exact required Section 149 (Dafa 149) is retrieved in Chunk 2, which contains the complete answer regarding the exception to the rule of guardianship not transferring to heirs. Chunk 4 is also highly relevant as it is directly referenced in Section 149, making the retrieval highly complete and accurate.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        2,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_024",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Section 153 (Chunk 0) and its direct exception in Section 155 (Chunk 3). The required Dafa is present, and the chunks contain all the necessary information to answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_025",
+      "score": 1.0,
+      "reasoning": "The exact required Section (Dafa) 157 is retrieved in Chunk 0, which directly addresses the court's power to appoint a Mathabar. The other retrieved chunks (1, 2, 3, and 4) provide highly relevant context regarding Mathabar and guardianship under Chapter 6, making the retrieval perfect and complete.",
+      "num_chunks": 5,
+      "relevant_chunks": 5,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_026",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 162) is retrieved in Chunk 0, which contains the precise exception to the rule (not being liable for property damage caused by disasters). While there are some noisy chunks from other sections, the primary information needed to answer the question is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_027",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 166) is retrieved in Chunk 0, which contains the precise text and information needed to answer the question. The other chunks contain some noise regarding guardianship and curators, but they do not detract from the successful retrieval of the primary required section.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_028",
+      "score": 0.8,
+      "reasoning": "The required Dafa 171 is successfully retrieved in Chunk 0, which contains the exact exceptions to the rule as asked in the question. The other retrieved chunks (1, 2, 3, and 4) are related to adoption but are not directly relevant to Dafa 171, representing some noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_029",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 179) is retrieved in Chunk 0, which perfectly answers the question about the surname of an adopted child. Although Chunks 1, 2, 3, and 4 are noise as they discuss other aspects of adoption, the retrieval is highly successful because the primary target section was found.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_030",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact required Section (Dafa) 183 in Chunk 0, which directly addresses the question. Chunk 2 is also relevant as it explains the applicability of Section 183 to foreign adoptions. The other chunks (1, 3, and 4) are slightly noisy but harmless.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_031",
+      "score": 0.8,
+      "reasoning": "The required Section 187 (Dafa 187) is successfully retrieved in Chunk 2, which contains the exact text and answer to the question. Although the other chunks (0, 1, 3, and 4) are noise as they refer to limitation periods of other chapters, they are semantically similar and do not cause harm.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_032",
+      "score": 0.8,
+      "reasoning": "The required Dafa 192 is successfully retrieved in Chunk 0, which contains the exact text needed to answer the question. While Chunk 2 is irrelevant, other chunks like 1, 3, and 4 provide useful context regarding adoption laws in Nepal.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_033",
+      "score": 1.0,
+      "reasoning": "The exact required section (Dafa 196) is retrieved in Chunk 0, which directly answers the question. Chunk 2 is also highly relevant as it explains the formation of the selection committee mentioned in Dafa 196, while the other chunks provide useful surrounding context on the adoption process.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_034",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 200, which directly explains how the reporting requirement ('विवरण पठाउनु पर्ने') applies to foreign adoptive parents. The other retrieved chunks (1-4) are irrelevant noise, but the primary required section was successfully and completely retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_035",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact text of Dafa 204, which is the required section to answer the question. The other retrieved chunks (1-4) also discuss limitation (हदम्याद) but for different sections, representing some noise, but the primary required section is successfully retrieved at the top.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_036",
+      "score": 0.8,
+      "reasoning": "The retrieved Chunk 0 contains the exact required Dafa 208, which has the complete text needed to answer the question. The other chunks are from the same chapter on partition of property but are not directly relevant to Dafa 208, representing minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_037",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 210) is successfully retrieved in Chunk 0, which contains the complete text needed to answer the question about the exception/limitation. The remaining chunks (1-4) are irrelevant noise, but the presence of the exact required section ensures a high score.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_038",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks contain the exact required section, Dafa 214 (Chunk 2), which directly answers the question about the exception to a widow taking her share and separating. Although there are several irrelevant chunks (0, 1, 3, and 4) representing noise, the critical information is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_039",
+      "score": 1.0,
+      "reasoning": "The exact required section (Dafa 216) is retrieved in Chunk 0, which directly answers the question about how the partition of property is implemented. The other chunks (1, 2, and 3) provide highly relevant context regarding who is considered a coparcener and what constitutes joint property.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_040",
+      "score": 0.8,
+      "reasoning": "The required Dafa 218 is successfully retrieved in Chunk 1, which contains the exact exception to the rule of partition deed registration (subclause 2). The other chunks discuss general deed registration and act as minor noise, but the key information is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_041",
+      "score": 1.0,
+      "reasoning": "The retrieved Chunk 0 contains the exact section (Dafa 220) and subclause (1) requested in the question. Chunk 2 is also relevant as it directly references Dafa 220. The required section was successfully retrieved, providing all the necessary information to answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_042",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact section requested (Dafa 224) in Chunk 0, which contains the complete information to answer the question. The remaining chunks (1-4) are from the same chapter on property partition and provide context, though they are not directly relevant to Dafa 224.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_043",
+      "score": 0.8,
+      "reasoning": "The exact required Section 227 (Dafa 227) is retrieved in Chunk 0, which contains the complete information needed to answer the question. Although Chunks 1 to 4 are irrelevant noise, the primary target section was successfully and accurately retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_044",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 229) is retrieved in Chunk 0, which contains all the necessary information to answer the question. The other chunks (1-4) are irrelevant to Dafa 229, but their presence as noise does not prevent answering the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_045",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 232, which directly addresses the legal consequences of assigning debt during partition without the creditor's consent. Chunk 1 also provides useful context regarding the partition of joint family debt, while the remaining chunks are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_046",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 234, which perfectly answers the question. The other retrieved chunks (1-4) are noise as they discuss different sections and laws, but the retrieval of the exact section makes it highly successful.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_047",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 237 is retrieved in Chunk 0, which contains the precise text and explanation asked in the question. Chunks 1 and 4 provide useful context regarding inheritance (अपुताली), while Chunk 3 is irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_048",
+      "score": 0.2,
+      "reasoning": "The required Dafa 240 is not present in the retrieved chunks, although Chunk 1 mentions it in the header. Since the specific section needed to answer the question is missing, it is impossible to answer the question from the retrieved text.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_049",
+      "score": 0.8,
+      "reasoning": "The required Dafa 242 is successfully retrieved in Chunk 1, which contains both the main rule and its exception (subclause 2) needed to answer the question. Other retrieved chunks are from the same chapter on inheritance, representing minor noise but not detracting from the overall quality.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_050",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 244) is retrieved in Chunk 0, which contains all the necessary information to answer the question. Although Chunks 1 to 4 are irrelevant noise, the presence of the correct section ensures a high score.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_051",
+      "score": 0.8,
+      "reasoning": "The exact required Section 246 (Dafa 246) is retrieved in Chunk 0, which perfectly contains the answer to the question. Chunks 1, 2, and 3 provide highly relevant context from the same chapter on inheritance, while Chunk 4 is slightly off-topic.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_052",
+      "score": 0.8,
+      "reasoning": "The required Dafa 249 is successfully retrieved in Chunk 0 and Chunk 4, which contain the specific rules, procedures, and exceptions regarding the property of a deceased foreigner in Nepal. While Chunks 1, 2, and 3 contain some noise from unrelated sections, the key information needed to answer the question is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_053",
+      "score": 0.8,
+      "reasoning": "The exact required Section (Dafa) 251 is successfully retrieved in Chunk 0, which contains the definition of what is considered property. The other retrieved chunks discuss property ownership and transfer, which are contextually related but act as minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_054",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 253 is retrieved in Chunk 0, which contains the complete definition of immovable property needed to answer the question. Although Chunks 1 to 4 are irrelevant noise, the primary legal section is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_055",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 255) is retrieved in Chunk 0, which directly answers the question about the classification of property based on ownership. Chunk 4 is also relevant as it defines public and community property, which are categories listed under Dafa 255. There is some minor noise in other chunks, but the key information is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_056",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 256 is retrieved in Chunk 2, which contains the complete and precise information needed to answer the question. While Chunks 0 and 1 are somewhat related to property types, Chunks 3 and 4 are irrelevant noise, but they do not detract from the fact that the correct section was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_057",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact required Dafa 270 in Chunk 0, which contains the complete answer to the question. Chunk 2 is also contextually relevant as it covers the conditions for acquiring possession, while the other chunks introduce some noise regarding usufruct and agency.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_058",
+      "score": 0.8,
+      "reasoning": "The exact required Section (Dafa) 282 is retrieved in Chunk 0, which contains the complete information needed to answer the question. While Chunks 1 to 4 are irrelevant noise, the key section is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_059",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 295 is retrieved in Chunk 0, which contains the complete information needed to answer the question. The remaining chunks (1 to 4) are noise related to general land cultivation and irrigation, but they do not detract from the perfect match in Chunk 0.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_060",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact text of Dafa 307, which directly answers the question regarding the exception to the rule of not building structures. Chunk 2 is marginally relevant as it mentions the limitation period for Dafa 307, while the other chunks are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_061",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 319) is retrieved in Chunk 0, which contains the complete information needed to answer the question about the exception to Guthi registration refusal. Chunk 1 is also somewhat relevant as it is referenced in Dafa 319, while Chunks 2, 3, and 4 are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_062",
+      "score": 1.0,
+      "reasoning": "Chunk 0 contains the exact required Dafa 330, which directly answers the question about the responsibilities of Guthi operators in special circumstances. Chunks 2 and 3 are also highly relevant as Dafa 330 explicitly references Dafa 328.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_063",
+      "score": 1.0,
+      "reasoning": "The exact required section (Dafa 342) is retrieved in Chunk 0, which contains the precise text and rules regarding what a Guठी operator must not do. The other retrieved chunks are also highly relevant as they belong to the same chapter on Guठी management and provide necessary context.",
+      "num_chunks": 5,
+      "relevant_chunks": 5,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_064",
+      "score": 1.0,
+      "reasoning": "The retrieval is perfect as Chunk 0 contains the exact required Dafa 354. Additionally, Chunk 1 (Dafa 464) is highly relevant as it explains how the deed for 'faloopabhog' of immovable property must be registered, directly addressing how the provision is applied.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_065",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafa 365 or any information related to the usufructuary returning property. The retrieved chunks focus on mortgage, property transfer, and general property definitions, which are completely irrelevant to the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_066",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 377 is retrieved in Chunk 0, which contains the precise text and answer to the question. The other chunks (1-4) are irrelevant noise, but the key information is perfectly present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_067",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks contain the exact required Dafa 388 in Chunk 0, which directly answers the question. Chunk 2 is also somewhat relevant as it discusses returning the goods mentioned in Dafa 388. Other chunks provide general context on house rent but are slightly noisy.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_068",
+      "score": 0.8,
+      "reasoning": "The required Dafa 400 is perfectly retrieved in Chunk 0, which contains the exact text and conditions asked in the question. The other retrieved chunks (1-4) are from the same chapter on house rent but are not directly relevant to Dafa 400, representing minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_069",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 413 is retrieved in Chunk 0, which perfectly answers the question. Chunk 4 is also highly relevant as it details the process of property transfer under the same chapter, though there is some minor noise in other chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_070",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact required section, Dafa 424, in Chunks 0 and 1, which contains the complete text needed to answer the question. Although Chunks 2, 3, and 4 are irrelevant noise, the primary legal section is fully covered.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_071",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 436 with the correct text regarding the requirement of a written deed for mortgages. Chunks 2 and 3 are also relevant as they belong to the same chapter on mortgages, while Chunks 1 and 4 are minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_072",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact section (Dafa 447) requested in the question, providing the complete answer. The other retrieved chunks (1-4) are from the same or related chapters on property and mortgage but are not directly relevant to Dafa 447, representing some noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_073",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Section 459 (दफा ४५९) or any information regarding pre-emption (हकसफा). The retrieved chunks are completely off-topic, covering agency contracts, private international law, and general property definitions.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_074",
+      "score": 1.0,
+      "reasoning": "The exact required Dafa 472 is retrieved in Chunk 0, which directly answers the question. Additionally, Chunk 1 provides highly relevant context regarding double mortgages and registration priority, while Chunks 2 and 3 explain the process of document registration under the same chapter.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_075",
+      "score": 0.0,
+      "reasoning": "The required Section (Dafa) 484 was not retrieved. Although Chunk 0 mentions Dafa 484 in passing, the actual text and rules of Dafa 484 are completely missing, making it impossible to answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_076",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 485) is retrieved in Chunk 0, which perfectly and directly answers the question. The other retrieved chunks (1 to 4) are about guardianship and are irrelevant, but they do not detract from the fact that the primary required information was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_077",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact required Section 499 (Dafa 499) in Chunk 0, which directly answers the question. The other chunks are from the same chapter on obligations and provide context, though they represent minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_078",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 514 is retrieved in Chunk 0, which contains the complete text needed to answer the question. Although Chunks 1 to 4 are irrelevant noise, the presence of the precise section makes the retrieval highly successful.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_079",
+      "score": 0.8,
+      "reasoning": "The required Dafa 528 is successfully retrieved in Chunk 0, which contains the exact exception to the rule regarding the transfer of rights and liabilities (personal skills/qualifications). While the other retrieved chunks represent noise, the key information is perfectly present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_080",
+      "score": 0.8,
+      "reasoning": "The required Dafa 544 is successfully retrieved in Chunk 2, which contains the exact limitation period of two years for filing a lawsuit. The other chunks contain identical limitation clauses for different sections, representing some noise, but the primary target section is present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_081",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 555) is retrieved in Chunk 0, which contains the complete information needed to answer the question. While the other retrieved chunks (Chunks 1-4) are mostly irrelevant noise, the presence of the exact section ensures high retrieval quality.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_082",
+      "score": 0.6,
+      "reasoning": "The exact required Section 567 is retrieved in Chunk 0, which contains the necessary information to answer the question. However, there is significant noise in the retrieval, as Chunks 1, 3, and 4 are completely unrelated to the topic of guarantee.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_083",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 579) is retrieved in Chunk 0, which directly answers the question. Chunk 2 is also relevant as it covers the liabilities under the same chapter of bailment (नासो). Although there are some irrelevant chunks (1, 3, and 4), the key information is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_084",
+      "score": 0.6,
+      "reasoning": "The exact required section (Dafa 591) is successfully retrieved in Chunk 0, which contains all the necessary information to answer the question. However, there is significant noise as the remaining four chunks (Chunks 1, 2, 3, and 4) are completely irrelevant to agency contracts.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_085",
+      "score": 0.0,
+      "reasoning": "The required Section (Dafa) 602 regarding carriage contracts was not retrieved in any of the chunks. All retrieved chunks (covering Sections 568, 495, 597, 563, and 545) are completely irrelevant to the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_086",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 614 is retrieved in Chunk 0, which contains the complete text needed to answer the question. Chunk 2 is also partially relevant as it references Dafa 614, while the other chunks introduce some noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_087",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 626) is successfully retrieved in Chunk 0, which contains the complete text needed to answer the question. Although Chunks 1, 2, 3, and 4 are irrelevant noise, the presence of the perfect match ensures the question can be fully answered.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_088",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Dafa 637 in Chunk 0, which directly answers the question. Additionally, Chunk 1 contains Dafa 636, which is explicitly referenced in the question and Dafa 637, making the retrieval highly complete and accurate.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_089",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 649) is retrieved in Chunk 0, which contains the complete text needed to answer the question. While the other retrieved chunks (1-4) are mostly noise, the presence of the perfect match ensures the retrieval is highly successful.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_090",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 661 is retrieved in Chunk 0, which contains the complete text needed to answer the question. The remaining chunks (1-4) are irrelevant noise, but they do not affect the completeness of the key section retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_091",
+      "score": 1.0,
+      "reasoning": "The retrieved Chunk 0 contains the exact required Dafa 672, which directly answers the question about 'दुष्कृति गरेको मानिने'. The other chunks are related to liability and torts but are not strictly necessary, representing minor, harmless noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_092",
+      "score": 0.8,
+      "reasoning": "The required Dafa 684 is successfully retrieved in Chunk 1, which contains the exact text and answer to the question. The other chunks also discuss limitation periods (हदम्याद) but for different sections, representing minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_093",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required legal section. Chunk 0 contains the exact text of Dafa 685, which directly answers the question about the liability of defective products. The other chunks from the same chapter provide highly relevant legal context.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_094",
+      "score": 0.8,
+      "reasoning": "The exact required Dafa 694 is retrieved in Chunk 0, which perfectly contains the legal provisions regarding the disappearance or presumed death of a foreign national. Although the other retrieved chunks (1, 2, 3, and 4) are mostly noise, the retrieval of the specific requested section is highly successful.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_095",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafa 704. The retrieved chunks discuss unrelated sections such as Dafa 714, 597, 719, 495, and 487, making it impossible to answer the question about the exception to guardian determination under Dafa 704.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_096",
+      "score": 1.0,
+      "reasoning": "The exact required section (Dafa 712) is retrieved in Chunk 0, which contains the precise text and provisions asked about in the question. The retrieval is highly accurate with minimal noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "civil_new_097",
+      "score": 0.8,
+      "reasoning": "The required Section 721 is successfully retrieved in Chunk 1, which contains the exact text needed to answer the question about the exception to the applicability of the chapter (public order). While Chunks 0 and 2 provide some context on private international law, Chunks 3 and 4 are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_001",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Section 1 (Dafa 1) of the Domestic Violence Act, which is directly asked about in the question. Chunk 1 provides useful context regarding the Act's preamble and amendments, while the remaining chunks are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_002",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 2 (definitions) of the Domestic Violence Act in Chunks 0 and 1, which directly answers the question. Chunks 2, 3, and 4 are irrelevant but do not detract from the completeness of the required section.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_003",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly address the query. Chunk 0 contains the exact text of Dafa 3 mentioned in the question, and Chunk 4 (Dafa 4) details the exact legal process ('उजुरी गर्ने') that the victim or authorities must follow, making the retrieval highly relevant and complete.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_004",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the required Dafa 4 (Chunks 1 and 2), which contains the exact text mentioned in the question. Chunk 0 is also relevant as it references Dafa 4. There is some minor noise in Chunk 4, but the key information is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_005",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Dafa 5 (Chunk 0), which contains the exact text mentioned in the question. Additionally, Chunk 1 provides the necessary context for Section 4, sub-section (11), which is referenced in both the question and Dafa 5.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_006",
+      "score": 1.0,
+      "reasoning": "The exact required section (Dafa 5ka) is retrieved in Chunk 0, which directly contains the answer to the question. Additionally, Chunks 3 and 4 contain Dafas 4 and 5, which are explicitly referenced in Dafa 5ka, providing complete and highly relevant context.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_007",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required section (Dafa 6) which directly answers the question about interim protective orders. The other retrieved chunks are from the same Act but are not directly relevant to this specific query, representing some noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_008",
+      "score": 0.8,
+      "reasoning": "The required Dafa 6ka is successfully retrieved in Chunk 0, which directly contains the exact legal provision regarding the appointment of a legal practitioner by the victim. Although Chunks 2, 3, and 4 are irrelevant noise, the primary required section is present and accurate.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_009",
+      "score": 0.8,
+      "reasoning": "The required Dafa 7 is successfully retrieved in Chunk 0, which contains the exact text needed to answer the question. Other chunks from the Domestic Violence Act provide some context, though Chunk 3 is irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_010",
+      "score": 0.8,
+      "reasoning": "The retrieved Chunk 0 contains the exact required section (Dafa 8) which directly answers the question about adopting summary procedures under the Domestic Violence Act. The other chunks are from the same Act but are not directly relevant, representing minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_011",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 9) is retrieved in Chunk 0, which directly explains the legal effect of treatment costs being borne by the perpetrator. Chunk 2 is also relevant as it defines key terms used in Dafa 9, such as 'victim', 'perpetrator', and 'local level', while the remaining chunks are minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_012",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 10) is retrieved in Chunk 0, which perfectly answers the question. The other retrieved chunks (1-4) are irrelevant noise but do not detract from the completeness of the answer.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_013",
+      "score": 0.8,
+      "reasoning": "The required Dafa 11 is successfully retrieved in Chunk 0, which directly addresses the establishment and functions of the service center for victim protection. Chunk 3 is also partially relevant as it mentions the service center's role in treatment expenses, while the other chunks represent minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_014",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 12) is retrieved in Chunk 0, which contains the text mentioned in the question. Chunk 1 is also highly relevant as it provides context for Dafa 11, which is referenced in the question. The remaining chunks are noise but do not detract from the completeness of the retrieved information.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_015",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 12ka) regarding the Protection Officer (संरक्षण अधिकृत) is successfully retrieved in Chunk 0, which directly answers the question. While the other retrieved chunks (1-4) are from the same Act, they are not directly relevant to this specific section, representing some noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_016",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 12B) is retrieved in Chunk 0, which contains the complete text and directly answers the question. The other retrieved chunks are from the same Act but are not directly relevant to the specific query, representing minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_017",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required section (Dafa 12ग) and directly answers the question. The other retrieved chunks are irrelevant noise, but the key information is perfectly retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_018",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks contain the required Dafa 13 (Chunk 1) which defines the offense, and Dafa 5क (Chunk 0) which specifically outlines the procedure (filing a complaint/jaheri) for this exact offense. Chunk 3 also provides general complaint procedures, making the retrieval highly complete and relevant.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_019",
+      "score": 0.8,
+      "reasoning": "Chunk 0 is highly relevant as it contains the exact text of Dafa 14 from the Domestic Violence (Offence and Punishment) Act, 2066, which directly answers the question. The other retrieved chunks from the Civil Code are irrelevant noise, but the key required section was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_020",
+      "score": 1.0,
+      "reasoning": "Chunk 0 contains the exact section (Dafa 15) required to answer the question, matching the prompt's quote perfectly. The other retrieved chunks are from the same Act and do not detract from the highly relevant primary retrieval.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_021",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 16) is successfully retrieved in Chunk 0, which contains the precise text needed to explain the legal meaning and effect. While the other retrieved chunks (1, 2, 3, and 4) are noise, they do not detract from the fact that the primary source of information was perfectly retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_022",
+      "score": 0.8,
+      "reasoning": "The exact required section (Dafa 17) is retrieved in Chunk 0, which perfectly answers the question about the power to make rules. The other retrieved chunks (1, 2, 3, and 4) are irrelevant noise, but they do not detract from the fact that the primary required information was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_023",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly address the question. Chunks 0 and 1 contain Dafa 2, which defines 'domestic violence' and related terms, while Chunk 3 (Dafa 4) details the exact procedure that victims and authorities must follow when domestic violence occurs. All retrieved chunks are highly relevant with no noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 5,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_024",
+      "score": 0.8,
+      "reasoning": "The retrieved Chunk 0 contains the exact quote from the question and belongs to the required Dafa 3 of the Domestic Violence Act, 2066. Although Chunks 1 to 4 are irrelevant noise, the key information needed to answer the question is perfectly captured in Chunk 0.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_025",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence Act, which contains the exact phrase mentioned in the question. Chunk 0 directly answers the question by explaining the procedure for registering written or oral complaints. Chunks 2, 3, and 4 are less relevant but do not detract from the overall quality.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_026",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Dafa 5 (Chunk 0) which contains the exact text mentioned in the question. Additionally, Chunk 3 (Dafa 5क) and Chunks 1-2 (Dafa 4) provide the necessary context and exceptions related to filing complaints directly to the court.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_027",
+      "score": 0.8,
+      "reasoning": "The retrieved Chunk 0 contains the exact section (Dafa 5क) and the specific text mentioned in the question. While the other chunks (1-4) are mostly noise, the retrieval is highly successful because the key required section was successfully retrieved and contains the complete answer.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_028",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required legal section (Dafa 6 of the Domestic Violence Act, 2066) which directly addresses the conditions mentioned in the question. Although Chunks 1 to 4 are irrelevant noise, the primary required information is perfectly retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_029",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact text and answer from Dafa 7 of the Domestic Violence (Offense and Punishment) Act, 2066, which is the required section. The other chunks (1-4) are irrelevant noise from the Civil Code, but the presence of the exact required section ensures the question can be fully answered.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_030",
+      "score": 0.8,
+      "reasoning": "The retrieved Chunk 0 contains the exact required Dafa 9, which directly answers the question regarding the perpetrator bearing the treatment expenses when a victim is hospitalized due to mental or physical disability. While the other chunks (1-4) are noise, the key legal section is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_031",
+      "score": 1.0,
+      "reasoning": "Chunk 0 contains the exact text of Dafa 11, including the specific subclause (1क) mentioned in the question. Chunk 1 is also highly relevant as it explains the financial and operational implications (Service Fund) of the service centers established under Dafa 11.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_032",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the required Dafa 12 (Chunk 0), which directly answers the question regarding the management of service centers. Chunk 1 (Dafa 11) is also highly relevant as it provides the necessary context for the sub-sections mentioned in the query. The remaining chunks are irrelevant noise but do not detract from the overall high quality of the retrieval.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_033",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly cover both aspects of the question. Chunk 0 contains the exact quote from Dafa 13 (the required Dafa), and Chunk 3 contains Dafa 4, which outlines the detailed procedure (उजुरी गर्ने प्रक्रिया) that the victim and authorities must follow.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_034",
+      "score": 0.6,
+      "reasoning": "Chunk 0 is highly relevant as it contains the exact definition of 'domestic relationship' from Section 2 of the Domestic Violence (Offence and Punishment) Act, 2066. However, the remaining chunks (1-4) are irrelevant noise focusing on adoption under the Civil Code.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_035",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence (Offense and Punishment) Act, 2066. Chunk 0 contains the exact subclause (3) needed to answer the question regarding complaints registered at the National Women's Commission. Chunks 2, 3, and 4 are less relevant but do not detract from the completeness of the retrieval.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_036",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly address the question. Chunk 0 contains the exact text of Dafa 6, clause (1)(ख) regarding treatment and expenses, which is the core of the query. Chunks 1 and 2 provide highly relevant context regarding treatment expenses and immediate medical care for victims.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_037",
+      "score": 0.8,
+      "reasoning": "The required Dafa 9 is successfully retrieved in Chunk 0, which contains the exact text and sub-section (3) asked about in the question. The other chunks (1-4) are irrelevant noise but do not detract from the fact that the primary source is present.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_038",
+      "score": 0.8,
+      "reasoning": "The required Dafa 11 is successfully retrieved in Chunk 0, which directly addresses the transfer and operation of service centers by provincial or local governments. Chunk 1 is also relevant as it discusses the funding of these transferred centers, while the remaining chunks are noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_039",
+      "score": 0.6,
+      "reasoning": "The exact required section (Dafa 12 of the Domestic Violence Act, 2066) containing the query text is successfully retrieved in Chunk 0. However, there is significant noise as Chunks 1 to 4 are completely irrelevant to the query, dealing with unrelated provisions of the Civil Code.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_040",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the required Dafa 13 (Chunk 0), which directly answers the question by stating that an accomplice, abettor, or attempter of domestic violence receives half the punishment of the main offender. Chunk 1 is also relevant as it prohibits these acts, while the remaining chunks are noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_041",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact definition of 'physical torture' (शारीरिक यातना) under Section 2 (ग) of the Domestic Violence Act, which perfectly answers the question. Chunk 1 is also from Section 2 but covers other definitions, while Chunks 2, 3, and 4 are less relevant but do not detract from the fact that the required section was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_042",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Dafa 4. Chunk 0 contains the exact phrase from the question and provides the complete answer regarding the 24-hour timeline for summoning the perpetrator. Chunk 2 also provides additional relevant subclauses of Dafa 4.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_043",
+      "score": 0.8,
+      "reasoning": "The required Dafa 6 is successfully retrieved in Chunk 0, which contains the exact provision regarding separate living arrangements for the perpetrator. Chunk 1 is also somewhat relevant as it details the complaint process, while Chunks 2, 3, and 4 are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_044",
+      "score": 0.8,
+      "reasoning": "The required Dafa 11 is successfully retrieved in Chunk 0, which contains the exact text mentioned in the question. Chunk 1 is also somewhat relevant as it discusses the funding of these service centers, while Chunks 2, 3, and 4 are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_045",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 12, which directly answers the question regarding the source of funds for the Service Fund. The other retrieved chunks are irrelevant noise, but the key information is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_046",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 13 (Chunk 0), which contains the exact clause regarding double punishment for repeat offenses. While Chunks 1 to 4 are mostly noise, the key information required to answer the question is perfectly captured in Chunk 0.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_047",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact definition of 'mental torture' (मानसिक यातना) from Dafa 2 of the Domestic Violence Act, which directly answers the question. Chunk 1 is also from Dafa 2 but covers other definitions, while the remaining chunks are noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_048",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence (Offence and Punishment) Act, 2066 (Chunks 0 and 3), which directly answers the question regarding the procedure when a complaint is registered at the local level. Although Chunks 1, 2, and 4 are irrelevant noise from the Civil Code, the core required legal provisions are fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_049",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact required Dafa 6 of the Domestic Violence Act, which directly answers the question regarding the circumstances under which the court can issue an interim protective order. While Chunks 2, 3, and 4 are irrelevant noise, the key section was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_050",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the required Dafa 11 (Chunk 0), which contains the exact sub-sections (1a) and (1b) mentioned in the question and provides the legal conclusion regarding monitoring. Chunk 1 is also highly relevant as it discusses the service fund for these centers. The remaining chunks (2, 3, and 4) are noise but do not detract from the completeness of the answer.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_051",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include the exact required Section 12 (Chunk 0), which contains the specific clause mentioned in the question. Section 11 (Chunk 2) is also relevant as it links to the service fund, while the other chunks are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_052",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact text and answer from Dafa 13 regarding the additional punishment for public officials committing domestic violence. While the other retrieved chunks are mostly noise, the key required section was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_053",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 2 of the Domestic Violence (Offence and Punishment) Act, 2066 (Chunks 0 and 1), which is the required Dafa. However, the specific sub-clause (ङ) defining 'sexual torture' is missing from the text, and Chunks 2, 3, and 4 are completely irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_054",
+      "score": 1.0,
+      "reasoning": "The retrieved Chunk 0 contains the exact required Section 4 (दफा ४) of the Domestic Violence (Offence and Punishment) Act, 2066, which includes the exact phrase mentioned in the question. Chunk 1 also provides relevant context regarding interim protective orders and treatment, while the other chunks are harmless noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_055",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 6 (Chunk 0), which contains the exact phrase and legal provision mentioned in the question regarding interim protective orders. While the other chunks (1-4) are from the same Act, they are less relevant to this specific query, representing minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_056",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required Dafa 11 (Chunk 0) and the referenced Dafa 12 (Chunk 1), which are directly needed to explain the legal meaning and effect of the specified clause. The other chunks are minor noise but do not detract from the highly relevant top results.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_057",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact section (Dafa 13) and the specific text mentioned in the question, providing the complete answer. While the other retrieved chunks are irrelevant noise, the primary required information is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_058",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 2 of the Domestic Violence (Offense and Punishment) Act, 2066, which contains the definition of 'economic torture' (आर्थिक यातना) in Chunk 0 and other relevant definitions in Chunk 1. However, there is significant noise from unrelated civil code sections (Chunks 2, 3, and 4), and the actual procedural steps (which are in other sections of the Act) are missing.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_059",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks contain the required Dafa 4 (Chunk 0) as well as Dafa 6 (Chunk 1), which directly contains the information needed to answer the question regarding interim protection for victims and dependents. Chunks 2, 3, and 4 are irrelevant noise from the Civil Code, but the key information is successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_060",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture the required legal section. Chunk 1 contains Dafa 6, which explicitly includes the exact phrase 'पीडितको हित र सुरक्षाको निमित्त अन्य आवश्यक र उपयुक्त कुरा गर्न गराउन' under the provision for issuing interim protective orders.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_061",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact text of Dafa 11, which is the required section and directly answers the question by providing the complete sentence. Chunk 4 is also somewhat relevant as it discusses the funding for these service centers, while the other chunks are noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_062",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact definition of 'victim' (पीडित) from Dafa 2 of the Domestic Violence Act, which directly answers the question. The required Dafa 2 was successfully retrieved, although the other chunks (1-4) are less relevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_063",
+      "score": 0.4,
+      "reasoning": "Although Dafa 4 is retrieved in Chunk 0, it is truncated and only contains sub-sections 1 to 6. The specific text mentioned in the question resides in sub-section 7 of Dafa 4, which is missing from the retrieved chunks, making it impossible to answer the question. Additionally, the other retrieved chunks (1, 2, 3, 4) are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_064",
+      "score": 0.8,
+      "reasoning": "Chunk 0 is highly relevant as it contains the exact text from the question and represents Dafa 6 of the Domestic Violence (Offence and Punishment) Act, 2066. The other chunks (1-4) are irrelevant noise from the Civil Code, but they do not detract from the fact that the correct section was successfully retrieved.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_065",
+      "score": 1.0,
+      "reasoning": "The required Dafa 11 is successfully retrieved in Chunk 0, which directly discusses the establishment, operation, and monitoring of service centers (सेवा केन्द्र). Chunk 1 is also highly relevant as it discusses the service fund (सेवा कोष) used for managing and operating these service centers.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_066",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact definition of 'perpetrator' (पीडक) under Section 2 (ज) of the Domestic Violence Act, which is the focus of the question. The other retrieved chunks are from the same Act but are not directly relevant to the definition, representing minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_067",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence Act, with Chunk 0 containing the exact sub-section (9) mentioned in the question. While there are some irrelevant chunks (1, 3, and 4), the key information is fully present in the retrieved context.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_068",
+      "score": 0.8,
+      "reasoning": "The required Dafa 2 is successfully retrieved in Chunk 0, which contains the exact definition of 'प्रहरी कार्यालय' as queried. While the other retrieved chunks are irrelevant noise, the presence of the exact required section ensures the core question can be answered.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_069",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence (Offence and Punishment) Act, 2066, which contains the exact provision mentioned in the question (specifically in Chunk 0, subclause 10). Chunks 0 and 1 are highly relevant, while Chunk 4 is irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_070",
+      "score": 0.8,
+      "reasoning": "Chunk 0 contains the exact definition of 'Local Level' (स्थानीय तह) from Section 2 (दफा २) as requested in the question. The required Dafa 2 is successfully retrieved, though there are some extra, less relevant chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_071",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence Act, which is the required section. Chunk 0 contains subclause (11) with the exact phrase from the question, and Chunk 4 contains subclauses (4) and (5) which are referenced in that phrase. Chunks 1, 2, and 3 are irrelevant noise but do not detract from the completeness of the required information.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_072",
+      "score": 0.2,
+      "reasoning": "Although Chunk 0 is from the correct Section (Dafa 2), it only contains subclauses (च) through (ञ) and does not include the definition of 'अदालत' (Court). Therefore, the retrieved chunks do not contain the information necessary to answer the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_073",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include Dafa 4 of the Domestic Violence (Offence and Punishment) Act, 2066, which is the required section. Chunk 0 and Chunk 1 contain the relevant sub-sections (including sub-section 5 and the beginning of sub-section 12) needed to address the question, though there is some noise in Chunks 2, 3, and 4.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_074",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks include Dafa 2 of the Domestic Violence (Offence and Punishment) Act, 2066 (Chunk 0), which is the correct section. However, the chunk is truncated and does not contain the specific definition of 'उजुरी' (complaint) asked in the question, while the remaining chunks are irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "dv_new_075",
+      "score": 0.4,
+      "reasoning": "Although Dafa 2 (the required section) is retrieved in Chunk 0, the text is truncated and does not contain the specific definition of 'तोकिएको' or 'तोकिए बमोजिम' needed to answer the question. The remaining chunks (1, 2, 3, and 4) are irrelevant to the definition query, resulting in significant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_001",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required sections (Dafa 2 and 91) or any relevant information regarding deprivation of economic resources and employment stoppage. The retrieved chunks discuss unrelated topics such as service funds, adoption, hire purchase, and parental authority.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_002",
+      "score": 0.6,
+      "reasoning": "Dafa 2 of the Domestic Violence Act is successfully retrieved in Chunk 2, which defines economic violence. Chunks 0 and 1 are also relevant to immediate treatment and protection. However, Dafa 91 (likely from the Civil Code regarding civil remedies) is missing, making the retrieval incomplete.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_003",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas (2 and 91) or any information relevant to the deprivation of economic resources and restriction of employment. The retrieved chunks discuss unrelated topics such as adoption, partition of property, hire purchase, and a service fund.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_004",
+      "score": 0.6,
+      "reasoning": "Chunk 0 successfully retrieves Dafa 2 of the Domestic Violence Act, which defines physical and mental torture. However, the required Dafa 95 of the Civil Code (regarding grounds for divorce) is missing, although Chunk 1 (Dafa 213) provides some related context on separation due to torture.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_005",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 2 of the Domestic Violence Act (Chunk 2), which defines physical and mental torture. Chunk 1 is also relevant for immediate protection, and Chunk 3 covers civil remedies (partition of property). However, the required Dafa 95 (grounds for divorce) is missing from the retrieved chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_006",
+      "score": 0.6,
+      "reasoning": "Dafa 2 of the Domestic Violence Act is successfully retrieved (Chunk 3), which defines physical and mental torture. Other chunks (0, 1, 2) provide relevant procedures and remedies for domestic violence. However, the required Dafa 95 of the Civil Code regarding grounds for divorce is missing, with Chunk 4 instead covering partition of property.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_007",
+      "score": 0.4,
+      "reasoning": "While Dafa 3 of the Domestic Violence Act was successfully retrieved in Chunk 0, the other required section, Dafa 86 (which relates to the mutual obligations of husband and wife under the Civil Code), is completely missing. This makes the retrieval incomplete for answering a question that involves both Acts.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_008",
+      "score": 0.4,
+      "reasoning": "While Dafa 3 of the Domestic Violence Act was successfully retrieved in Chunk 2, the other required section, Dafa 86 (which relates to the mutual obligations of husband and wife under the Civil Code), is completely missing. Consequently, the retrieval only covers the domestic violence aspect and fails to provide the necessary context for the civil law remedies.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_009",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks only cover the Domestic Violence (Offence and Punishment) Act, 2066, including the required Dafa 3. However, they completely fail to retrieve any chunks from the Muluki Civil Code, 2074, specifically missing the required Dafa 86 regarding the mutual obligations of husband and wife, which is essential to answer the comparative question about both Acts.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_010",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 96 (Chunk 0) which is one of the required sections. However, Dafa 4 of the Domestic Violence Act, which is crucial for answering the complaint aspect of the question, is missing from the retrieved chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_011",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly cover the required legal provisions. Chunk 1 contains Dafa 4 of the Domestic Violence Act regarding filing complaints, and Chunk 2 contains Dafa 96 of the Civil Code regarding filing for divorce. The other chunks provide highly relevant context on treatment expenses and divorce proceedings.",
+      "num_chunks": 5,
+      "relevant_chunks": 5,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_012",
+      "score": 0.6,
+      "reasoning": "The retrieved chunks successfully include Dafa 96 (Chunk 1) regarding the divorce application process, along with related procedures in Chunks 0 and 2. However, they fail to retrieve Dafa 4 of the Domestic Violence Act, which is crucial for explaining the filing of domestic violence complaints, making the retrieval incomplete.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_013",
+      "score": 0.6,
+      "reasoning": "Dafa 5क regarding filing a complaint for domestic violence was successfully retrieved in Chunk 0. However, Dafa 95, which is required to address the divorce grounds aspect of the question, was not retrieved, making the retrieval incomplete.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_014",
+      "score": 0.6,
+      "reasoning": "Dafa 5क (Chunk 1) regarding filing a complaint for severe domestic violence is successfully retrieved, and Dafa 4 (Chunk 2) is also relevant for immediate protection. However, Dafa 95 (grounds for divorce) is completely missing from the retrieved chunks, making the retrieval incomplete for answering the entire question.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        1,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_015",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks only contain Dafa 5ka regarding domestic violence complaints (Chunk 0), but completely miss Dafa 95 which is required to address the divorce grounds aspect of the question. There is also significant noise from unrelated sections.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_016",
+      "score": 0.8,
+      "reasoning": "The retrieval successfully fetched both required sections: Dafa 6 of the Domestic Violence Act (Chunk 0) regarding interim protection, and Dafa 99 of the Civil Code (Chunk 2) regarding property division before divorce. Although there are some irrelevant chunks (Chunks 1, 3, and 4) representing noise, the core information needed to answer the question is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_017",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks only contain Dafa 6 of the Domestic Violence Act, which covers interim protection. However, Dafa 99 of the Civil Code, which is required to explain partition of property before divorce, is completely missing. There is also significant noise from unrelated sections of the Civil Code.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_018",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully contain both required sections: Dafa 6 of the Domestic Violence Act (Chunk 1) regarding interim protection, and Dafa 99 of the Civil Code (Chunk 3) regarding partition of property before divorce. Although there are some extra chunks (Chunks 0, 2, and 4) that introduce minor noise, the core information needed to compare these two remedies is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        1,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_019",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully contain both required sections: Dafa 100 of the Civil Code (Chunk 0) regarding lump sum or monthly payments in divorce, and Dafa 6 of the Domestic Violence Act (Chunk 1) regarding immediate maintenance of the victim. While there are some irrelevant chunks (Chunks 2 and 4), the key information is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_020",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include both required sections: Dafa 6 of the Domestic Violence Act (Chunk 2) regarding immediate maintenance/protection, and Dafa 100 of the Civil Code (Chunk 1) regarding lump-sum or monthly payments in divorce. While Chunks 3 and 4 represent irrelevant noise, the key information needed to answer the question is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_021",
+      "score": 1.0,
+      "reasoning": "The retrieved chunks perfectly capture both required sections: Section 100 of the Civil Code (Chunk 0) regarding lump-sum/monthly payments in divorce, and Section 6 of the Domestic Violence Act (Chunk 1) regarding interim maintenance. Chunks 2 and 3 provide highly relevant context on treatment expenses and property partition, while Chunk 4 is minor, harmless noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 4,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_022",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks do not contain the required Dafa 6 (immediate protection) or Dafa 115 (custody of minors after divorce). Chunk 3 (Dafa 116) is partially relevant as it discusses the care of minors after custody is assigned under Dafa 115, but the core sections needed to fully answer the question are missing.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_023",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required legal sections (Dafa 6 of the Domestic Violence Act regarding interim protection and Dafa 115 of the Civil Code regarding custody of minors after divorce). The retrieved chunks focus on treatment expenses, filing complaints, and legal aid, which do not address the core question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_024",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks do not contain the required Dafa 6 (Domestic Violence Act) or Dafa 115 (Muluki Devani Samhita). However, Chunk 4 (Dafa 116) is closely related to custody maintenance, and Chunk 3 (Dafa 4) covers domestic violence complaints, making the retrieval partially relevant but missing key sections.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        3,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_025",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include both required sections: Dafa 9 of the Domestic Violence Act (Chunk 0) regarding treatment costs for domestic violence, and Dafa 101 of the Civil Code (Chunk 3) regarding post-divorce maintenance. Although there are some irrelevant chunks (Chunks 1, 2, and 4), the core information needed to answer the question is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_026",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks successfully include Dafa 9 of the Domestic Violence Act (Chunk 0) regarding treatment expenses, but completely miss Dafa 101 of the Civil Code, which is required to answer the part of the question about maintenance after divorce. Additionally, there is significant noise from unrelated sections of the Civil Code (Chunks 1, 3, and 4).",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_027",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks successfully include Dafa 9 of the Domestic Violence Act (Chunk 0) regarding treatment expenses. However, they completely fail to retrieve Dafa 101 of the Civil Code, which is required to answer the second part of the question about maintenance after divorce, and the remaining chunks are mostly irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        0
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_028",
+      "score": 0.8,
+      "reasoning": "Both required sections, Dafa 10 of the Domestic Violence Act (Chunk 0) and Dafa 99 of the Civil Code (Chunk 3), were successfully retrieved. These chunks contain the exact legal provisions needed to compare domestic violence compensation and partition of property before divorce. Other chunks provide some minor noise but do not affect the completeness of the retrieval.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_029",
+      "score": 0.4,
+      "reasoning": "The retrieval is only partially successful. While Dafa 10 of the Domestic Violence Act (Chunk 2) regarding compensation was successfully retrieved, the other required section, Dafa 99 (relating to partition of property before divorce), is completely missing from the retrieved chunks, making it impossible to fully answer the comparative question.",
+      "num_chunks": 5,
+      "relevant_chunks": 1,
+      "relevant_chunk_indices": [
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_030",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include both required sections: Dafa 10 of the Domestic Violence Act (Chunk 0) regarding compensation, and Dafa 99 of the Civil Code (Chunk 3) regarding partition of property before divorce. These chunks contain the exact information needed to compare the two rights, although some extra chunks are present as minor noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        3
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_031",
+      "score": 0.4,
+      "reasoning": "Dafa 11 regarding service centers was successfully retrieved in Chunk 0, but the required Dafa 116 regarding the long-term care of minors is missing. Chunk 1 provides some context on minors but is not the required section, and there is significant noise in the other chunks.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        2
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_032",
+      "score": 0.6,
+      "reasoning": "The retrieval successfully fetched Dafa 11 of the Domestic Violence Act (Chunk 0), which is highly relevant. However, the other required section, Dafa 116 of the Civil Code, is missing, and Chunk 4 is completely irrelevant noise.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_033",
+      "score": 0.4,
+      "reasoning": "The retrieval successfully found Dafa 11 (Chunk 0) regarding service centers, but completely missed the required Dafa 116 which is necessary to address the long-term care of minors. Chunk 1 discusses minor care under a different section (Dafa 198), resulting in incomplete information to answer the comparative question.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        1
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_034",
+      "score": 0.8,
+      "reasoning": "The retrieved chunks successfully include both required sections: Dafa 13 of the Domestic Violence Act (Chunk 0) and Dafa 95 of the Civil Code (Chunk 4), which directly address domestic violence punishment and the wife's right to divorce. While there are some extra chunks regarding general divorce procedures, the core information is fully present.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        0,
+        4
+      ],
+      "required_dafa_found": true,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_035",
+      "score": 0.6,
+      "reasoning": "The retrieval successfully fetched Dafa 13 regarding domestic violence punishment, but failed to retrieve the required Dafa 95 regarding the wife's right to divorce, although closely related sections (93, 94) were retrieved. Chunks 1, 2, and 3 provide useful context for domestic violence punishment and divorce, but the retrieval is incomplete.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_036",
+      "score": 0.6,
+      "reasoning": "Dafa 13 of the Domestic Violence Act was successfully retrieved in Chunk 0, but the required Dafa 95 of the Civil Code (wife's right to divorce) is missing. Other retrieved chunks provide useful context on divorce procedures and property division (Dafa 97, 98, 99), making the retrieval partially complete but lacking a key section.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_037",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required sections (Dafa 14 and Dafa 104) or any information regarding the limitation periods (हदम्याद) for domestic violence or divorce. The retrieved chunks are completely off-topic, focusing instead on definitions, prohibitions, and punishments.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_038",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required sections (Dafa 14 of the Domestic Violence Act and Dafa 104 of the Civil Code) or any information regarding the limitation periods (हदम्याद) for domestic violence and divorce. The retrieved chunks are completely off-topic, focusing instead on treatment expenses, complaint filing procedures, and definitions.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_039",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required sections (Dafa 14 of the Domestic Violence Act and Dafa 104 of the Civil Code) or any information regarding the limitation periods (हदम्याद) for domestic violence and divorce. The retrieval completely missed the core topic of the question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_040",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas (15 and 96) or any information regarding whether domestic violence proceedings bar a separate divorce petition. The retrieved chunks are completely off-topic or irrelevant to the specific question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_041",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required Dafas (15 and 96) or any information regarding whether domestic violence proceedings bar a separate divorce petition. The retrieved chunks focus on treatment expenses, filing complaints, and punishments, which are irrelevant to the specific question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_042",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks fail to include the required Section 15 of the Domestic Violence Act and Section 96 of the Civil Code, which are critical to answering whether domestic violence proceedings bar a separate divorce petition. While some chunks related to divorce procedures (Sections 97, 98, 99) and domestic violence punishment (Section 13) are retrieved, the core legal provisions addressing the question are missing.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        0,
+        1,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_043",
+      "score": 0.4,
+      "reasoning": "The retrieved chunks do not contain the required Dafa 2 (Domestic Violence Act) and Dafa 115 (Civil Code), which are crucial to answering the question. While some chunks discuss related topics like custody care (Dafa 116) and domestic violence prohibition (Dafa 3), the key legal provisions are missing.",
+      "num_chunks": 5,
+      "relevant_chunks": 3,
+      "relevant_chunk_indices": [
+        1,
+        2,
+        3
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_044",
+      "score": 0.2,
+      "reasoning": "The required Dafas (2 and 115) which address the definition of domestic violence and custody of minors were not retrieved. The retrieved chunks contain other sections like Dafa 4, 9, 10, and 117, which are mostly irrelevant or only tangentially related to the specific question.",
+      "num_chunks": 5,
+      "relevant_chunks": 2,
+      "relevant_chunk_indices": [
+        1,
+        4
+      ],
+      "required_dafa_found": false,
+      "split": "test"
+    },
+    {
+      "id": "cross_new_045",
+      "score": 0.0,
+      "reasoning": "None of the retrieved chunks contain the required legal provisions (Dafa 2 and Dafa 115) necessary to answer the question regarding the custody of a minor in a domestic violence environment. The retrieved chunks focus on compensation, punishment, complaint procedures, and adoption, which are irrelevant to the specific question.",
+      "num_chunks": 5,
+      "relevant_chunks": 0,
+      "relevant_chunk_indices": [],
+      "required_dafa_found": false,
+      "split": "test"
+    }
+  ],
+  "poor_retrievals": [
+    {
+      "id": "dv_p001",
+      "score": 0.4,
+      "question": ""
+    },
+    {
+      "id": "dv_p002",
+      "score": 0.2,
+      "question": ""
+    },
+    {
+      "id": "dv_p010",
+      "score": 0.4,
+      "question": ""
+    },
+    {
+      "id": "cross_p002",
+      "score": 0.0,
+      "question": "पति वा परिवारले महिलालाई रोजगारी गर्न रोक्दै आर्थिक स्रोतबाट वञ्चित गरेमा दुवै ऐनले के संरक्षण दिन्छ"
+    },
+    {
+      "id": "cross_p004",
+      "score": 0.2,
+      "question": "घरेलु हिंसाको जोखिममा रहेको नाबालकलाई तत्काल संरक्षण र सम्बन्ध विच्छेदपछि दीर्घकालीन जिम्मा कसरी छुट"
+    },
+    {
+      "id": "cross_p005",
+      "score": 0.4,
+      "question": "घरेलु हिंसाको कसूरमा कारबाही चलाउँदा पीडितले छुट्टै सम्बन्ध विच्छेदको प्रक्रिया पनि अघि बढाउन सक्छिन"
+    },
+    {
+      "id": "md_0003",
+      "score": 0.4,
+      "question": "बीस वर्ष उमेर पूरा नगरी गरिएको विवाहको कानूनी अवस्था के हुन्छ?"
+    },
+    {
+      "id": "md_0004",
+      "score": 0.2,
+      "question": "जबरजस्ती विवाह भएमा त्यसको कानुनी अवस्था के हुन्छ?"
+    },
+    {
+      "id": "md_0008",
+      "score": 0.4,
+      "question": "पति–पत्नीबीचका प्रमुख पारस्परिक दायित्व र सामान्य घर व्यवहारमा प्रतिनिधित्वको व्यवस्था के छ?"
+    },
+    {
+      "id": "md_0010",
+      "score": 0.0,
+      "question": "पारिवारिक खर्च कसले बेहोर्नु पर्छ?"
+    },
+    {
+      "id": "md_0017",
+      "score": 0.0,
+      "question": "सम्बन्ध विच्छेदपछि भरणपोषणको व्यवस्था के छ?"
+    },
+    {
+      "id": "md_0019",
+      "score": 0.0,
+      "question": "सम्बन्ध विच्छेदपछि सन्तानको अभिभावक को हुन्छ?"
+    },
+    {
+      "id": "md_0023",
+      "score": 0.2,
+      "question": "पति–पत्नीले पारिवारिक खर्च र हेरचाहको दायित्व कसरी पूरा गर्नुपर्छ?"
+    },
+    {
+      "id": "md_0025",
+      "score": 0.0,
+      "question": "सम्बन्ध विच्छेदपछि पत्नीले अंश लिएपछि पुनः भरणपोषण माग्न सक्छिन्?"
+    },
+    {
+      "id": "md_0026",
+      "score": 0.2,
+      "question": "सम्बन्ध विच्छेदपछि सन्तान एक अभिभावकसँग भए अर्को अभिभावकको अधिकार रहन्छ?"
+    },
+    {
+      "id": "md_0030",
+      "score": 0.0,
+      "question": "सम्बन्ध विच्छेद भएपछि छोरीको माइतीतर्फको अंशियार हैसियत समाप्त हुन्छ?"
+    },
+    {
+      "id": "md_0031",
+      "score": 0.4,
+      "question": "पति विदेशमा रहँदा अर्को विवाह गरेको प्रमाणित भए पत्नीले कुन–कुन अधिकार दाबी गर्न सक्छिन्?"
+    },
+    {
+      "id": "md_0038",
+      "score": 0.4,
+      "question": "सम्बन्ध विच्छेदपछि गर्भमा रहेको सन्तानको पितृत्व कसरी निर्धारण हुन्छ?"
+    },
+    {
+      "id": "md_0039",
+      "score": 0.0,
+      "question": "सम्बन्ध विच्छेदपछि पनि सन्तानको शिक्षा र पालनपोषण खर्च कसले बेहोर्छ?"
+    },
+    {
+      "id": "sl_001",
+      "score": 0.0,
+      "question": "दफा ६७ मा के उल्लेख छ?"
+    },
+    {
+      "id": "sl_002",
+      "score": 0.2,
+      "question": "दफा ७० मा विवाहको उमेरसम्बन्धी के व्यवस्था छ?"
+    },
+    {
+      "id": "sl_003",
+      "score": 0.0,
+      "question": "दफा ९४ मा के छ?"
+    },
+    {
+      "id": "sl_004",
+      "score": 0.0,
+      "question": "दफा ९५ मा के उल्लेख गरिएको छ?"
+    },
+    {
+      "id": "md_0054",
+      "score": 0.2,
+      "question": "विवाहको वैधताको लागि आवश्यक कानुनी सर्तहरू के के हुन्?"
+    },
+    {
+      "id": "md_0056",
+      "score": 0.0,
+      "question": "विवाहपछि दम्पतीको सम्पत्ति कसरी व्यवस्थापन हुन्छ?"
+    },
+    {
+      "id": "md_0057",
+      "score": 0.2,
+      "question": "वैवाहिक सम्बन्धमा सहमतिको कानुनी महत्व के हो?"
+    },
+    {
+      "id": "md_0058",
+      "score": 0.0,
+      "question": "सम्बन्ध विच्छेदपछि सम्पत्ति बाँडफाँट कसरी निर्धारण हुन्छ?"
+    },
+    {
+      "id": "md_0062",
+      "score": 0.4,
+      "question": "करार (contract) के हो?"
+    },
+    {
+      "id": "md_0063",
+      "score": 0.2,
+      "question": "करार उल्लंघन भएमा के हुन्छ?"
+    },
+    {
+      "id": "md_0064",
+      "score": 0.0,
+      "question": "मानसिक असन्तुलन विवाहको वैधतामा असर गर्छ?"
+    },
+    {
+      "id": "md_0067",
+      "score": 0.2,
+      "question": "दत्तक ग्रहण (adoption) के हो?"
+    },
+    {
+      "id": "md_0068",
+      "score": 0.0,
+      "question": "दत्तक ग्रहणका लागि के सर्तहरू आवश्यक छन्?"
+    },
+    {
+      "id": "md_0069",
+      "score": 0.4,
+      "question": "सगोलको सम्पत्ति अंशबण्डा गर्दा अंशियारहरूको हिस्सा कसरी निर्धारण हुन्छ?"
+    },
+    {
+      "id": "md_0072",
+      "score": 0.0,
+      "question": "सह-स्वामित्व (joint ownership) कसरी निर्धारण हुन्छ?"
+    },
+    {
+      "id": "md_0076",
+      "score": 0.0,
+      "question": "संयुक्त परिवार प्रणालीमा सम्पत्ति कसरी बाँडिन्छ?"
+    },
+    {
+      "id": "md_0077",
+      "score": 0.0,
+      "question": "नाबालकको कानुनी क्षमता कस्तो हुन्छ?"
+    },
+    {
+      "id": "md_0078",
+      "score": 0.0,
+      "question": "कानुनी उत्तरदायित्व कहिले उत्पन्न हुन्छ?"
+    },
+    {
+      "id": "md_0079",
+      "score": 0.4,
+      "question": "सम्पत्ति लुकाउने कार्यको कानुनी परिणाम के हुन्छ?"
+    },
+    {
+      "id": "md_0083",
+      "score": 0.0,
+      "question": "विवाहमा धोखाधडी भए के कानुनी उपचार हुन्छ?"
+    },
+    {
+      "id": "md_0084",
+      "score": 0.4,
+      "question": "समारोह वा परम्परागत कार्यबाट भएको विवाह र विवाह दर्ताबीच कस्तो सम्बन्ध छ?"
+    },
+    {
+      "id": "md_0087",
+      "score": 0.2,
+      "question": "अदालतमा मुद्दा दायर गर्न समय सीमा हुन्छ?"
+    },
+    {
+      "id": "md_0090",
+      "score": 0.2,
+      "question": "कानुनी सम्झौता कहिले अमान्य हुन्छ?"
+    },
+    {
+      "id": "md_0095",
+      "score": 0.0,
+      "question": "कानुनी उत्तराधिकारी नभए सम्पत्ति के हुन्छ?"
+    },
+    {
+      "id": "md_0099",
+      "score": 0.2,
+      "question": "साक्षी बिना विवाह मान्य हुन्छ?"
+    },
+    {
+      "id": "civil_new_048",
+      "score": 0.2,
+      "question": "दफा 240 को “टाढाको हकवालाले अपुताली पाउने” व्यवस्थाअनुसार “टाढाको हकवालाले अपुताली पाउने : कुनै व्यक"
+    },
+    {
+      "id": "civil_new_065",
+      "score": 0.0,
+      "question": "सम्पत्ति र लिखत कारोबार विषयको दफा 365 मा “फलोपभोगीले सम्पत्ति फिर्ता गर्न सक्ने” सम्बन्धी मुख्य निय"
+    },
+    {
+      "id": "civil_new_073",
+      "score": 0.0,
+      "question": "सम्पत्ति र लिखत कारोबार विषयको दफा 459 मा “हकसफा गर्न नपाउने” सम्बन्धी मुख्य नियमको अपवाद वा सीमा के"
+    },
+    {
+      "id": "civil_new_075",
+      "score": 0.0,
+      "question": "सम्पत्ति र लिखत कारोबार विषयको दफा 484 मा “घरसारमा भएको लिखतको अवधि” सम्बन्धी मुख्य नियमको अपवाद वा "
+    },
+    {
+      "id": "civil_new_085",
+      "score": 0.0,
+      "question": "दायित्व, करार र दुष्कृति विषयको दफा 602 मा “ढुवानी सम्बन्धी करार भएको मानिने” सम्बन्धी मुख्य नियमको "
+    },
+    {
+      "id": "civil_new_095",
+      "score": 0.0,
+      "question": "निजी अन्तर्राष्ट्रिय कानून विषयको दफा 704 मा “संरक्षक वा माथवरको निर्धारण” सम्बन्धी मुख्य नियमको अपव"
+    },
+    {
+      "id": "dv_new_063",
+      "score": 0.4,
+      "question": "घरेलु हिंसा ऐनको दफा 4 मा “उपदफा (४) वा (५) बमोजिमको बयान समेतबाट घरेलु हिंसा भएको देखिएमा र पीडितले"
+    },
+    {
+      "id": "dv_new_072",
+      "score": 0.2,
+      "question": "““अदालत” भन्नाले नेपाल सरकारले नेपाल राजपत्रमा सूचना प्रकाशन गरी तोकेको अदालत सम्झनु पर्छ” भन्ने अवस"
+    },
+    {
+      "id": "dv_new_074",
+      "score": 0.4,
+      "question": "““उजुरी” भन्नाले दफा ४ वा ५ बमोजिम दिइने उजुरी सम्झनु पर्छ र सो शब्दले दफा ५क. बमोजिम दिइने” व्यवस्थ"
+    },
+    {
+      "id": "dv_new_075",
+      "score": 0.4,
+      "question": "कुनै घटनामा ““तोकिएको” वा “तोकिए बमोजिम” भन्नाले यस ऐन अन्तर्गत बनेको नियममा तोकिएको वा तोकिए बमोजिम"
+    },
+    {
+      "id": "cross_new_001",
+      "score": 0.0,
+      "question": "आर्थिक स्रोतबाट वञ्चित र रोजगारी रोकिएको अवस्थामा दुवै ऐनले के भन्छन्?"
+    },
+    {
+      "id": "cross_new_003",
+      "score": 0.0,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: आर्थिक स्रोतबाट वञ्चित र "
+    },
+    {
+      "id": "cross_new_007",
+      "score": 0.4,
+      "question": "पति–पत्नीको पारस्परिक दायित्व उल्लङ्घन गर्दै घरेलु हिंसा गरेमा दुवै ऐनको भूमिका के हुन्छ?"
+    },
+    {
+      "id": "cross_new_008",
+      "score": 0.4,
+      "question": "कल्पना गर्नुहोस्—एउटै घटनामा पीडितले तत्काल सुरक्षा र दीर्घकालीन देवानी उपचार खोजेका छन्। पति–पत्नीक"
+    },
+    {
+      "id": "cross_new_009",
+      "score": 0.4,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: पति–पत्नीको पारस्परिक दाय"
+    },
+    {
+      "id": "cross_new_015",
+      "score": 0.4,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: गम्भीर शारीरिक वा यौनजन्य"
+    },
+    {
+      "id": "cross_new_017",
+      "score": 0.4,
+      "question": "कल्पना गर्नुहोस्—एउटै घटनामा पीडितले तत्काल सुरक्षा र दीर्घकालीन देवानी उपचार खोजेका छन्। अन्तरिम सं"
+    },
+    {
+      "id": "cross_new_022",
+      "score": 0.4,
+      "question": "घरेलु हिंसाबाट नाबालकको तत्काल संरक्षण र सम्बन्ध विच्छेदपछि जिम्मा कसरी छुट्याइन्छ?"
+    },
+    {
+      "id": "cross_new_023",
+      "score": 0.0,
+      "question": "कल्पना गर्नुहोस्—एउटै घटनामा पीडितले तत्काल सुरक्षा र दीर्घकालीन देवानी उपचार खोजेका छन्। घरेलु हिंस"
+    },
+    {
+      "id": "cross_new_024",
+      "score": 0.4,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: घरेलु हिंसाबाट नाबालकको त"
+    },
+    {
+      "id": "cross_new_026",
+      "score": 0.4,
+      "question": "कल्पना गर्नुहोस्—एउटै घटनामा पीडितले तत्काल सुरक्षा र दीर्घकालीन देवानी उपचार खोजेका छन्। घरेलु हिंस"
+    },
+    {
+      "id": "cross_new_027",
+      "score": 0.4,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: घरेलु हिंसाको उपचार खर्च "
+    },
+    {
+      "id": "cross_new_029",
+      "score": 0.4,
+      "question": "कल्पना गर्नुहोस्—एउटै घटनामा पीडितले तत्काल सुरक्षा र दीर्घकालीन देवानी उपचार खोजेका छन्। घरेलु हिंस"
+    },
+    {
+      "id": "cross_new_031",
+      "score": 0.4,
+      "question": "सेवा केन्द्रको सहायता र नाबालकको दीर्घकालीन हेरचाहको दायित्व कसरी फरक छन्?"
+    },
+    {
+      "id": "cross_new_033",
+      "score": 0.4,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: सेवा केन्द्रको सहायता र न"
+    },
+    {
+      "id": "cross_new_037",
+      "score": 0.0,
+      "question": "घरेलु हिंसा र सम्बन्ध विच्छेदसम्बन्धी नालिसका हदम्याद कसरी तुलना हुन्छन्?"
+    },
+    {
+      "id": "cross_new_038",
+      "score": 0.0,
+      "question": "कल्पना गर्नुहोस्—एउटै घटनामा पीडितले तत्काल सुरक्षा र दीर्घकालीन देवानी उपचार खोजेका छन्। घरेलु हिंस"
+    },
+    {
+      "id": "cross_new_039",
+      "score": 0.0,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: घरेलु हिंसा र सम्बन्ध विच"
+    },
+    {
+      "id": "cross_new_040",
+      "score": 0.0,
+      "question": "घरेलु हिंसाको कारबाहीले छुट्टै सम्बन्ध विच्छेद निवेदनलाई रोक्छ कि रोक्दैन?"
+    },
+    {
+      "id": "cross_new_041",
+      "score": 0.0,
+      "question": "कल्पना गर्नुहोस्—एउटै घटनामा पीडितले तत्काल सुरक्षा र दीर्घकालीन देवानी उपचार खोजेका छन्। घरेलु हिंस"
+    },
+    {
+      "id": "cross_new_042",
+      "score": 0.4,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: घरेलु हिंसाको कारबाहीले छ"
+    },
+    {
+      "id": "cross_new_043",
+      "score": 0.4,
+      "question": "आर्थिक वा मानसिक घरेलु हिंसाको वातावरणमा नाबालकको जिम्मा निर्धारण गर्दा कुन दुई कानूनी व्यवस्था सान्"
+    },
+    {
+      "id": "cross_new_044",
+      "score": 0.2,
+      "question": "कल्पना गर्नुहोस्—एउटै घटनामा पीडितले तत्काल सुरक्षा र दीर्घकालीन देवानी उपचार खोजेका छन्। आर्थिक वा "
+    },
+    {
+      "id": "cross_new_045",
+      "score": 0.0,
+      "question": "दुवै ऐनका उद्देश्य, प्रक्रिया र उपचार अलग-अलग छुट्याएर विश्लेषण गर्नुहोस्: आर्थिक वा मानसिक घरेलु हि"
+    }
+  ],
+  "aggregation_policy": {
+    "primary_split": "test",
+    "primary_use": "paper_main_result",
+    "combined_use": "supplementary_only",
+    "out_of_scope_policy": "excluded_from_answer_metric"
+  },
+  "by_split": {
+    "development": {
+      "n_evaluated": 103,
+      "average_score": 0.5223
+    },
+    "test": {
+      "n_evaluated": 217,
+      "average_score": 0.7235
+    },
+    "combined": {
+      "n_evaluated": 320,
+      "average_score": 0.6588
+    }
+  },
+  "primary_split": "test",
+  "combined_average_score": 0.6588,
+  "combined_total_evaluated": 320,
+  "dataset_split_counts": {
+    "development": 103,
+    "test": 217
+  }
+}

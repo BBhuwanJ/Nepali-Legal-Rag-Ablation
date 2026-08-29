@@ -1,0 +1,46 @@
+{
+  "faiss_only": {
+    "hit@1": 0.5714,
+    "hit@5": 0.765,
+    "precision@5": 0.1735,
+    "recall@5": 0.7143,
+    "mrr@5": 0.6404,
+    "complete@5": 0.6636,
+    "n_evaluated": 217,
+    "n_skipped": 25,
+    "k": 5
+  },
+  "bm25_only": {
+    "hit@1": 0.788,
+    "hit@5": 0.9124,
+    "precision@5": 0.2074,
+    "recall@5": 0.8641,
+    "mrr@5": 0.8414,
+    "complete@5": 0.8157,
+    "n_evaluated": 217,
+    "n_skipped": 25,
+    "k": 5
+  },
+  "hybrid": {
+    "hit@1": 0.7327,
+    "hit@5": 0.9217,
+    "precision@5": 0.212,
+    "recall@5": 0.8687,
+    "mrr@5": 0.8073,
+    "complete@5": 0.8157,
+    "n_evaluated": 217,
+    "n_skipped": 25,
+    "k": 5
+  },
+  "routed_hybrid": {
+    "hit@1": 0.7558,
+    "hit@5": 0.9217,
+    "precision@5": 0.2147,
+    "recall@5": 0.8779,
+    "mrr@5": 0.8223,
+    "complete@5": 0.8341,
+    "n_evaluated": 217,
+    "n_skipped": 25,
+    "k": 5
+  }
+}

@@ -1,0 +1,958 @@
+{
+  "recursive": {
+    "primary_split": "test",
+    "by_split": {
+      "development": {
+        "hit@1": 0.534,
+        "hit@5": 0.7961,
+        "precision@5": 0.1994,
+        "recall@5": 0.6594,
+        "mrr@5": 0.6387,
+        "complete@5": 0.5437,
+        "n_evaluated": 103,
+        "n_skipped": 5,
+        "k": 5
+      },
+      "test": {
+        "hit@1": 0.6682,
+        "hit@5": 0.8848,
+        "precision@5": 0.1926,
+        "recall@5": 0.8272,
+        "mrr@5": 0.748,
+        "complete@5": 0.7696,
+        "n_evaluated": 217,
+        "n_skipped": 25,
+        "k": 5
+      },
+      "combined": {
+        "hit@1": 0.625,
+        "hit@5": 0.8562,
+        "precision@5": 0.1948,
+        "recall@5": 0.7732,
+        "mrr@5": 0.7128,
+        "complete@5": 0.6969,
+        "n_evaluated": 320,
+        "n_skipped": 30,
+        "k": 5
+      }
+    },
+    "refusal": {
+      "metric": "deterministic_refusal_compliance",
+      "n": 30,
+      "refused": 5,
+      "refusal_compliance": 0.1667,
+      "by_split": {
+        "development": {
+          "n": 5,
+          "refused": 1,
+          "refusal_compliance": 0.2
+        },
+        "test": {
+          "n": 25,
+          "refused": 4,
+          "refusal_compliance": 0.16
+        }
+      },
+      "per_question": [
+        {
+          "id": "oos_001",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_002",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_003",
+          "split": "development",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "md_0089",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "md_0094",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_001",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_002",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_003",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_004",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_005",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_006",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_007",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_008",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_009",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_010",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_011",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_012",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_013",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_014",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_015",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_016",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_017",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_018",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_019",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_020",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_021",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_022",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_023",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_024",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_025",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        }
+      ],
+      "limitation": "Pattern-based compliance diagnostic; human error analysis is required."
+    }
+  },
+  "dafa": {
+    "primary_split": "test",
+    "by_split": {
+      "development": {
+        "hit@1": 0.5534,
+        "hit@5": 0.8155,
+        "precision@5": 0.2257,
+        "recall@5": 0.6796,
+        "mrr@5": 0.6604,
+        "complete@5": 0.5437,
+        "n_evaluated": 103,
+        "n_skipped": 5,
+        "k": 5
+      },
+      "test": {
+        "hit@1": 0.7281,
+        "hit@5": 0.9078,
+        "precision@5": 0.1908,
+        "recall@5": 0.8618,
+        "mrr@5": 0.7943,
+        "complete@5": 0.8157,
+        "n_evaluated": 217,
+        "n_skipped": 25,
+        "k": 5
+      },
+      "combined": {
+        "hit@1": 0.6719,
+        "hit@5": 0.8781,
+        "precision@5": 0.202,
+        "recall@5": 0.8031,
+        "mrr@5": 0.7512,
+        "complete@5": 0.7281,
+        "n_evaluated": 320,
+        "n_skipped": 30,
+        "k": 5
+      }
+    },
+    "refusal": {
+      "metric": "deterministic_refusal_compliance",
+      "n": 30,
+      "refused": 5,
+      "refusal_compliance": 0.1667,
+      "by_split": {
+        "development": {
+          "n": 5,
+          "refused": 1,
+          "refusal_compliance": 0.2
+        },
+        "test": {
+          "n": 25,
+          "refused": 4,
+          "refusal_compliance": 0.16
+        }
+      },
+      "per_question": [
+        {
+          "id": "oos_001",
+          "split": "development",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_002",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_003",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "md_0089",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "md_0094",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_001",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_002",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_003",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_004",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_005",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_006",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_007",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_008",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_009",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_010",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_011",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_012",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_013",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_014",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_015",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_016",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_017",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_018",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_019",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_020",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_021",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_022",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_023",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_024",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_025",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        }
+      ],
+      "limitation": "Pattern-based compliance diagnostic; human error analysis is required."
+    }
+  },
+  "semantic": {
+    "primary_split": "test",
+    "by_split": {
+      "development": {
+        "hit@1": 0.3883,
+        "hit@5": 0.6019,
+        "precision@5": 0.1359,
+        "recall@5": 0.466,
+        "mrr@5": 0.4591,
+        "complete@5": 0.3301,
+        "n_evaluated": 103,
+        "n_skipped": 5,
+        "k": 5
+      },
+      "test": {
+        "hit@1": 0.553,
+        "hit@5": 0.6774,
+        "precision@5": 0.1382,
+        "recall@5": 0.6336,
+        "mrr@5": 0.5982,
+        "complete@5": 0.5899,
+        "n_evaluated": 217,
+        "n_skipped": 25,
+        "k": 5
+      },
+      "combined": {
+        "hit@1": 0.5,
+        "hit@5": 0.6531,
+        "precision@5": 0.1375,
+        "recall@5": 0.5797,
+        "mrr@5": 0.5534,
+        "complete@5": 0.5062,
+        "n_evaluated": 320,
+        "n_skipped": 30,
+        "k": 5
+      }
+    },
+    "refusal": {
+      "metric": "deterministic_refusal_compliance",
+      "n": 30,
+      "refused": 3,
+      "refusal_compliance": 0.1,
+      "by_split": {
+        "development": {
+          "n": 5,
+          "refused": 2,
+          "refusal_compliance": 0.4
+        },
+        "test": {
+          "n": 25,
+          "refused": 1,
+          "refusal_compliance": 0.04
+        }
+      },
+      "per_question": [
+        {
+          "id": "oos_001",
+          "split": "development",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_002",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_003",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "md_0089",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "md_0094",
+          "split": "development",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_001",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_002",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_003",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_004",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_005",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_006",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_007",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_008",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_009",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_010",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_011",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_012",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_013",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_014",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_015",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_016",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_017",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_018",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_019",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_020",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_021",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_022",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_023",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_024",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_025",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        }
+      ],
+      "limitation": "Pattern-based compliance diagnostic; human error analysis is required."
+    }
+  },
+  "hybrid": {
+    "primary_split": "test",
+    "by_split": {
+      "development": {
+        "hit@1": 0.5728,
+        "hit@5": 0.8641,
+        "precision@5": 0.2382,
+        "recall@5": 0.7144,
+        "mrr@5": 0.6937,
+        "complete@5": 0.5631,
+        "n_evaluated": 103,
+        "n_skipped": 5,
+        "k": 5
+      },
+      "test": {
+        "hit@1": 0.7558,
+        "hit@5": 0.9217,
+        "precision@5": 0.2147,
+        "recall@5": 0.8779,
+        "mrr@5": 0.8223,
+        "complete@5": 0.8341,
+        "n_evaluated": 217,
+        "n_skipped": 25,
+        "k": 5
+      },
+      "combined": {
+        "hit@1": 0.6969,
+        "hit@5": 0.9031,
+        "precision@5": 0.2223,
+        "recall@5": 0.8253,
+        "mrr@5": 0.7809,
+        "complete@5": 0.7469,
+        "n_evaluated": 320,
+        "n_skipped": 30,
+        "k": 5
+      }
+    },
+    "refusal": {
+      "metric": "deterministic_refusal_compliance",
+      "n": 30,
+      "refused": 1,
+      "refusal_compliance": 0.0333,
+      "by_split": {
+        "development": {
+          "n": 5,
+          "refused": 0,
+          "refusal_compliance": 0.0
+        },
+        "test": {
+          "n": 25,
+          "refused": 1,
+          "refusal_compliance": 0.04
+        }
+      },
+      "per_question": [
+        {
+          "id": "oos_001",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_002",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_003",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "md_0089",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "md_0094",
+          "split": "development",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_001",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_002",
+          "split": "test",
+          "refused": true,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_003",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_004",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_005",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_006",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_007",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_008",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_009",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_010",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_011",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_012",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_013",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_014",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_015",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_016",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_017",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_018",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_019",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_020",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_021",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_022",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_023",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_024",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        },
+        {
+          "id": "oos_new_025",
+          "split": "test",
+          "refused": false,
+          "generation_error": false
+        }
+      ],
+      "limitation": "Pattern-based compliance diagnostic; human error analysis is required."
+    }
+  }
+}

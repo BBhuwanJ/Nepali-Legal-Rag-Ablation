@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "total_questions": 242,
+    "answerable_questions": 217,
+    "out_of_scope_questions": 25,
+    "source_qualified_questions": 217,
+    "questions_with_evidence": 217,
+    "questions_with_reviewer": 242,
+    "unique_target_provisions": 129,
+    "errors": 0,
+    "warnings": 0
+  },
+  "distributions": {
+    "sources": {
+      "muluki_ain": 97,
+      "domestic_violence": 75,
+      "both": 45,
+      "none": 25
+    },
+    "domains": {
+      "civil_rights_capacity_and_obligations": 15,
+      "parent_child_and_family_relations": 4,
+      "guardianship_and_curatorship": 8,
+      "adoption": 8,
+      "partition": 11,
+      "succession": 9,
+      "property_and_transactions": 20,
+      "obligations_contracts_and_torts": 17,
+      "private_international_law": 5,
+      "domestic_violence_act": 75,
+      "cross_act_legal_remedies": 45,
+      "outside_admitted_corpus": 25
+    },
+    "difficulty": {
+      "easy": 59,
+      "medium": 83,
+      "hard": 100
+    },
+    "review_status": {
+      "legal_reviewed": 242
+    }
+  },
+  "near_duplicates": [],
+  "manual_findings": [],
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,1761 @@
+{
+  "threshold": 0.65,
+  "evaluated": 217,
+  "high_leakage_count": 125,
+  "high_leakage_rate": 0.576,
+  "by_source": {
+    "muluki_ain": {
+      "n": 97,
+      "mean_question_token_coverage": 0.7346,
+      "high_leakage": 68
+    },
+    "domestic_violence": {
+      "n": 75,
+      "mean_question_token_coverage": 0.742,
+      "high_leakage": 56
+    },
+    "both": {
+      "n": 45,
+      "mean_question_token_coverage": 0.3402,
+      "high_leakage": 1
+    }
+  },
+  "rows": [
+    {
+      "id": "civil_new_001",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6364,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_002",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_003",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8571,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_004",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9231,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_005",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7222,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_006",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6364,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_007",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_008",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8333,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_009",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_010",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6154,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_011",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6364,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_012",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_013",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8462,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_014",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8889,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_015",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6875,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_016",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3571,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_017",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_018",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8462,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_019",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5625,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_020",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.75,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_021",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7857,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_022",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4545,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_023",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.375,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_024",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8333,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_025",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6667,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_026",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_027",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9231,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_028",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6364,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_029",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.875,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_030",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6667,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_031",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8571,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_032",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9167,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_033",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8571,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_034",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_035",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6154,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_036",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8125,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_037",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6923,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_038",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5455,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_039",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9167,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_040",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5556,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_041",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.875,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_042",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9231,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_043",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_044",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 1.0,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_045",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6875,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_046",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7692,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_047",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_048",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9286,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_049",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5556,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_050",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_051",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7778,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_052",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_053",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8462,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_054",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_055",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6429,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_056",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7143,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_057",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_058",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8333,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_059",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9231,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_060",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_061",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4167,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_062",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_063",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8333,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_064",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_065",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4545,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_066",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7059,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_067",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9286,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_068",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9167,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_069",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_070",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6875,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_071",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_072",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9231,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_073",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_074",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9167,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_075",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3636,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_076",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6429,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_077",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_078",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.75,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_079",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4444,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_080",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6667,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_081",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6875,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_082",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6429,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_083",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8667,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_084",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_085",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_086",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7059,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_087",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9333,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_088",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8462,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_089",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9167,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_090",
+      "source": "muluki_ain",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7059,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_091",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8667,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_092",
+      "source": "muluki_ain",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_093",
+      "source": "muluki_ain",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8333,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_094",
+      "source": "muluki_ain",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.875,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_095",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3333,
+      "high_leakage": false
+    },
+    {
+      "id": "civil_new_096",
+      "source": "muluki_ain",
+      "question_type": "section_lookup",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7143,
+      "high_leakage": true
+    },
+    {
+      "id": "civil_new_097",
+      "source": "muluki_ain",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.25,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_001",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_002",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7778,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_003",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5833,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_004",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_005",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5385,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_006",
+      "source": "domestic_violence",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7692,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_007",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8333,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_008",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6154,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_009",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_010",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_011",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7273,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_012",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8182,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_013",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7059,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_014",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_015",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_016",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7692,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_017",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_018",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6875,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_019",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8182,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_020",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_021",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_022",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8571,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_023",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5833,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_024",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_025",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_026",
+      "source": "domestic_violence",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7143,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_027",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8333,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_028",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.75,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_029",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9167,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_030",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6875,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_031",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8125,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_032",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_033",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6667,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_034",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_035",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6154,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_036",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_037",
+      "source": "domestic_violence",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7857,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_038",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7059,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_039",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.875,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_040",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_041",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7857,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_042",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8462,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_043",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7059,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_044",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_045",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5385,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_046",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7857,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_047",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8462,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_048",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7368,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_049",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_050",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_051",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5556,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_052",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8462,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_053",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6429,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_054",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_055",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5714,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_056",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7692,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_057",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8462,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_058",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6667,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_059",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9231,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_060",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5625,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_061",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7273,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_062",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8182,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_063",
+      "source": "domestic_violence",
+      "question_type": "exception",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.75,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_064",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9091,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_065",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_066",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.75,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_067",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8182,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_068",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7143,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_069",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.9167,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_070",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6875,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_071",
+      "source": "domestic_violence",
+      "question_type": "definition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7273,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_072",
+      "source": "domestic_violence",
+      "question_type": "fact",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.7692,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_073",
+      "source": "domestic_violence",
+      "question_type": "procedure",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5385,
+      "high_leakage": false
+    },
+    {
+      "id": "dv_new_074",
+      "source": "domestic_violence",
+      "question_type": "condition",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.8571,
+      "high_leakage": true
+    },
+    {
+      "id": "dv_new_075",
+      "source": "domestic_violence",
+      "question_type": "scenario",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4545,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_001",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3333,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_002",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_003",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.1765,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_004",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6667,
+      "high_leakage": true
+    },
+    {
+      "id": "cross_new_005",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.35,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_006",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3889,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_007",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_008",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.1905,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_009",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2222,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_010",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4444,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_011",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_012",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3333,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_013",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_014",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2105,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_015",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2941,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_016",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.6,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_017",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.35,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_018",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4444,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_019",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5556,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_020",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3158,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_021",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3889,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_022",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.625,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_023",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3333,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_024",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4118,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_025",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5556,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_026",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3684,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_027",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2941,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_028",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4444,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_029",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2105,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_030",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2778,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_031",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.4444,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_032",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3158,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_033",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2222,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_034",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.5556,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_035",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.25,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_036",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3889,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_037",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3333,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_038",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.1176,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_039",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.1333,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_040",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.25,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_041",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.1053,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_042",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.1176,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_043",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.3636,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_044",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2273,
+      "high_leakage": false
+    },
+    {
+      "id": "cross_new_045",
+      "source": "both",
+      "question_type": "cross_act_synthesis",
+      "review_status": "legal_reviewed",
+      "question_token_coverage": 0.2,
+      "high_leakage": false
+    }
+  ]
+}

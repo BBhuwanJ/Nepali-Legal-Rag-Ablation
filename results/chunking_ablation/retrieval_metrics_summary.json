@@ -1,0 +1,46 @@
+{
+  "recursive": {
+    "hit@1": 0.6682,
+    "hit@5": 0.8848,
+    "precision@5": 0.1926,
+    "recall@5": 0.8272,
+    "mrr@5": 0.748,
+    "complete@5": 0.7696,
+    "n_evaluated": 217,
+    "n_skipped": 25,
+    "k": 5
+  },
+  "dafa": {
+    "hit@1": 0.7281,
+    "hit@5": 0.9078,
+    "precision@5": 0.1908,
+    "recall@5": 0.8618,
+    "mrr@5": 0.7943,
+    "complete@5": 0.8157,
+    "n_evaluated": 217,
+    "n_skipped": 25,
+    "k": 5
+  },
+  "semantic": {
+    "hit@1": 0.553,
+    "hit@5": 0.6774,
+    "precision@5": 0.1382,
+    "recall@5": 0.6336,
+    "mrr@5": 0.5982,
+    "complete@5": 0.5899,
+    "n_evaluated": 217,
+    "n_skipped": 25,
+    "k": 5
+  },
+  "hybrid": {
+    "hit@1": 0.7558,
+    "hit@5": 0.9217,
+    "precision@5": 0.2147,
+    "recall@5": 0.8779,
+    "mrr@5": 0.8223,
+    "complete@5": 0.8341,
+    "n_evaluated": 217,
+    "n_skipped": 25,
+    "k": 5
+  }
+}

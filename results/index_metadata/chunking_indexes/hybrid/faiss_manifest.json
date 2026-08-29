@@ -1,0 +1,17 @@
+{
+  "built_at": "2026-08-25T04:04:06.661135",
+  "model_name": "Yunika/sentence-transformer-nepali",
+  "chunk_count": 745,
+  "source_files": [
+    {
+      "path": "B:\\Projects\\LawBot\\backend\\data\\muluki_ain.txt",
+      "sha256": "8cc76aaf2ffc768c78a481b58ed311b0771f2dd00a56c047d5cc35bc18093e52",
+      "size_bytes": 1097284
+    },
+    {
+      "path": "B:\\Projects\\LawBot\\backend\\data\\domestic_violence.txt",
+      "sha256": "8f281adae1421ef36bb10b7e5a711f659301f4d8e54c7d03690bdd6c26bc166e",
+      "size_bytes": 36561
+    }
+  ]
+}

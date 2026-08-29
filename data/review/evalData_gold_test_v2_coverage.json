@@ -1,0 +1,7097 @@
+{
+  "dataset_size": 242,
+  "source_summary": {
+    "muluki_ain": {
+      "provisions": 721,
+      "covered_provisions": 107,
+      "uncovered_provisions": 614,
+      "coverage_rate": 0.1484
+    },
+    "domestic_violence": {
+      "provisions": 22,
+      "covered_provisions": 22,
+      "uncovered_provisions": 0,
+      "coverage_rate": 1.0
+    }
+  },
+  "rows": [
+    {
+      "source": "muluki_ain",
+      "dafa": "1",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_001"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "2",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "3",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "4",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "5",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_002"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "6",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "7",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "8",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "9",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "10",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_003"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "11",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "12",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "13",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "14",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_004"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "15",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "16",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "17",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "18",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_005"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "19",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "20",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "21",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "22",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "23",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_006"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "24",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "25",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "26",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "27",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_007"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "28",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "29",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "30",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "31",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_008"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "32",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "33",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "34",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "35",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "36",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "37",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "38",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_009"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "39",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "40",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "41",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "42",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "43",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_010"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "44",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "45",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "46",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "47",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "48",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_011"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "49",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "50",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "51",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "52",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_012"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "53",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "54",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "55",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "56",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_013"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "57",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "58",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "59",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "60",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "61",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_014"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "62",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "63",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "64",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "65",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "66",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_015"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "67",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "68",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "69",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "70",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "71",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "72",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "73",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "74",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "75",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "76",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "77",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "78",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "79",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "80",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "81",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "82",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "83",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "84",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "85",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "86",
+      "covered": true,
+      "question_count": 3,
+      "question_ids": [
+        "cross_new_007",
+        "cross_new_008",
+        "cross_new_009"
+      ],
+      "primary_mentions": 3,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "87",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "88",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "89",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "90",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "91",
+      "covered": true,
+      "question_count": 3,
+      "question_ids": [
+        "cross_new_001",
+        "cross_new_002",
+        "cross_new_003"
+      ],
+      "primary_mentions": 3,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "92",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "93",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "94",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "95",
+      "covered": true,
+      "question_count": 9,
+      "question_ids": [
+        "cross_new_004",
+        "cross_new_005",
+        "cross_new_006",
+        "cross_new_013",
+        "cross_new_014",
+        "cross_new_015",
+        "cross_new_034",
+        "cross_new_035",
+        "cross_new_036"
+      ],
+      "primary_mentions": 9,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "96",
+      "covered": true,
+      "question_count": 6,
+      "question_ids": [
+        "cross_new_010",
+        "cross_new_011",
+        "cross_new_012",
+        "cross_new_040",
+        "cross_new_041",
+        "cross_new_042"
+      ],
+      "primary_mentions": 6,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "97",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "98",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "99",
+      "covered": true,
+      "question_count": 6,
+      "question_ids": [
+        "cross_new_016",
+        "cross_new_017",
+        "cross_new_018",
+        "cross_new_028",
+        "cross_new_029",
+        "cross_new_030"
+      ],
+      "primary_mentions": 6,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "100",
+      "covered": true,
+      "question_count": 3,
+      "question_ids": [
+        "cross_new_019",
+        "cross_new_020",
+        "cross_new_021"
+      ],
+      "primary_mentions": 3,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "101",
+      "covered": true,
+      "question_count": 3,
+      "question_ids": [
+        "cross_new_025",
+        "cross_new_026",
+        "cross_new_027"
+      ],
+      "primary_mentions": 3,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "102",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "103",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "104",
+      "covered": true,
+      "question_count": 3,
+      "question_ids": [
+        "cross_new_037",
+        "cross_new_038",
+        "cross_new_039"
+      ],
+      "primary_mentions": 3,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "105",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "106",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "107",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "108",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_016"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "109",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "110",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "111",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "112",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "113",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_017"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "114",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "115",
+      "covered": true,
+      "question_count": 6,
+      "question_ids": [
+        "cross_new_022",
+        "cross_new_023",
+        "cross_new_024",
+        "cross_new_043",
+        "cross_new_044",
+        "cross_new_045"
+      ],
+      "primary_mentions": 6,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "116",
+      "covered": true,
+      "question_count": 3,
+      "question_ids": [
+        "cross_new_031",
+        "cross_new_032",
+        "cross_new_033"
+      ],
+      "primary_mentions": 3,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "117",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "118",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "119",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "120",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "121",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_018"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "122",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "123",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "124",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "125",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_019"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "126",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "127",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "128",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "129",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "130",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_020"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "131",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "132",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "133",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "134",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_021"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "135",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "136",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "137",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "138",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "139",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "140",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "141",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "142",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "143",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "144",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_022"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "145",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "146",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "147",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "148",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "149",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_023"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "150",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "151",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "152",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "153",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_024"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "154",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "155",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "156",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "157",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_025"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "158",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "159",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "160",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "161",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "162",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_026"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "163",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "164",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "165",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "166",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_027"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "167",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "168",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "169",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "170",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "171",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_028"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "172",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "173",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "174",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "175",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "176",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "177",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "178",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "179",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_029"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "180",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "181",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "182",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "183",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_030"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "184",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "185",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "186",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "187",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_031"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "188",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "189",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "190",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "191",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "192",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_032"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "193",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "194",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "195",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "196",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_033"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "197",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "198",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "199",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "200",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_034"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "201",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "202",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "203",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "204",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_035"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "205",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "206",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "207",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "208",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_036"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "209",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "210",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_037"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "211",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "212",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "213",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "214",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_038"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "215",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "216",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_039"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "217",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "218",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_040"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "219",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "220",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_041"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "221",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "222",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "223",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "224",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_042"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "225",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "226",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "227",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_043"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "228",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "229",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_044"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "230",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "231",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "232",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_045"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "233",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "234",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_046"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "235",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "236",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "237",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_047"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "238",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "239",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "240",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_048"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "241",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "242",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_049"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "243",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "244",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_050"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "245",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "246",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_051"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "247",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "248",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "249",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_052"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "250",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "251",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_053"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "252",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "253",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_054"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "254",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "255",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_055"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "256",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_056"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "257",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "258",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "259",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "260",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "261",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "262",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "263",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "264",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "265",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "266",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "267",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "268",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "269",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "270",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_057"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "271",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "272",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "273",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "274",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "275",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "276",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "277",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "278",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "279",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "280",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "281",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "282",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_058"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "283",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "284",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "285",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "286",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "287",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "288",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "289",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "290",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "291",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "292",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "293",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "294",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "295",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_059"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "296",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "297",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "298",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "299",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "300",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "301",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "302",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "303",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "304",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "305",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "306",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "307",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_060"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "308",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "309",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "310",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "311",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "312",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "313",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "314",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "315",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "316",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "317",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "318",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "319",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_061"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "320",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "321",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "322",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "323",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "324",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "325",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "326",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "327",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "328",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "329",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "330",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_062"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "331",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "332",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "333",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "334",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "335",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "336",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "337",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "338",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "339",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "340",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "341",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "342",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_063"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "343",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "344",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "345",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "346",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "347",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "348",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "349",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "350",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "351",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "352",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "353",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "354",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_064"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "355",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "356",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "357",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "358",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "359",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "360",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "361",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "362",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "363",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "364",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "365",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_065"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "366",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "367",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "368",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "369",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "370",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "371",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "372",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "373",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "374",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "375",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "376",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "377",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_066"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "378",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "379",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "380",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "381",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "382",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "383",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "384",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "385",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "386",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "387",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "388",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_067"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "389",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "390",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "391",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "392",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "393",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "394",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "395",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "396",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "397",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "398",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "399",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "400",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_068"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "401",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "402",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "403",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "404",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "405",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "406",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "407",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "408",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "409",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "410",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "411",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "412",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "413",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_069"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "414",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "415",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "416",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "417",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "418",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "419",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "420",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "421",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "422",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "423",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "424",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_070"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "425",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "426",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "427",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "428",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "429",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "430",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "431",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "432",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "433",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "434",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "435",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "436",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_071"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "437",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "438",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "439",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "440",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "441",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "442",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "443",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "444",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "445",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "446",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "447",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_072"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "448",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "449",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "450",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "451",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "452",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "453",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "454",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "455",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "456",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "457",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "458",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "459",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_073"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "460",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "461",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "462",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "463",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "464",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "465",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "466",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "467",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "468",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "469",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "470",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "471",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "472",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_074"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "473",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "474",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "475",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "476",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "477",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "478",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "479",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "480",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "481",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "482",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "483",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "484",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_075"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "485",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_076"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "486",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "487",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "488",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "489",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "490",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "491",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "492",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "493",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "494",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "495",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "496",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "497",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "498",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "499",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_077"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "500",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "501",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "502",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "503",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "504",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "505",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "506",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "507",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "508",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "509",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "510",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "511",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "512",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "513",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "514",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_078"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "515",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "516",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "517",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "518",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "519",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "520",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "521",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "522",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "523",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "524",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "525",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "526",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "527",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "528",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_079"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "529",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "530",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "531",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "532",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "533",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "534",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "535",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "536",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "537",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "538",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "539",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "540",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "541",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "542",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "543",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "544",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_080"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "545",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "546",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "547",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "548",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "549",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "550",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "551",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "552",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "553",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "554",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "555",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_081"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "556",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "557",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "558",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "559",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "560",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "561",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "562",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "563",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "564",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "565",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "566",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "567",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_082"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "568",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "569",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "570",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "571",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "572",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "573",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "574",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "575",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "576",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "577",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "578",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "579",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_083"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "580",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "581",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "582",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "583",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "584",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "585",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "586",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "587",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "588",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "589",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "590",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "591",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_084"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "592",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "593",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "594",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "595",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "596",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "597",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "598",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "599",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "600",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "601",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "602",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_085"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "603",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "604",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "605",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "606",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "607",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "608",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "609",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "610",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "611",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "612",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "613",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "614",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_086"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "615",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "616",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "617",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "618",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "619",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "620",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "621",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "622",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "623",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "624",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "625",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "626",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_087"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "627",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "628",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "629",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "630",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "631",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "632",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "633",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "634",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "635",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "636",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "637",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_088"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "638",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "639",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "640",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "641",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "642",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "643",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "644",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "645",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "646",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "647",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "648",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "649",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_089"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "650",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "651",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "652",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "653",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "654",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "655",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "656",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "657",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "658",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "659",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "660",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "661",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_090"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "662",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "663",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "664",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "665",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "666",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "667",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "668",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "669",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "670",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "671",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "672",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_091"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "673",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "674",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "675",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "676",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "677",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "678",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "679",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "680",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "681",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "682",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "683",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "684",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_092"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "685",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_093"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "686",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "687",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "688",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "689",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "690",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "691",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "692",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "693",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "694",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_094"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "695",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "696",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "697",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "698",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "699",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "700",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "701",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "702",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "703",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "704",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_095"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "705",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "706",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "707",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "708",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "709",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "710",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "711",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "712",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_096"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "713",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "714",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "715",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "716",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "717",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "718",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "719",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "720",
+      "covered": false,
+      "question_count": 0,
+      "question_ids": [],
+      "primary_mentions": 0,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "muluki_ain",
+      "dafa": "721",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "civil_new_097"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "1",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "dv_new_001"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "2",
+      "covered": true,
+      "question_count": 23,
+      "question_ids": [
+        "cross_new_001",
+        "cross_new_002",
+        "cross_new_003",
+        "cross_new_004",
+        "cross_new_005",
+        "cross_new_006",
+        "cross_new_043",
+        "cross_new_044",
+        "cross_new_045",
+        "dv_new_002",
+        "dv_new_023",
+        "dv_new_034",
+        "dv_new_041",
+        "dv_new_047",
+        "dv_new_053",
+        "dv_new_058",
+        "dv_new_062",
+        "dv_new_066",
+        "dv_new_068",
+        "dv_new_070",
+        "dv_new_072",
+        "dv_new_074",
+        "dv_new_075"
+      ],
+      "primary_mentions": 23,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "3",
+      "covered": true,
+      "question_count": 5,
+      "question_ids": [
+        "cross_new_007",
+        "cross_new_008",
+        "cross_new_009",
+        "dv_new_003",
+        "dv_new_024"
+      ],
+      "primary_mentions": 5,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "4",
+      "covered": true,
+      "question_count": 15,
+      "question_ids": [
+        "cross_new_010",
+        "cross_new_011",
+        "cross_new_012",
+        "dv_new_004",
+        "dv_new_025",
+        "dv_new_035",
+        "dv_new_042",
+        "dv_new_048",
+        "dv_new_054",
+        "dv_new_059",
+        "dv_new_063",
+        "dv_new_067",
+        "dv_new_069",
+        "dv_new_071",
+        "dv_new_073"
+      ],
+      "primary_mentions": 15,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "5",
+      "covered": true,
+      "question_count": 2,
+      "question_ids": [
+        "dv_new_005",
+        "dv_new_026"
+      ],
+      "primary_mentions": 2,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "5क",
+      "covered": true,
+      "question_count": 5,
+      "question_ids": [
+        "cross_new_013",
+        "cross_new_014",
+        "cross_new_015",
+        "dv_new_006",
+        "dv_new_027"
+      ],
+      "primary_mentions": 5,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "6",
+      "covered": true,
+      "question_count": 17,
+      "question_ids": [
+        "cross_new_016",
+        "cross_new_017",
+        "cross_new_018",
+        "cross_new_019",
+        "cross_new_020",
+        "cross_new_021",
+        "cross_new_022",
+        "cross_new_023",
+        "cross_new_024",
+        "dv_new_007",
+        "dv_new_028",
+        "dv_new_036",
+        "dv_new_043",
+        "dv_new_049",
+        "dv_new_055",
+        "dv_new_060",
+        "dv_new_064"
+      ],
+      "primary_mentions": 17,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "6क",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "dv_new_008"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "7",
+      "covered": true,
+      "question_count": 2,
+      "question_ids": [
+        "dv_new_009",
+        "dv_new_029"
+      ],
+      "primary_mentions": 2,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "8",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "dv_new_010"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "9",
+      "covered": true,
+      "question_count": 6,
+      "question_ids": [
+        "cross_new_025",
+        "cross_new_026",
+        "cross_new_027",
+        "dv_new_011",
+        "dv_new_030",
+        "dv_new_037"
+      ],
+      "primary_mentions": 6,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "10",
+      "covered": true,
+      "question_count": 4,
+      "question_ids": [
+        "cross_new_028",
+        "cross_new_029",
+        "cross_new_030",
+        "dv_new_012"
+      ],
+      "primary_mentions": 4,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "11",
+      "covered": true,
+      "question_count": 11,
+      "question_ids": [
+        "cross_new_031",
+        "cross_new_032",
+        "cross_new_033",
+        "dv_new_013",
+        "dv_new_031",
+        "dv_new_038",
+        "dv_new_044",
+        "dv_new_050",
+        "dv_new_056",
+        "dv_new_061",
+        "dv_new_065"
+      ],
+      "primary_mentions": 11,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "12",
+      "covered": true,
+      "question_count": 5,
+      "question_ids": [
+        "dv_new_014",
+        "dv_new_032",
+        "dv_new_039",
+        "dv_new_045",
+        "dv_new_051"
+      ],
+      "primary_mentions": 5,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "12क",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "dv_new_015"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "12ख",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "dv_new_016"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "12ग",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "dv_new_017"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "13",
+      "covered": true,
+      "question_count": 9,
+      "question_ids": [
+        "cross_new_034",
+        "cross_new_035",
+        "cross_new_036",
+        "dv_new_018",
+        "dv_new_033",
+        "dv_new_040",
+        "dv_new_046",
+        "dv_new_052",
+        "dv_new_057"
+      ],
+      "primary_mentions": 9,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "14",
+      "covered": true,
+      "question_count": 4,
+      "question_ids": [
+        "cross_new_037",
+        "cross_new_038",
+        "cross_new_039",
+        "dv_new_019"
+      ],
+      "primary_mentions": 4,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "15",
+      "covered": true,
+      "question_count": 4,
+      "question_ids": [
+        "cross_new_040",
+        "cross_new_041",
+        "cross_new_042",
+        "dv_new_020"
+      ],
+      "primary_mentions": 4,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "16",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "dv_new_021"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    },
+    {
+      "source": "domestic_violence",
+      "dafa": "17",
+      "covered": true,
+      "question_count": 1,
+      "question_ids": [
+        "dv_new_022"
+      ],
+      "primary_mentions": 1,
+      "supporting_mentions": 0
+    }
+  ]
+}

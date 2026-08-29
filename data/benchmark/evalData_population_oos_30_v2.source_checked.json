@@ -1,0 +1,977 @@
+[
+  {
+    "id": "oos_001",
+    "question": "नेपालमा आयकर कति प्रतिशत छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "tax_law",
+    "difficulty": "easy",
+    "split": "development",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Question, answer, targets, and exact evidence source-checked against the admitted corpus. Independent Nepali legal review is still required before gold/test admission."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142",
+      "legacy_id": "oos_001",
+      "migration_version": "legacy-v2-draft-1",
+      "source_dataset_sha256": "5f6cc5db65f37d6ed1e9286ef816df5de9997b7595632a42bc04512581a0e074"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_002",
+    "question": "नेपालको प्रधानमन्त्री को हुन्?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "current_affairs",
+    "difficulty": "easy",
+    "split": "development",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Question, answer, targets, and exact evidence source-checked against the admitted corpus. Independent Nepali legal review is still required before gold/test admission."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142",
+      "legacy_id": "oos_002",
+      "migration_version": "legacy-v2-draft-1",
+      "source_dataset_sha256": "5f6cc5db65f37d6ed1e9286ef816df5de9997b7595632a42bc04512581a0e074"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_003",
+    "question": "Bitcoin मा लगानी गर्नु राम्रो हो?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "cryptocurrency",
+    "difficulty": "easy",
+    "split": "development",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Question, answer, targets, and exact evidence source-checked against the admitted corpus. Independent Nepali legal review is still required before gold/test admission."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142",
+      "legacy_id": "oos_003",
+      "migration_version": "legacy-v2-draft-1",
+      "source_dataset_sha256": "5f6cc5db65f37d6ed1e9286ef816df5de9997b7595632a42bc04512581a0e074"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "md_0089",
+    "question": "विवाहपछि महिला स्वतः पति नागरिकता पाउँछिन्?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "marriage_law",
+    "difficulty": "medium",
+    "split": "development",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Question, answer, targets, and exact evidence source-checked against the admitted corpus. Independent Nepali legal review is still required before gold/test admission. Source review: Scope classification source-checked; no external citizenship-law conclusion retained."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142",
+      "legacy_id": "md_0089",
+      "migration_version": "legacy-v2-draft-1",
+      "source_dataset_sha256": "5f6cc5db65f37d6ed1e9286ef816df5de9997b7595632a42bc04512581a0e074"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "md_0094",
+    "question": "साझा व्यवसायमा नाफा कसरी बाँडिन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "contract_law",
+    "difficulty": "medium",
+    "split": "development",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Question, answer, targets, and exact evidence source-checked against the admitted corpus. Independent Nepali legal review is still required before gold/test admission. Source review: Reclassified because the cited provisions do not answer partnership-profit allocation."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142",
+      "legacy_id": "md_0094",
+      "migration_version": "legacy-v2-draft-1",
+      "source_dataset_sha256": "5f6cc5db65f37d6ed1e9286ef816df5de9997b7595632a42bc04512581a0e074"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_001",
+    "question": "नेपालको संविधान संशोधन गर्न कति मत चाहिन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_002",
+    "question": "चोरीको कसूरमा कति कैद हुन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_003",
+    "question": "फौजदारी मुद्दामा धरौटी कसरी निर्धारण हुन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_004",
+    "question": "आयकरको हालको दर कति छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_005",
+    "question": "मूल्य अभिवृद्धि करमा दर्ता सीमा कति हो?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_006",
+    "question": "श्रम ऐनअनुसार न्यूनतम तलब कति छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_007",
+    "question": "कर्मचारीलाई सेवाबाट हटाउने प्रक्रिया के हो?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_008",
+    "question": "साइबर अपराधको सजाय कति हुन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_009",
+    "question": "अनलाइन ठगीको जाहेरी कहाँ दिने?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_010",
+    "question": "बैंकको ब्याजदर कानूनी रूपमा कसले तोक्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_011",
+    "question": "सहकारी ठगीमा कुन फौजदारी प्रक्रिया लाग्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_012",
+    "question": "नेपाली नागरिकता कसरी प्राप्त हुन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_013",
+    "question": "राहदानी बनाउन के कागजात चाहिन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_014",
+    "question": "विदेशी नागरिकले नेपालको भिसा कसरी नवीकरण गर्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_015",
+    "question": "निर्वाचनमा उम्मेदवार बन्न उमेर कति चाहिन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_016",
+    "question": "संघीय मन्त्रिपरिषद् गठन गर्ने संवैधानिक प्रक्रिया के हो?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_017",
+    "question": "सर्वोच्च अदालतका वर्तमान प्रधानन्यायाधीश को हुन्?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_018",
+    "question": "Bitcoin किन्नु राम्रो लगानी हो?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_019",
+    "question": "शेयर बजार भोलि बढ्छ कि घट्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_020",
+    "question": "कुन औषधि उच्च रक्तचापका लागि राम्रो हुन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_021",
+    "question": "अस्पतालको चिकित्सकीय लापरवाहीमा फौजदारी सजाय के हुन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_022",
+    "question": "जग्गाको आजको बजार मूल्य कति छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_023",
+    "question": "कम्पनी दर्ता गर्न कति पूँजी चाहिन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_024",
+    "question": "पेटेन्ट दर्ता गर्ने प्रक्रिया के हो?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  },
+  {
+    "id": "oos_new_025",
+    "question": "वातावरणीय प्रभाव मूल्याङ्कन कहिले अनिवार्य हुन्छ?",
+    "ground_truth": "यो प्रश्न मुलुकी देवानी संहिता र घरेलु हिंसा (कसूर र सजाय) ऐनको स्वीकृत स्रोत-दायराभित्र पर्दैन। त्यसैले उपलब्ध यी दुई कानूनी स्रोतका आधारमा निश्चित उत्तर दिन सकिँदैन।",
+    "answerability": "out_of_scope",
+    "source": "none",
+    "required_dafas": [],
+    "required_sections": [],
+    "evidence": [],
+    "question_type": "out_of_scope",
+    "legal_domain": "outside_admitted_corpus",
+    "difficulty": "medium",
+    "split": "unassigned",
+    "review": {
+      "status": "source_checked",
+      "reviewer": "source-text alignment audit",
+      "reviewed_at": "2026-02-24",
+      "method": "source-text-alignment-review",
+      "notes": "Refusal scope checked against the two-document admitted corpus. Source-text alignment was checked against the two-document corpus.",
+      "previous_notes": "Deterministically generated by candidate-350-v1; exact evidence is a candidate excerpt. Requires source review and independent legal review."
+    },
+    "provenance": {
+      "corpus_version": "civil:8cc76aaf2ffc;dv:8f281adae142"
+    },
+    "ground_truth_review": {
+      "status": "final_review_candidate",
+      "prepared_at": "2026-02-24",
+      "version": "final-ground-truth-candidate-v1",
+      "method": "scope_refusal",
+      "requires_human_legal_approval": true
+    }
+  }
+]

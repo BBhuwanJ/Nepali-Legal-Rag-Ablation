@@ -1,0 +1,1976 @@
+{
+  "metric": "correctness",
+  "model_judge": "gemini-3.5-flash",
+  "total_evaluated": 217,
+  "average_score": 0.8571,
+  "partial": false,
+  "by_difficulty": {
+    "easy": {
+      "count": 103,
+      "avg_score": 0.9359
+    },
+    "medium": {
+      "count": 104,
+      "avg_score": 0.8962
+    },
+    "hard": {
+      "count": 113,
+      "avg_score": 0.7522
+    }
+  },
+  "by_category": {
+    "unknown": {
+      "count": 320,
+      "avg_score": 0.8581
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "dv_p001",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the definition of domestic violence as stated in the ground truth, including physical, mental, sexual, or economic torture between people in a domestic relationship. It also provides accurate legal citations and helpful supplementary context from the Domestic Violence Act, 2066.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p002",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, covering all the relationships mentioned in the ground truth (descendants, marriage, adoption, joint family members/dependents/workers, cohabiting couples, and separated spouses). It also provides the correct legal citation from the Domestic Violence Act, 2066.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p003",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly identifies the act as 'physical torture' (शारीरिक यातना), matching the ground truth perfectly. It also provides accurate additional legal context regarding the Domestic Violence Act, 2066, without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p004",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It correctly identifies that these acts are classified as 'mental torture' (मानसिक यातना) under the Domestic Violence (Offence and Punishment) Act, 2066, matching the ground truth perfectly while providing precise legal sections and additional context.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p005",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive, perfectly matching the ground truth's definition of 'economic torture' (आर्थिक यातना) regarding dowry and property deprivation. It also provides precise legal citations from the Domestic Violence Act, 2066, which enhances its legal precision without introducing any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p006",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, complete, and legally precise. It correctly confirms that attempting or instigating domestic violence is an offense, matching the ground truth perfectly while providing excellent additional legal citations from the Domestic Violence (Offence and Punishment) Act, 2066.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p007",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and completely covers all key facts from the ground truth, including who can file (any person who knows of the violence) and where (police, National Women's Commission, or local level). It also provides precise legal citations and additional correct legal pathways, making it highly accurate and complete.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p008",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate and matches the ground truth completely. It correctly states the 24-hour timeline excluding travel time and the requirement to arrest and take a statement if the perpetrator refuses, while also providing precise legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p009",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core requirement of the ground truth, stating that immediate security must be arranged with the help of the police office. It also provides excellent legal context and additional relevant details from the Domestic Violence Act without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p010",
+      "score": 1.0,
+      "reasoning": "The generated answer is a near-perfect match to the ground truth. It correctly identifies the 30-day mediation period based on the victim's wish and accurately states that this provision does not apply to serious complaints under Section 5A, which are governed by prevailing laws. The placeholder 'Unknown' for a section number not present in the ground truth does not affect its completeness relative to the reference.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p011",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, confirming that a complaint can be filed by anyone who has knowledge of the offense at the nearest police office. It also provides excellent legal precision by citing the specific section (Section 5ka) of the Domestic Violence (Offense and Punishment) Act, 2066, along with additional helpful legal context.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p012",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and accurate. It contains all the key elements of the ground truth (allowing the victim to live in their home, providing food and clothing, prohibiting beating, and requiring polite behavior) while also providing precise legal citations from the Domestic Violence Act, 2066, without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p013",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It perfectly captures all key facts from the ground truth, including the role of the local level in providing immediate expenses and the court's authority to order the local level or service center to pay, while adding precise legal citations from Section 9 of the Domestic Violence Act, 2066.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p014",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, covering all key factors from the ground truth (nature, extent, pain, and socio-economic status) and even providing the correct legal citation (Section 10 of the Domestic Violence Act, 2066) in a well-structured format.",
+      "split": "development"
+    },
+    {
+      "id": "dv_p015",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies the base punishment for general domestic violence and the rule for repeat offenders (double punishment each time) as stated in the ground truth, while also providing precise legal citations and a helpful logical calculation of the doubled penalty.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p001",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, comprehensive, and perfectly aligns with the ground truth. It correctly cites Section 95(c) of the Muluki Devani Sanhita and the Domestic Violence Act, while providing excellent legal context and logical reasoning without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p002",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies Section 91 of the Muluki Devani Code regarding the protection of employment and profession, matching the ground truth. It also correctly links economic deprivation and employment restriction to the Domestic Violence Act, though it omits the specific term 'economic torture' (आर्थिक यातना) mentioned in the ground truth, while providing extensive additional context on legal remedies.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p003",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, legally precise, and matches the ground truth perfectly. It correctly cites Section 95(b) of the Muluki Devani Sanhita for divorce grounds and provides a detailed, correct legal explanation of how these actions constitute domestic violence (specifically economic torture) under the Domestic Violence Act.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p004",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and correctly identifies the relevant laws, including Muluki Devani Sanhita Section 115 and its specific custody conditions. However, it fails to specify Section 6(2) of the Domestic Violence Act, labeling it as 'Dafa Unknown', which slightly reduces its legal precision.",
+      "split": "development"
+    },
+    {
+      "id": "cross_p005",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly confirms that a victim can pursue divorce separately, citing Sections 95 and 96 of the Civil Code as in the ground truth. It misses the specific mention of Section 15 of the Domestic Violence Act (which permits parallel proceedings under other laws), but provides a highly detailed and legally sound explanation of how domestic violence serves as a ground for divorce.",
+      "split": "development"
+    },
+    {
+      "id": "md_0001",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, containing all key elements of the ground truth. It also provides precise legal citations from the Muluki Devani (Samhita) Act, 2074, enhancing its legal precision without introducing any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0002",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and perfectly matches the ground truth, stating that both men and women must be 20 years old to marry. It also provides excellent legal precision by citing the specific sections of the Muluki Devani (Sanhita) Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0003",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly identifies the minimum age requirement of 20 years. However, it fails to provide the core legal consequences of underage marriage mentioned in the ground truth, such as it not being automatically invalid, being voidable under certain conditions, and the exception regarding pregnancy.",
+      "split": "development"
+    },
+    {
+      "id": "md_0004",
+      "score": 0.4,
+      "reasoning": "The generated answer fails to state the core legal consequence specified in the ground truth, which is that a marriage without consent is automatically void (स्वतः बदर) and invalid from the beginning. While it provides detailed context on consent requirements and filing limitations, it explicitly admits in the note that it could not find or state that such a marriage is automatically void.",
+      "split": "development"
+    },
+    {
+      "id": "md_0005",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It perfectly captures both the general prohibition of marriage within incestuous relationships and the cultural exception, while adding precise legal citations from the Muluki Dewani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0006",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and legally precise, correctly stating that a second marriage is prohibited while the first is active and citing the relevant sections of the Muluki Devani Samhita Act. It omits the specific consequence mentioned in the ground truth regarding the wife's right to divorce without consent if the husband remarries, but it contains no factual errors.",
+      "split": "development"
+    },
+    {
+      "id": "md_0007",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, legally precise, and covers all key points from the ground truth. It correctly states that marriage registration is required before the designated authority and that the lack of registration alone does not invalidate the marriage, while providing excellent legal citations from the Muluki Devani Code, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0008",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally complete and accurate. It covers all key facts from the ground truth, including mutual love, respect, support, and representation in household affairs, while also providing precise legal citations from the Muluki Devani (Sanhita) Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0010",
+      "score": 0.2,
+      "reasoning": "The generated answer completely misses the core point of the ground truth, which states that husband and wife must mutually bear household expenses based on their income and status. Instead, the generated answer provides irrelevant details about specific scenarios like divorce, domestic violence, and funeral expenses.",
+      "split": "development"
+    },
+    {
+      "id": "md_0011",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and legally precise, citing specific sections of the Civil Code, 2074. It completely covers all key elements of the ground truth, including the requirement to file a petition in court, the court's attempt at reconciliation, and the resulting termination of the marital relationship, with no contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0012",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly confirms that mutual consent divorce is allowed and provides precise legal citations (Section 93 of the Civil Code, 2074). It misses the details about filing a petition in court and the court's reconciliation process mentioned in the ground truth, but remains highly accurate and legally precise.",
+      "split": "development"
+    },
+    {
+      "id": "md_0013",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive, covering all the grounds for divorce mentioned in the ground truth. It also provides precise legal citations from the Muluki Devani (Sanhita) Ain, 2074, and structures the information clearly without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0014",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly explains the provision regarding divorce if the husband lives separately for three years or more without consent. However, it completely misses the ground truth's key legal provision regarding a person being missing for 12 years and being presumed dead, even incorrectly claiming that 'missing' is not defined in the legal context.",
+      "split": "development"
+    },
+    {
+      "id": "md_0015",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies that the petition must be filed in court and accurately cites Section 96 of the Muluki Devani Sanhita. It only misses the minor detail from the ground truth regarding the lack of specification on district court jurisdiction, but remains highly accurate and legally precise.",
+      "split": "development"
+    },
+    {
+      "id": "md_0016",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed, legally precise, and perfectly covers all key points from the ground truth. It correctly identifies the conditions for property division before divorce, the alternative of lump-sum or monthly payments, and the exceptions under Dafa 94 with accurate legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0017",
+      "score": 0.4,
+      "reasoning": "The generated answer incorrectly claims that there is no direct provision for spousal maintenance in the context. However, it partially recovers by mentioning the partition of property before divorce (Dafa 99), which aligns with the ground truth, but it completely misses the specific details about lump-sum/monthly maintenance payments and legal exceptions like remarriage.",
+      "split": "development"
+    },
+    {
+      "id": "md_0018",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It perfectly captures the core requirement from the ground truth—treating the unborn child as an equal coparcener and setting aside their share before division—while also providing precise legal citations from the Muluki Devani Samhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0019",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly accurate and legally precise, citing the correct section of the Muluki Dewani Samhita. It covers almost all key points from the ground truth, only omitting the provision regarding taking the opinion of a child over ten years old.",
+      "split": "development"
+    },
+    {
+      "id": "md_0020",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It perfectly matches the ground truth by confirming that remarriage is allowed after divorce, and goes further by providing precise legal citations from the Muluki Devani (Sanhita) Act, 2074 (Sections 82, 83, and 70) to support the claim.",
+      "split": "development"
+    },
+    {
+      "id": "md_0021",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, comprehensive, and perfectly aligns with the ground truth. It correctly states that living apart does not lead to automatic divorce, identifies the 3-year duration as a legal ground, and explains the necessity of filing a court petition, while providing precise citations from the Muluki Devani Sanhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0023",
+      "score": 0.4,
+      "reasoning": "The generated answer incorrectly claims there are no direct legal provisions for this issue and misses the key sections (Dafa 89 and 90) mentioned in the ground truth. Instead, it attempts to deduce the answer using unrelated sections on general obligations (Dafa 496, 498, 499), resulting in low legal precision despite some relevant general points on mutual cooperation.",
+      "split": "development"
+    },
+    {
+      "id": "md_0025",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, detailed, and perfectly aligns with the ground truth. It correctly cites Dafa 100 and 101 of the Muluki Devani Samhita, explaining that maintenance is only for wives who do not take a share of property, and logically concludes that a wife cannot demand maintenance after receiving her share.",
+      "split": "development"
+    },
+    {
+      "id": "md_0026",
+      "score": 0.6,
+      "reasoning": "The generated answer is legally accurate and provides detailed citations regarding parental responsibilities and property rights (Ansha) after divorce. However, it misses the specific focus of the ground truth, which is the right to visitation (meeting and temporarily staying with the child) and the court's power to restrict this right in the child's best interest.",
+      "split": "development"
+    },
+    {
+      "id": "md_0028",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly explains the capacity and conditions for marrying abroad under Section 699 of the Civil Code. However, it fails to capture the ground truth's key points regarding the registration obligation and the specific legal interpretation of Sections 699 and 76, which state that marital rights are not withheld pending registration.",
+      "split": "development"
+    },
+    {
+      "id": "md_0029",
+      "score": 0.8,
+      "reasoning": "The generated answer perfectly captures the core facts of the ground truth, confirming that withholding food/clothing or expulsion from home is a valid ground for divorce without consent. It provides helpful additional legal context, though it contains a minor citation error (citing Section 95 instead of Section 96 of the Muluki Devani Code for the wife's grounds for divorce).",
+      "split": "development"
+    },
+    {
+      "id": "md_0030",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It correctly concludes that a daughter's coparcenary status on her parents' side does not end after divorce, matching the ground truth perfectly, and provides precise legal citations from the Muluki Devani Samhita Act, 2074 (Sections 205 and 206) to support this.",
+      "split": "development"
+    },
+    {
+      "id": "md_0031",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly precise and intelligently addresses the ambiguity of the question by analyzing both possible scenarios. For the scenario matching the ground truth (husband marrying again), it correctly identifies the rights to divorce without consent, property partition, and maintenance, though it omits the specific detail regarding child custody.",
+      "split": "development"
+    },
+    {
+      "id": "md_0033",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly accurate, detailed, and correctly confirms that undisclosed property can be claimed later. It provides excellent legal context and citations, but it omits the specific limitation period (the co-parcener's lifetime) mentioned in the ground truth.",
+      "split": "development"
+    },
+    {
+      "id": "md_0034",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It perfectly matches all key facts from the ground truth, including the conditions for disqualification and removal of a guardian, while adding precise legal citations from the Muluki Civil Code, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0038",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, matching all key facts from the ground truth, including the 272-day rule and the general presumption of paternity. It also provides precise legal citations from the Muluki Devani (Sanhita) Act, 2074, which enhances its legal precision.",
+      "split": "development"
+    },
+    {
+      "id": "md_0039",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, comprehensive, and legally precise. It covers all key points from the ground truth—including the custodial parent's duty, the non-custodial parent's duty if they have a higher income, and the determination of expenses by agreement or court order—while adding precise legal citations from the Civil Code, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "sl_001",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth, accurately stating the provisions of Section 67 regarding when a marriage is considered to have taken place, with no omissions or contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "sl_002",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and legally precise. It correctly identifies that under Section 70, both men and women must be 20 years old to marry, perfectly matching the ground truth while providing helpful additional legal context.",
+      "split": "development"
+    },
+    {
+      "id": "sl_003",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, complete, and legally precise. It perfectly matches the ground truth by detailing all the conditions under Section 94 where a husband can divorce without the wife's consent, even providing the exact sub-clauses from the Muluki Devani Sanhita.",
+      "split": "development"
+    },
+    {
+      "id": "sl_004",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive, perfectly matching all the key legal grounds for divorce under Section 95 as stated in the ground truth. It provides the exact clauses with high legal precision and no contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0041",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, containing all key facts from the ground truth. It also provides precise legal citations from the Civil Code, 2074 (Section 69) and additional relevant legal context without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0042",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive, perfectly matching the ground truth. It correctly identifies the general rule of automatic marriage upon the birth of a child from sexual intercourse, as well as the exceptions for rape and incest, while providing precise legal citations from the Muluki Devani Samhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0043",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate and aligns completely with the ground truth, confirming that the child's legal rights are not affected. It also provides excellent legal precision by citing Section 75 of the Muluki Devani (Samhita) Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0044",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and perfectly matches all key facts from the ground truth, including the application requirements, jurisdiction (District Court or Embassy), the 7-day decision timeline, and the registration process. It also provides precise legal citations from the Civil Code, ensuring high legal accuracy without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0045",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, matching all key facts from the ground truth. It correctly identifies that a married woman can use her father's/mother's surname, husband's surname, or both, and includes the presumption of using the husband's surname if a question arises, while also providing precise legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0046",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It covers all key facts from the ground truth, including the court's duty to attempt reconciliation and the subsequent divorce if reconciliation fails, while also providing precise legal citations from the Muluki Devani Samhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0047",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and completely covers the ground truth. It correctly states that if the divorce is due to the husband's fault and the wife demands it, the court must partition the property before divorce, while also providing precise legal citations from the Muluki Devani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0048",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, matching all key facts from the ground truth. It correctly states that a divorcing wife can receive a lump sum instead of property, mentions the conditions (husband's income/property, court order), notes the remarriage clause, and even provides the correct legal citation (Dafa 100 of the Civil Code).",
+      "split": "development"
+    },
+    {
+      "id": "md_0049",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, correctly stating that a wife who hasn't received a share of property can claim maintenance if the husband has income. It also accurately includes the exceptions (remarriage or higher income of the wife) and provides precise legal citations from the Muluki Devani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0050",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and perfectly matches the ground truth, capturing all key conditions (180 days after marriage, 272 days after death/divorce, and the 'unless proven otherwise' clause). It also provides correct legal citations from the Muluki Devani Samhita Act, 2074, Section 106, which adds to its legal precision.",
+      "split": "development"
+    },
+    {
+      "id": "md_0051",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, perfectly matching all key facts from the ground truth. It correctly states the 180-day rule, the exception regarding prior knowledge of pregnancy, and adds valuable legal precision by citing Section 107 of the Muluki Devani Samhita Act.",
+      "split": "development"
+    },
+    {
+      "id": "md_0052",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, stating that a child born via artificial insemination with the consent of both spouses is legally considered the child of the married husband. It also provides the correct legal citation (Section 109 of the Muluki Civil Code, 2074), enhancing its legal precision.",
+      "split": "development"
+    },
+    {
+      "id": "md_0053",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, comprehensive, and legally precise. It covers all key points from the ground truth—including the custody rules for minors under and over five years, the condition of the mother's remarriage, the provision for mutual agreement, and the opinion of minors over ten years—while correctly citing the relevant sections of the Muluki Devani (Sanhita) Ain, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0054",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly identifies mutual consent and acceptance as key conditions for marriage. However, it misses other critical legal requirements specified in the ground truth, such as the minimum age of 20, the absence of prohibited incestuous relationships, and the requirement of no prior active marriage, explicitly stating that these details were missing from its context.",
+      "split": "development"
+    },
+    {
+      "id": "md_0055",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, comprehensive, and legally precise. It perfectly captures the distinction between void (invalid from the beginning) and voidable marriages as stated in the ground truth, while providing correct legal citations from the Civil Code, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0056",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It correctly captures all key elements of the ground truth, including the principle that property earned by either spouse is considered joint property unless legally separated, and adds precise legal citations from the Muluki Devani Samhita, 2074 to support the explanation.",
+      "split": "development"
+    },
+    {
+      "id": "md_0057",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and legally precise, correctly citing the Muluki Devani Samhita regarding the requirement of mutual consent for marriage. However, it slightly misses the explicit consequence mentioned in the ground truth that a marriage without consent is automatically void (स्वतः बदर) and invalid from the beginning.",
+      "split": "development"
+    },
+    {
+      "id": "md_0058",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and legally precise, correctly identifying that the court must partition property before divorce if requested by the wife due to the husband's fault (citing Muluki Devani Samhita, 2074). It slightly misses the specific alternative option where the wife can choose a lump sum or periodic payment *instead* of taking her share of the property, though it mentions monthly maintenance during the partition process.",
+      "split": "development"
+    },
+    {
+      "id": "md_0059",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, covering all points from the ground truth (failure of basic obligations, mutual consent, and head of household's decision) while adding precise legal citations from the Muluki Devani Samhita, 2074, and additional valid legal scenarios without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0060",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and legally precise, correctly identifying the priority order of heirs and the rule that closer heirs exclude more distant ones. It only misses the specific mention from the ground truth that multiple heirs within the same priority level receive equal shares.",
+      "split": "development"
+    },
+    {
+      "id": "md_0061",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly identifies that the post-death gift or donation becomes effective only after the donor's death. However, for the second part regarding the deed of immovable property, it claims the direct information is missing from its context, though it logically deduces that registration is required.",
+      "split": "development"
+    },
+    {
+      "id": "md_0062",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It includes all key elements from the ground truth—such as the definition of a contract, the process of proposal and acceptance, and the creation of a binding legal relationship—while also providing precise legal citations from the Muluki Dewani Samhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0063",
+      "score": 0.6,
+      "reasoning": "The generated answer is legally accurate and provides correct provisions from the Muluki Devani Samhita regarding contract breach, such as cancellation and limitation periods. However, it misses the specific remedies highlighted in the ground truth, namely compensation (क्षतिपूर्ति), specific performance (यथावत परिपालना), and injunctions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0064",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, comprehensive, and perfectly aligns with the ground truth. It correctly explains that a marriage involving a person of unsound mind through deception can be annulled and that the aggrieved party can claim compensation, while also providing precise legal citations from the Muluki Devani Samhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0066",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, legally precise, and comprehensive. It correctly covers the core concepts of the ground truth—including the priority of guardians and court appointment—while providing excellent legal citations from the Muluki Devani (Sanhita) Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0067",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core definition of adoption (accepting a child as one's own son or daughter) as stated in the ground truth. It also provides excellent legal context, citing the relevant sections of the Muluki Devani Samhita Act, 2074, without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0068",
+      "score": 0.4,
+      "reasoning": "The generated answer misses almost all the core conditions specified in the ground truth, such as the 10-year marriage requirement, the 45-year age limit for single adopters, the 25-year age difference, and the child's age limit of 14 years. It only correctly covers the requirement of written consent from the parents, making it highly incomplete.",
+      "split": "development"
+    },
+    {
+      "id": "md_0069",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly identifies that the partition must be done equally (equal shares of assets and liabilities), which aligns with the ground truth's mention of equal shares. However, it completely omits the crucial definition of who constitutes a coparcener (husband, wife, father, mother, son, and daughter) as stated in the ground truth.",
+      "split": "development"
+    },
+    {
+      "id": "md_0071",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and legally precise, citing specific sections of the Muluki Devani Samhita Act, 2074. It perfectly covers all key facts from the ground truth, including the age requirement of 20 years, the condition of having no existing marriage, and the legal validity of remarriage after divorce, without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0072",
+      "score": 0.2,
+      "reasoning": "The generated answer fails to provide the core rules of joint ownership determination outlined in the ground truth (such as the exclusion of coparceners, following the deed, or assuming equal shares if unspecified). Instead, it incorrectly claims that the legal context lacks a clear definition and relies on irrelevant sections of the civil code.",
+      "split": "development"
+    },
+    {
+      "id": "md_0076",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and correctly identifies what constitutes joint property (ancestral, non-private, and business-earned) and who the coparceners are (parents, children, spouse), matching the ground truth. It only minorly omits explicitly stating that each coparcener is entitled to an equal share, though it covers the partition process extensively.",
+      "split": "development"
+    },
+    {
+      "id": "md_0077",
+      "score": 0.0,
+      "reasoning": "The generated answer is a standard refusal response stating that the information is not available, completely failing to provide any of the legal facts regarding the legal capacity of minors present in the ground truth.",
+      "split": "development"
+    },
+    {
+      "id": "md_0078",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It includes all the key elements from the ground truth—such as the violation of legal obligations, contracts, quasi-contracts, unjust enrichment, unilateral commitments, torts, and quasi-torts—while also providing precise legal citations from the Muluki Devani Samhita Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0079",
+      "score": 0.0,
+      "reasoning": "The generated answer fails to provide any of the key legal consequences mentioned in the ground truth, such as the loss of partition rights (अंशबण्डा) or the voiding of public property registration. Instead, it incorrectly claims the information is not available in the context and provides irrelevant legal provisions.",
+      "split": "development"
+    },
+    {
+      "id": "md_0080",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, comprehensive, and legally precise. It correctly states that there is no negative impact on the child's legal rights, matching the ground truth perfectly, and provides excellent legal context by citing Section 75 of the Muluki Devani (Sanhita) Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0081",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies that contracts made under coercion or fraud are voidable (बदर गराउन सकिने) by the aggrieved party, citing the Muluki Dewani Samhita 2074. It misses the specific detail from the ground truth that such contracts remain enforceable like valid contracts until they are voided by the court, but it provides excellent additional legal context and limitation periods.",
+      "split": "development"
+    },
+    {
+      "id": "md_0082",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, comprehensive, and legally precise. It covers all key points from the ground truth, including the conditions for lump-sum/monthly payments, maintenance in the absence of partition property, and legal exceptions like remarriage and higher income, while also providing the exact section numbers (Dafa 100, 101, 102) from the Muluki Civil Code.",
+      "split": "development"
+    },
+    {
+      "id": "md_0083",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and perfectly matches the ground truth. It correctly identifies the legal remedies of marriage annulment and reasonable compensation, while adding precise legal citations from the Civil Code 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0084",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures all key elements of the ground truth, explaining that a marriage by ceremony is legally valid and that while registration is required, the lack of registration does not invalidate the marriage. It provides excellent legal precision and context, matching the ground truth completely.",
+      "split": "development"
+    },
+    {
+      "id": "md_0085",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and perfectly matches the ground truth. It correctly identifies all conditions under which an obligation does not need to be fulfilled, including legal/moral conflicts and impossibility at creation, while also accurately noting that any performable part must still be fulfilled, complete with precise legal citations.",
+      "split": "development"
+    },
+    {
+      "id": "md_0086",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It correctly states that the deed of transfer of immovable property must be registered/passed by the relevant office to gain legal recognition, matching the ground truth perfectly while providing precise legal citations from the Muluki Devani (Samhita) Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0087",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly states that there is a limitation period (हदम्याद) for filing a case. However, it fails to mention any of the specific areas highlighted in the ground truth (marriage, divorce, partition, and land) and instead focuses on transaction laws with an 'Unknown' section citation.",
+      "split": "development"
+    },
+    {
+      "id": "md_0088",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly identifies that the guardian (संरक्षक) or custodian (माथवर) manages the property of such persons, which perfectly aligns with the ground truth. Additionally, it provides excellent legal precision by citing the specific section (Dafa 415) of the Muluki Devani Samhita, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0090",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and legally precise, citing the exact sections of the Muluki Devani (Sanhita) Act, 2074. It covers all the key grounds for invalidity mentioned in the ground truth (such as impossibility, lack of clarity, incompetence, illegal objective, and mutual mistake) and correctly states that such agreements are void from the beginning with no creation of rights or liabilities.",
+      "split": "development"
+    },
+    {
+      "id": "md_0092",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed, legally precise, and perfectly matches all key points of the ground truth. It correctly identifies the court's powers regarding phantwari (inventory) and property freezing, while providing accurate citations from the Muluki Devani (Sanhita) Act, 2074.",
+      "split": "development"
+    },
+    {
+      "id": "md_0095",
+      "score": 0.0,
+      "reasoning": "The generated answer fails to provide the correct legal information, incorrectly stating that the information is not available in the context, whereas the ground truth provides a specific legal answer regarding the property going to the local level.",
+      "split": "development"
+    },
+    {
+      "id": "md_0099",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and legally precise. It correctly distinguishes between registration marriage (which requires witnesses) and other marriages (where witnesses are not strictly mandatory), matching the core logic of the ground truth. It cites different but highly relevant sections of the Muluki Devani Samhita (Sections 69, 70, 79, and 80 instead of 67 and 77), which still accurately answers the question.",
+      "split": "development"
+    },
+    {
+      "id": "md_0102",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate and matches the ground truth completely. It also provides excellent legal precision by citing the specific section (Dafa 272) of the Muluki Devani Samhita Act, 2074, without any contradictions.",
+      "split": "development"
+    },
+    {
+      "id": "civil_new_001",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and complete. It correctly identifies the commencement date of the Act as Bhadra 1, 2075, and provides the exact legal citation (Section 1, Subsection 2 of the Muluki Dewani Sanhita, 2074) matching the ground truth perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_002",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and perfectly matches the ground truth. It correctly cites Section 5 of the Muluki Dewani Sanhita, stating that ignorance of the law is not excusable and that everyone is presumed to know the law, while also providing helpful additional context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_003",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It correctly includes the exact ground truth statement regarding Section 10 of the Civil Code and goes further to logically and legally answer the 'what should be done' part of the question by citing other relevant sections (Section 8 and Section 665) without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_004",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and legally precise. It correctly cites Section 14 of the Civil Code and provides a clear, detailed explanation of how civil liability remains independent of criminal proceedings, perfectly matching and elaborating on the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_005",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly explains Section 18(1) regarding non-discrimination in the application of general law and provides good legal context by bringing in Section 19 (exceptions). However, it completely omits sub-sections (2) and (3) of Section 18, which are key components of the ground truth answer.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_006",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate and matches the ground truth. It correctly identifies Section 23 of the Civil Code and states the exact provision that no tax shall be levied on a person's property or income except in accordance with the law.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_007",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately and completely reproduces both sub-sections of Section 27 of the Civil Code with precise legal terminology and formatting.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_008",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It perfectly matches all three sub-sections of Section 31 from the ground truth, correctly completes the incomplete sentence from the prompt, and provides helpful legal context without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_009",
+      "score": 0.4,
+      "reasoning": "The generated answer misses the actual legal exception/limitation specified in sub-section (3) of Section 38 (which states that if a recipient is unavailable or separation is impossible, funeral rites must be performed). Instead, it only analyzes sub-section (1) and incorrectly claims that no other sub-sections or exceptions exist in the legal context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, accurately citing Section 43(1) and (2) of the Muluki Devani Code. It correctly explains the legal capacity of a legal person upon establishment and its duration until liquidation or dissolution, providing a comprehensive and precise response.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_011",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately cites Section 48, Sub-sections (1) and (2) of the Civil Code, providing the exact legal provisions regarding the transfer of rights and liabilities when legal entities merge, with helpful additional context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_012",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, correctly citing Section 52 of the Civil Code and providing the exact legal text regarding the settlement of assets and liabilities of a dissolved legal person.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_013",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It covers all three sub-sections of Section 56 as outlined in the ground truth, including the 35-day notice period, publication in a national daily, the requirement for submitting claims with evidence, and treating those claims as final. The addition of Section 58 details does not contradict the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_014",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It contains all the key facts from the ground truth, including the specific clauses (a) and (b) of Section 61, and provides additional correct legal context and details from the law without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_015",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the legal provisions of Section 66 (clauses a and b) as stated in the ground truth. Additionally, it provides an excellent and highly accurate legal analysis of the drafting anomaly (the inclusion of 'insolvency' in the marriage chapter), directly and comprehensively answering the question about what conclusion can be drawn from the dispute.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_016",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies both the time limits (two years) and the specific exception (no claim can be made after the child's death) from Section 108, matching the ground truth perfectly with clear structuring.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_017",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly states the provisions of Section 113, sub-section (1) regarding the three-month deadline for birth registration. However, it completely omits sub-sections (2) and (3) regarding late registration fines and the issuance of the certificate, making it only partially complete.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_018",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly identifies Section 121 of the Civil Code and accurately states the legal provision regarding decisions made by the parent with whom the minor resides in case of a dispute.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_019",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies the exception mentioned in the ground truth (death of one parent) and provides the full, legally precise list of exceptions under Section 125(2) as well as other relevant legal limitations, without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_020",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core legal provision of Section 130 of the Muluki Devani Samhita as stated in the ground truth. Additionally, it provides highly relevant legal context regarding Section 129 (scope of authority) and Section 123 (limitation period for disputes), making it exceptionally complete and precise.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_021",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate and matches the ground truth exactly. It correctly identifies the 6-month limitation period (छ महिनाभित्र नालिस गर्न सक्नेछ) under Section 134 of Chapter 6 of the Civil Code, and even provides helpful additional context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_022",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and precisely identifies the exception to the rule of keeping accounts under Section 144(1), citing the exact proviso regarding the priority-order guardians under Section 136(1). It is legally accurate, highly focused, and matches the ground truth perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_023",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly quotes the main rule of Section 149 but fails to identify the exception/limitation (the 'but...' clause) which was the core of the question. It incorrectly claims that no exception or limitation is mentioned in the legal context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_024",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the exception to the main rule of Section 153(1) by correctly citing Section 153(2) as stated in the ground truth. It also provides excellent legal precision and completeness by adding relevant context from Section 155 regarding exceptions to the general curatorship rule.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and well-structured, covering all three sub-sections of Section 157 exactly as detailed in the ground truth. It maintains high legal precision and even provides helpful, non-contradictory additional context regarding the qualifications of a Mathawar.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_026",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly identifies the exception to the rule under Section 162, which is that the curator (माथवर) is not liable if the property is damaged due to a disaster (विपद्). It accurately cites Section 162(2) of the Muluki Devani Samhita, matching the ground truth exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_027",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly identifies Section 166 of the Civil Code and accurately states the legal requirement for court certification as specified in the reference text.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_028",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the exception to the rule under Section 171(2) regarding judicial separation, including the exact definition of 'judicial separation' from the explanation. It also provides additional context from Section 172 without contradicting the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_029",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, complete, and legally precise. It covers all key points from the ground truth regarding Section 179, explaining that the adopted child can use the surname of the adopting parents or their biological parents, and even provides additional accurate legal context from the same section without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_030",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It perfectly captures the core provision of Section 183 from the ground truth and goes further to provide highly relevant legal context regarding dispute resolution, statute of limitations (Section 187), and applicability to foreign citizens (Section 203), which directly answers the 'dispute' aspect of the prompt.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_031",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly completes the legal provision with 'वर्षभित्र नालिस गर्न सक्नेछ' (within one year a lawsuit can be filed) under Section 187, and accurately references both Chapter 8 and Chapter 9 of the Muluki Devani Samhita, matching the ground truth perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_032",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, legally precise, and complete. It contains all the key facts from the ground truth regarding Section 192(1)(a) and (b) and even provides additional relevant sub-sections of Section 192 with no contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_033",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately cites Section 196 of the Civil Code and breaks down the exact legal procedure for selecting and recommending minors and applicants to the Board in a clear, bulleted format without losing any factual or legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_034",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, well-structured, and complete. It covers all the key elements of Section 200 of the Muluki Devani Samhita, including the reporting frequency, content of the report, and the channels through which the report must be sent to the Government of Nepal, matching the ground truth perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_035",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, complete, and well-structured. It correctly explains the limitation period rules under Section 204 of the Muluki Devani Sanhita (within 1 year if not specified, or as specified otherwise), matching the ground truth perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly cites Section 208, Sub-sections (1) and (2) of the Civil Code, matching the ground truth perfectly with precise legal terminology and no contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_037",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and well-structured. It perfectly captures both sub-sections of Section 210 of the Muluki Civil Code, correctly identifying the main rule and its specific exception/limitation as outlined in the ground truth, with high legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_038",
+      "score": 0.2,
+      "reasoning": "The generated answer fails to provide the exception/limitation requested by the prompt (which is Section 214(2) regarding remarriage). Instead, it incorrectly claims that no such exception or limitation exists in the legal context, directly contradicting the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_039",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly explains Section 216(1) and 216(2) regarding written partition and equal division of property and debt, matching the core of the ground truth. However, it omits the detailed explanation of 'joint debt' (सगोलको ऋण) present in the ground truth, while adding other sub-sections of Section 216.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_040",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies Section 218(2) of the Muluki Devani Samhita as the exception, accurately citing the cutoff date of 2034 Paush 27 and all the specific legal conditions under which an unregistered partition deed is considered valid, matching the ground truth perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_041",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It includes all the information from the ground truth regarding Section 220(1) and even completes the explanation of 'date of separation of property' (मानो छुट्टिएको मिति) which was truncated in the ground truth, without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_042",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and matches the ground truth perfectly. It correctly cites Section 224 of the Muluki Devani Samhita and details all the legal conditions and procedures for opening a lock to take property details, presenting them in a clear, structured format.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_043",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly cites Section 227 of the Civil Code and accurately states that if a coparcener cannot enjoy their share of property due to lack of legal ownership, it must be proportionally reimbursed by all coparceners.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_044",
+      "score": 0.8,
+      "reasoning": "The generated answer is factually accurate, complete, and perfectly explains the three conditions under Section 229 of the Muluki Devani Samhita for partitioning mortgaged property. It receives a 0.8 instead of 1.0 only because of the minor formatting/extraction error where it refers to Section 229 sub-sections (2) and (3) as 'दफा Unknown', although it correctly reasons that they belong to Section 229.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_045",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the essence of Section 232 of the Muluki Devani Samhita. It correctly explains that without the creditor's consent, joint debt cannot be assigned to a single coparcener, and if done so without consent, the debt must be shared among all coparceners, matching the ground truth accurately.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_046",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately states both sub-sections of Section 234 of the Civil Code regarding the recovery of share, amount, or expenses, with no omissions or contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_047",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately states the provisions of Section 237 of the Muluki Devani Samhita, including the definition of 'Aputali' and when it is considered open, with excellent structure and legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_048",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly cites Section 240 of the Civil Code and accurately states the legal provision regarding inheritance by a distant relative living together without any omissions or errors.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_049",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately and clearly explains both the main rule under sub-section (1) and the exception under sub-section (2) of Section 242 of the Muluki Devani Samhita, maintaining high legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_050",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly includes the conditions from the ground truth (notifying the district court within three years and the transfer of inheritance to the next heir) and precisely identifies the legal exception regarding the obligation to perform funeral rites under Section 244.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_051",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth for clauses (a) and (b) of Section 246(1) of the Muluki Devani Samhita, and provides the complete list including clause (c) without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_052",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly precise and directly addresses the 'exceptions and limitations' aspect of Section 249, citing relevant sub-sections and Private International Law provisions (Sections 695 and 696). It includes the main rule from Section 249(1) present in the ground truth, but omits the specific procedural steps (sub-sections 2, 3, and 4) that were listed in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_053",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the definition of property under Section 251, including the explanation of 'object' (वस्तु), matching the ground truth exactly. It also provides helpful, accurate legal context to address the 'what should be done' aspect of the question without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_054",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, complete, and legally precise. It correctly identifies Section 253 of the Muluki Devani Samhita, corrects the incomplete clause (b) from the prompt to match the ground truth, and provides excellent legal context regarding how the provision is applied.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_055",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and complete. It includes the key fact from the ground truth (private property under Section 255) and correctly completes the list of property classifications which was truncated in the ground truth, while adding relevant legal context regarding disputes.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_056",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and complete, containing all the elements of the ground truth (clauses a and b of Section 256(1)) and even providing the full list of clauses up to (jh) along with sub-section (2) from the Muluki Devani Samhita. There are no contradictions or errors.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_057",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately and completely states both sub-sections of Section 270 of the Muluki Civil Code regarding who can acquire usufruct rights, with excellent legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_058",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It perfectly captures both sub-sections of Section 282 of the Muluki Devani Samhita, explaining the prohibition of building a septic tank adjacent to a neighbor's land and the conditions regarding consent and leaving required space.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_059",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly cites Section 295 of the Muluki Civil Code and perfectly captures all the conditions and legal outcomes described in the ground truth regarding land reclamation after river diversion.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_060",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and precisely addresses the question by identifying the exceptions to the rule in Section 307(1) of the Muluki Devani Sanhita. It correctly details the conditions for government/public land and community land, matching the ground truth exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_061",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It contains all the key facts from the ground truth (Dafa 319(1) conditions for refusal) and goes further to correctly answer the specific question about the 'exception/limitation' (Dafa 319(3) regarding private Guthis) which was omitted in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_062",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately cites Section 330 of the Muluki Devani Samhita, including the reference to Section 328(2), and correctly states that the local level must take over the responsibilities of the guthi operator in their absence.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_063",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally complete and accurate. It contains all the key facts and clauses (a and b) from the ground truth, and provides additional correct clauses from Section 342 of the Civil Code, maintaining perfect legal precision without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_064",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core provisions of Section 354 (sub-sections 1 and 2) as stated in the ground truth. Additionally, it provides highly accurate and relevant legal context regarding the registration and validation of such deeds under the Civil Code, making it exceptionally complete and precise.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_065",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and well-structured. It correctly identifies the legal provision (Section 365 of the Civil Code), the main rule, and the specific limitation of giving at least 45 days' notice, perfectly matching the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_066",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, perfectly matching both sub-sections (1) and (2) of Section 377 from the ground truth. It correctly details the legal provisions regarding the exit route for diverted rivers, reservoirs, or dams without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_067",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth, providing the exact text of Section 388, sub-sections (1) and (2) of the Muluki Devani Samhita. It also includes helpful legal context and a summary with no contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_068",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It contains all the key facts from the ground truth (Section 400, sub-section 1, clauses a and b) and goes further to directly answer the 'what needs to be done' part of the question by detailing the notification and handover procedures from the law, ensuring perfect legal precision and completeness.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_069",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It correctly cites Section 413 of the Muluki Devani Samhita, details all the methods of transfer (sale, gift, bequest, or other means), and explains the legal outcome of ownership transfer, perfectly matching and expanding upon the ground truth without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_070",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures all the key facts from the ground truth, including Section 424 sub-sections (1) and (2) regarding the recovery of the paid amount, 10% interest, registration fees, and the 6-month timeline to demolish structures. The additional context provided does not contradict the ground truth and maintains high legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_071",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately and completely states both sub-sections of Section 436 of the Civil Code regarding the requirement of a written deed for mortgaging property, with excellent legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_072",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly accurate and covers all three sub-sections of Section 447 perfectly. However, it contains a minor citation error in point 3, incorrectly referencing 'Section 448' instead of 'Section 447' for sub-section (3).",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_073",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly quotes the exact legal provision from Section 459 as stated in the ground truth. However, it concludes with a confusing disclaimer stating the information is not available, which slightly detracts from its clarity.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_074",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core provision of Section 472 as stated in the ground truth, confirming that the document passed on the earlier date is valid when multiple documents exist on the same subject. Additionally, it provides excellent legal context, citing related sections and legal remedies without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_075",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly identifies the main rule of a 10-year limit from Section 484(1) but fails to provide the exception/limit described in Section 484(2), incorrectly claiming that no such exception is mentioned in the context.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_076",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, correctly citing Section 485 of the Civil Code and stating that transactions with incompetent or semi-competent persons have no legal recognition. It also provides helpful additional context defining these terms.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_077",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly identifies Section 499 of the Civil Code and accurately states that obligations created under Section 494 must be fulfilled in good faith.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_078",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and perfectly matches the ground truth. It correctly cites Section 514 of the Muluki Dewani Samhita and explains that the provisions of the specified chapters apply to other contracts executed under the Act or law.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_079",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly identifies the exception to the rule under Section 528 (rights and liabilities based on personal skill or qualification do not transfer to the heir) and provides the correct legal context matching the ground truth exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_080",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies the two-year limitation period under Section 544 of Chapter 6 (Contract of Sale of Goods) of the Civil Code, matching the ground truth perfectly and providing clear logical conclusions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_081",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It perfectly matches the ground truth by citing Section 555 of the Muluki Civil Code, 2074, and correctly details all three sub-sections regarding the bearing of risk, with no omissions or errors.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_082",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies the main limitation from Section 567(1) (that the guarantor must first pay the debt to be substituted), which matches the ground truth. It also provides the actual legal exception from Section 567(4) regarding contract terms, which, although omitted in the provided ground truth text, is legally accurate and directly answers the question.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_083",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly and precisely answers the specific question asked, completing the legal clause from Dafa 579(1) of the Muluki Devani Samhita. Although it does not include sub-section (2) which is present in the ground truth, sub-section (2) was not prompted by the question's specific phrasing.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_084",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, well-structured, and complete. It correctly cites Section 591 of the Muluki Devani Samhita and breaks down the conditions for an agency contract into clear, readable bullet points that perfectly match the ground truth without any omissions or contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_085",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, well-structured, and complete. It perfectly extracts and explains all the exceptions and limitations from Section 602 of the Muluki Devani Samhita, including the exclusions of air/maritime transport, employees/representatives, and the 'unless otherwise provided' clause, matching the ground truth perfectly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_086",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately and completely reproduces all three sub-sections of Section 614 of the Muluki Dewani Samhita with high legal precision and no omissions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_087",
+      "score": 0.8,
+      "reasoning": "The generated answer accurately explains all the conditions of Section 626(1) regarding multiple contracts being treated as a single contract, matching the ground truth. However, it omits sub-section (2) which specifies how the contract date is determined when contracts are signed on different dates.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_088",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It contains all the key facts, section numbers, and conditions from the ground truth, and even provides additional relevant details from Section 637 of the Muluki Devani Samhita without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_089",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, complete, and legally precise. It covers all the key elements of Section 649 of the Muluki Devani Sanhita as stated in the ground truth, and provides excellent structured elaboration and relevant legal context without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_090",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core legal provision of Section 661 of the Muluki Dewani Samhita as stated in the ground truth. It also provides helpful, non-contradictory legal context regarding the limitation period (Section 663) for filing a lawsuit, making it highly accurate and complete.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_091",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete, perfectly matching all sub-sections and explanations of Section 672 from the ground truth. It is well-structured and legally precise with no contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_092",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate and complete. It correctly identifies the legal provision under Section 684, specifying the limitation period of six months ('छ महिनाभित्र नालिस गर्न सक्नेछ') and the correct chapter title, matching the ground truth exactly.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_093",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly accurate and correctly explains the provisions of Section 685, Sub-sections 1 and 2, regarding the prohibition of selling defective products and the liability for damages. It only omits the explanation/definition of 'defective product' present in the ground truth, which is a minor omission.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_094",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, well-structured, and perfectly matches the ground truth. It correctly details all the legal conditions under Section 694 of the Muluki Civil Code regarding the determination of a missing or deceased foreigner's status based on citizenship, normal residence, and immediate prior residence.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_095",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly identifies the exception in Section 704(2) regarding the inability to determine the country of citizenship. However, it completely misses the crucial exception in the proviso of Section 704(3) regarding the application of Nepalese law if the person's habitual residence is in Nepal, and instead introduces external sections not present in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_096",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately and comprehensively details all three sub-sections of Section 712 of the Muluki Devani Samhita regarding liability for tort, maintaining precise legal terminology and structure.",
+      "split": "test"
+    },
+    {
+      "id": "civil_new_097",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly identifies the public order exception in Section 721(1) of the Civil Code. However, it completely misses the fallback mechanism outlined in Section 721(2) regarding linking criteria and Nepalese law, falsely claiming this information was not available in the context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_001",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It includes the exact text and reference from the ground truth while correctly explaining its legal meaning and implications as requested by the prompt.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_002",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly identifies Section 2 of the Domestic Violence (Offense and Punishment) Act, matching the ground truth. It also provides the actual definitions that follow the clause, making the response highly accurate, legally precise, and complete.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_003",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core legal provision from the ground truth (Section 3(1) of the Domestic Violence Act, 2066) and goes further to accurately and comprehensively answer the specific question about the procedures to be followed by victims or authorities, without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_004",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and complete. It correctly identifies Section 4(1) of the Domestic Violence (Offence and Punishment) Act, 2066, and includes all key elements from the ground truth, such as the entities where complaints can be filed (police, National Women Commission, local level) and the format (written or oral).",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_005",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth by correctly citing Section 5 of the Domestic Violence (Offense and Punishment) Act, 2066, and its clause (1). It also provides helpful additional context from clause (2) without introducing any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_006",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and legally precise. It correctly interprets the legal provision of Section 5ka(1) of the Domestic Violence Act, explaining that 'acid' is excluded as an exception ('तेजाब बाहेक') while 'dismemberment' ('अङ्गभङ्ग') is included within the scope of the offense, perfectly matching and elaborating on the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_007",
+      "score": 1.0,
+      "reasoning": "The generated answer contains the exact information from the ground truth, correctly citing Section 6 of the Domestic Violence Act. It also provides the complete list of interim protective orders referred to in the ground truth, making it highly accurate and complete.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_008",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core ground truth, correctly citing Section 6A of the Domestic Violence (Offense and Punishment) Act, 2066, and stating that the victim can keep another legal practitioner if they wish. It also provides helpful, non-contradictory legal context regarding the procedure.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_009",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies Section 7 of the Domestic Violence (Offense and Punishment) Act, 2066, and provides a detailed explanation of the conditions under which a closed bench hearing is conducted, matching and even expanding upon the ground truth with precise legal details.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly identifies Section 8 of the Domestic Violence (Offense and Punishment) Act and accurately states that the Summary Procedure Act, 2028 must be followed.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_011",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and perfectly matches the ground truth. It correctly identifies the perpetrator's liability to pay for treatment expenses and the local level's role in providing and recovering the funds if the perpetrator is unable to pay immediately.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_012",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly identifies Section 10 of the Domestic Violence (Offense and Punishment) Act, 2066, and accurately details the provisions regarding compensation based on the nature of violence, suffering, and socio-economic status.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_013",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It perfectly captures the core fact from the ground truth regarding Section 11(1) of the Domestic Violence (Offence and Punishment) Act, 2066, and provides excellent, legally precise context and additional relevant procedures without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_014",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and legally precise, correctly identifying the Domestic Violence (Offense and Punishment) Act, 2066, and its Sections 11(1) and 12(1). It perfectly matches the ground truth while providing a more detailed and structured explanation of the conditions under which the provision applies.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_015",
+      "score": 0.2,
+      "reasoning": "The generated answer fails to address the core question regarding the 'Protection Officer' (संरक्षण अधिकृत) under Section 12ka of the Domestic Violence Act, incorrectly claiming that this information is not available. While it provides some general context about the local level's role in domestic violence cases, it misses the specific legal conclusion requested by the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_016",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally clear, structured, and perfectly matches the ground truth. It accurately captures all key legal elements of Section 12B, including the role of the Nepal Government, the requirement of the victim's request, and the channel of the District Legal Aid Committee.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_017",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly identifies Section 12C of the Domestic Violence Act and accurately states that the cases mentioned in Section 5A will be prosecuted by the Government of Nepal and are considered to be included in Schedule-1 of the National Criminal Procedure Code, 2074.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_018",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It correctly includes the core legal provision from the ground truth (Section 13(1) of the Domestic Violence Act) and goes further to directly answer the user's question about the legal procedures (complaint, investigation, and prosecution) with precise section references, without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_019",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies the Domestic Violence (Offence and Punishment) Act, 2066 and Section 14, perfectly matching and even elaborating on the ground truth with precise legal details.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_020",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly cites Section 15 of the Domestic Violence (Offense and Punishment) Act and accurately explains that the Act does not prevent prosecution under other prevailing laws if the offense is also punishable under them.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_021",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and provides a comprehensive explanation of the legal meaning and effect of Section 16, which perfectly aligns with and expands upon the ground truth. It correctly details how the Act applies to covered matters while prevailing laws apply to uncovered ones, with no contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_022",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate, citing the correct Act, Section 17, and the exact provision regarding the power to make rules, matching the ground truth completely.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_023",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the definition of domestic violence from the ground truth (physical, mental, sexual, or economic abuse). Additionally, it fully answers the prompt's question regarding the procedures to be followed by the victim or authorities, which was missing in the ground truth, without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_024",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It correctly identifies Section 3 of the Domestic Violence (Offense and Punishment) Act, 2066, and provides the exact context of sub-section (1) and (2), perfectly matching and expanding upon the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and well-structured. It correctly identifies the Act, Section 4, and Subsection 2, and perfectly breaks down the legal procedures for both written and oral complaints as specified in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_026",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly includes the ground truth's reference to Section 5(2) of the Domestic Violence Act and goes further to accurately explain the legal exceptions and limitations found in Section 5A, providing a highly precise and legally sound response.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_027",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate, citing the correct section (Dafa 5ka, sub-section 2) and matching the exact wording of the ground truth. It also provides helpful additional context without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_028",
+      "score": 0.0,
+      "reasoning": "The generated answer incorrectly claims that the requested information is not available in the legal context and fails to identify the Domestic Violence (Offense and Punishment) Act, Section 6. Instead, it provides irrelevant provisions from the Muluki Devani Samhita, resulting in an incorrect response.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_029",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies Section 7 of the Domestic Violence (Offense and Punishment) Act, 2066, and includes all key elements from the ground truth regarding who can enter the closed bench, while also providing the precise context of when this condition applies (upon the victim's request under sub-section 1).",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_030",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, correctly identifying that under Section 9(2) of the Domestic Violence (Offence and Punishment) Act, the perpetrator must bear all treatment expenses. It also provides additional accurate legal context from the same section without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_031",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It includes the exact provision from the ground truth (Section 11, sub-section 1a) and correctly elaborates on its legal meaning, implications, and related provisions without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_032",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the core legal provision from the ground truth regarding Section 12(1ka) and the establishment of service funds by provincial and local governments. It also provides accurate additional context from Section 11 without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_033",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly identifies the legal provision (Section 13, sub-section 1a of the Domestic Violence Act) from the ground truth. However, it fails to state the specific punishment details (fine of 3,000 to 25,000 NRs or 6 months imprisonment) which is the core content of the ground truth, focusing instead on procedural steps.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_034",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally thorough and accurate. It not only includes the exact definition of 'domestic relationship' from Section 2(b) of the Domestic Violence (Offence and Punishment) Act, 2066 as stated in the ground truth, but also directly and correctly answers the question of when this provision applies in legal practice.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_035",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth by correctly citing Section 4(3) of the Domestic Violence (Offense and Punishment) Act, 2066. It accurately states that complaints registered with the National Women's Commission will be processed according to the Commission's prevailing laws, and provides helpful additional context without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and accurate. It correctly includes the exact provision from the ground truth (Section 6(1)(b) of the Domestic Violence Act) and goes further to explain its legal meaning, interim protective nature, and the associated liabilities under Section 9, perfectly answering the prompt's question.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_037",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, well-structured, and covers all key legal points from the ground truth, including the court's power to order payment from local levels/service centers and the recovery of funds as government dues.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_038",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It contains the exact ground truth provision from Section 11(1b) of the Domestic Violence Act, provides additional relevant legal context regarding funding and monitoring, and correctly addresses the 'victim' aspect of the prompt by noting that no specific process is prescribed for victims in this context.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_039",
+      "score": 1.0,
+      "reasoning": "The generated answer correctly identifies the Domestic Violence (Offence and Punishment) Act, 2066 and Section 12, matching the ground truth. It also provides a highly detailed and accurate explanation of the conditions under which the provision applies, exceeding the ground truth in completeness.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_040",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, correctly identifying that the punishment for attempting, abetting, or being an accomplice to domestic violence is half of the main offender's punishment, citing Section 13(2) of the Domestic Violence (Offense and Punishment) Act.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_041",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It perfectly reproduces the definition of 'physical torture' from Section 2(c) of the Domestic Violence Act as stated in the ground truth, and goes further to correctly explain its legal effects and implications under the Act.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_042",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It accurately cites Section 4, Subsection 4 of the Domestic Violence (Offence and Punishment) Act, 2066, and correctly states the legal provision regarding summoning or arresting the perpetrator within 24 hours.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_043",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It correctly identifies Section 6 of the Domestic Violence (Offense and Punishment) Act, 2066, and explains the exact legal process (interim protective order by the court) required to separate the perpetrator and arrange for maintenance, perfectly matching and expanding upon the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_044",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and legally precise. It correctly identifies Section 11(2) of the Domestic Violence (Offense and Punishment) Act, 2066, and goes beyond the ground truth by explaining the specific purposes of sub-section (1) (immediate protection and separate accommodation for victims) to fully address the user's question.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_045",
+      "score": 0.0,
+      "reasoning": "The generated answer is a refusal statement claiming the information is not available in the provided context, whereas the ground truth contains a specific legal provision from Section 12 of the Domestic Violence (Offense and Punishment) Act. Therefore, the generated answer is completely incorrect.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_046",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, legally precise, and perfectly matches the ground truth. It correctly cites Section 13(3) of the Domestic Violence (Offense and Punishment) Act, 2066, and provides an excellent, detailed explanation of the legal implications and practical application of the double punishment rule for repeat offenders.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_047",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth definition of 'mental torture' under Section 2(d) of the Domestic Violence Act. It also provides additional accurate legal context regarding its prohibition and classification as domestic violence, enhancing the completeness of the response.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_048",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and complete. It perfectly captures the core requirement from the ground truth (Dafa 4, sub-section 5 regarding police assistance to arrest and take statements within 24 hours) and provides additional, legally precise context from the same section without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_049",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and complete. It correctly identifies Section 6(1)(d) of the Domestic Violence (Offense and Punishment) Act, 2066, and provides the precise legal context (interim protective orders) under which this provision is applied, matching and expanding upon the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_050",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies the core legal conclusion that the monitoring of the service center will be done by the respective provincial government or local level. However, it contains a minor legal precision error by citing Section 12 (दफा १२) instead of Section 11 (दफा ११) as stated in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_051",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate and comprehensive. It correctly identifies Section 12(3) of the Domestic Violence (Offense and Punishment) Act, 2066, matching the ground truth, and goes further to explain the legal meaning of 'as prescribed' (तोकिए बमोजिम) by referencing Section 2(ठ) and the role of the Rules/Regulations.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_052",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly states the legal provision regarding the 10% additional punishment for public officials committing domestic violence. However, it is slightly imprecise regarding the section number, referring to it as 'above section 14' instead of directly citing Section 13 as in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_053",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the definition of 'sexual torture' from Section 2(e) of the Domestic Violence Act as stated in the ground truth. Additionally, it provides highly relevant and accurate legal context regarding the complaint process and authorities, which directly addresses the user's question.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_054",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly captures all the substantive legal requirements and the sub-section (6) from the ground truth. However, it fails to identify the specific section number, referring to it as 'दफा Unknown' instead of 'दफा 4'.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_055",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and legally precise. It correctly identifies Section 6(1)(e) of the Domestic Violence (Offense and Punishment) Act, 2066, and provides the necessary legal context regarding the court's power to issue an interim protective order, perfectly matching and expanding upon the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_056",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and legally precise. It correctly identifies Section 11(3) of the Domestic Violence (Offense and Punishment) Act, 2066, and provides a comprehensive explanation of its legal meaning, the source of the fund (Section 12), and its practical impact, perfectly aligning with and expanding upon the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_057",
+      "score": 1.0,
+      "reasoning": "The generated answer is a perfect match to the ground truth. It correctly identifies Section 13, sub-section (5) of the Domestic Violence (Offence and Punishment) Act, and accurately states the penalty of a fine from 2,000 to 15,000 Rupees, up to four months of imprisonment, or both.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_058",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies the definition of 'economic torture' under Section 2(cha) of the Domestic Violence Act, matching the core of the ground truth. However, it omits the specific clause regarding dowry mentioned in the ground truth, while adding extra procedural information not present in the reference text.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_059",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies the condition ('आवश्यक देखिएमा') and the required action involving police assistance, matching the ground truth. It correctly cites the Act and subsection 7, but fails to identify the exact section number, citing it as 'Unknown' instead of Section 4.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_060",
+      "score": 0.2,
+      "reasoning": "The generated answer incorrectly states that the quoted phrase is not available in the legal context, whereas the ground truth clearly attributes it to Section 6 (च) of the Domestic Violence Act. Additionally, the generated response contains placeholders like '[दफा Unknown]', indicating a failure to retrieve the correct legal provisions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_061",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies the missing phrase ('आर्थिक सहायता उपलब्ध गराउन सक्नेछ') from Section 11(4) of the Domestic Violence Act, matching the ground truth perfectly, and provides excellent legal context and explanation of its implications.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_062",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly matches the ground truth, correctly identifying Section 2, Clause (छ) of the Domestic Violence (Offence and Punishment) Act, 2066, and providing the exact definition of a 'victim' as requested.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_063",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies Section 4, Sub-section (8) of the Domestic Violence Act, quotes the exact provision and its exception regarding Section 5a, and provides a clear, legally precise explanation that perfectly matches the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_064",
+      "score": 1.0,
+      "reasoning": "The generated answer is highly accurate, complete, and legally precise. It correctly identifies the Domestic Violence (Offense and Punishment) Act, Section 6(2), and perfectly explains both the conditions under which the provision applies and the court's authority to issue protection orders, matching the ground truth exactly.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_065",
+      "score": 0.6,
+      "reasoning": "The generated answer provides a detailed and legally sound explanation of the phrase 'as prescribed' (तोकिए बमोजिम). However, it incorrectly cites Section 12(5) (दफा १२) instead of Section 11(5) (दफा ११) as stated in the ground truth, which is a significant error in legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_066",
+      "score": 1.0,
+      "reasoning": "The generated answer perfectly captures the definition of 'perpetrator' (पीडक) from Section 2(j) of the Act, including the domestic relationship requirement, the victim's claim, and the inclusion of accomplices. It also correctly explains the legal implications and punishments, providing a highly comprehensive and accurate response.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_067",
+      "score": 0.8,
+      "reasoning": "The generated answer contains the exact legal provisions and sub-section (9) as the ground truth. It only misses the specific section number (Dafa 4), labeling it as 'Unknown', but is otherwise highly accurate and complete.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_068",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly captures the definition of 'Police Office' and clause (झ) as stated in the ground truth. However, it fails to identify the section number, labeling it as 'दफा Unknown' instead of 'दफा २', which is a minor legal precision error.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_069",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and correctly identifies the legal context (Domestic Violence Act, Section 4, sub-section 10). It contains a minor error where it writes 'दफा Unknown' instead of 'दफा ४' in one instance, but otherwise provides a complete and accurate explanation matching the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_070",
+      "score": 0.6,
+      "reasoning": "The generated answer contains the core definition of 'local level' including the mention of the ward committee, but it incorrectly cites Section 3 instead of Section 2. Additionally, it includes multiple 'Unknown' placeholders for section numbers, which reduces its legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_071",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly accurate and covers all key legal effects and conditions mentioned in the ground truth, including the 15-day timeline, complainant consent, and referral to court. However, it repeatedly refers to the section as 'दफा Unknown' despite the question explicitly mentioning Section 4, which is a minor legal precision error.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_072",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate and complete. It correctly identifies the Act, Section 2, Clause (ट), and the exact definition of 'court' as specified in the ground truth, with no contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_073",
+      "score": 0.8,
+      "reasoning": "The generated answer provides a highly detailed and accurate explanation of the procedures under the Domestic Violence Act, matching the sub-sections mentioned in the ground truth. However, it fails to identify the specific section number (Dafa 4), labeling it as 'Unknown', which is a minor omission in legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_074",
+      "score": 0.8,
+      "reasoning": "The generated answer provides a highly detailed and contextually accurate explanation of the situations where the provision applies (Sections 4, 5, and 5A). However, it contains a minor legal precision error by citing Section 3 (खण्ड ट१) instead of Section 2 (खण्ड ट१) of the Domestic Violence Act as specified in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "dv_new_075",
+      "score": 1.0,
+      "reasoning": "The generated answer is perfectly accurate and complete. It correctly identifies the definition of 'तोकिएको' or 'तोकिए बमोजिम' and accurately cites the legal source as Section 2(tha) of the Domestic Violence (Offence and Punishment) Act, 2066, matching the ground truth exactly.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_001",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly identifies the Domestic Violence Act's provision on economic torture (clause 'cha'). However, it completely misses Section 91 of the Muluki Devani Samhita regarding the prohibition of stopping family members from working, and incorrectly claims that the Samhita does not explicitly mention 'stopping employment'.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_002",
+      "score": 0.4,
+      "reasoning": "The generated answer fails to provide the correct section numbers, repeatedly using placeholders like 'Dafa Unknown' for the Domestic Violence Act. Furthermore, it completely misses Section 91 of the Civil Code regarding the restriction of employment among family members, which is a core component of the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_003",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly identifies the Domestic Violence Act's provision regarding economic violence (Section 2(cha)), although it labels the section number as 'Unknown (cha)'. However, it completely misses Section 91 of the Muluki Devani Sanhita, which is the core legal provision in the ground truth regarding family members stopping each other from working, and instead discusses unrelated general provisions of the Civil Code.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_004",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies the core legal provisions, including Section 2 of the Domestic Violence Act and Section 95(c) of the Muluki Devani Sanhita, and accurately explains how they connect. However, it contains several 'Section Unknown' placeholders which slightly detracts from its legal precision.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_005",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and perfectly captures the core legal elements from the ground truth, including Muluki Civil Code Section 95(c). It provides a highly logical and legally precise explanation of how immediate protection under the Domestic Violence Act serves as evidentiary support to meet the threshold for divorce under the Civil Code.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_006",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly comprehensive and thoroughly addresses all parts of the prompt, including the comparison of objectives, processes, and remedies. It correctly links physical/mental torture in domestic violence to the grounds for divorce, though it slightly misidentifies the primary section as 94(c) instead of 95(c) due to context limitations, which it explicitly notes.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_007",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed, legally precise, and correctly explains the roles of both the Domestic Violence Act and the Muluki Civil Code. It correctly identifies Section 3 of the Domestic Violence Act, but it omits Section 86 of the Muluki Civil Code (which is in the ground truth), instead focusing on Sections 89-92 of the same Code.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_008",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly identifies Section 3 of the Domestic Violence Act, but it completely fails to mention Section 86 of the Muluki Civil Code regarding the mutual obligations of husband and wife, explicitly stating that this information was unavailable in its context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_009",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly identifies and analyzes the Domestic Violence Act (Section 3) in line with the ground truth. However, it completely misses Section 86 of the Civil Code regarding the mutual obligations of husband and wife (love, harmony, respect, etc.), stating that this information was not available in its context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_010",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, complete, and legally precise. It correctly identifies the separate processes for domestic violence complaints (Section 4 of the Domestic Violence Act, filed at the police, Women's Commission, or local level) and divorce petitions (Section 96 of the Civil Code, filed in court), matching the ground truth perfectly while providing helpful additional legal context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_011",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and correctly identifies the separate legal pathways for immediate protection (Domestic Violence Act) and long-term civil remedy (Muluki Civil Code Section 96 for divorce). It loses some points for legal precision due to placeholder 'Unknown' section numbers in the domestic violence citations.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_012",
+      "score": 0.8,
+      "reasoning": "The generated answer provides an exceptionally detailed and structured analysis of the objectives, procedures, and remedies of both acts, matching the prompt's requirements. It correctly identifies Section 96 of the Civil Code for divorce, but it omits Section 4 of the Domestic Violence Act (regarding filing complaints) which was specifically mentioned in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_013",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally accurate, comprehensive, and legally precise. It correctly identifies Domestic Violence Act Section 5ka for filing complaints and Muluki Civil Code Sections 95(ga) and 95(cha) for divorce grounds, matching all key facts from the ground truth while providing excellent legal context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_014",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly identifies the key legal provisions from the ground truth, including Section 5ka of the Domestic Violence Act and Sections 95(ga) and 95(cha) of the Muluki Civil Code. It loses some points for legal precision due to multiple 'Unknown' placeholders in the section numbers of the Domestic Violence Act, but it remains highly accurate and comprehensive.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_015",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly addresses the Domestic Violence Act (Section 5a) regarding filing a complaint. However, it completely fails to provide the grounds for divorce under the Muluki Civil Code (Section 95), explicitly stating that the information is missing from its context, which represents a significant omission compared to the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_016",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly explains the conceptual difference between permanent property partition and temporary interim relief. However, it fails to cite the Domestic Violence Act, Section 6 for interim protection as specified in the ground truth, instead conflating it with monthly maintenance under the Civil Code and using 'Dafa Unknown' placeholders.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_017",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly explains the long-term remedy of property partition before divorce under Section 99 of the Muluki Civil Code. However, it fails to identify the correct legal basis for interim protection, which is Section 6 of the Domestic Violence Act as stated in the ground truth, and instead incorrectly attributes it to monthly expenses under the Civil Code.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_018",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed, legally precise, and perfectly matches the ground truth. It correctly identifies and analyzes the differences in objectives, procedures, and remedies between interim protection under Section 6 of the Domestic Violence Act and partition of property before divorce under Section 99 of the Muluki Civil Code, with no contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_019",
+      "score": 0.4,
+      "reasoning": "The generated answer fails to mention the Domestic Violence Act, 2066 (Section 6) regarding the immediate maintenance of a victim, which is a key component of the ground truth. Instead, it incorrectly frames the comparison entirely within the Muluki Devani Samhita (divorce proceedings), missing the distinction between domestic violence protection and divorce remedies.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_020",
+      "score": 0.6,
+      "reasoning": "The generated answer correctly explains Section 100 of the Muluki Civil Code regarding post-divorce lump sum or monthly payments. However, it fails to identify Section 6 of the Domestic Violence Act for immediate protection/maintenance as specified in the ground truth, instead attributing it to an 'unknown' section of the Civil Code.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_021",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and perfectly covers all key facts from the ground truth. It correctly identifies the differences in purpose, procedure, and remedy between immediate maintenance under the Domestic Violence Act and post-divorce maintenance under Section 100 of the Muluki Civil Code, including the condition of remarriage.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_022",
+      "score": 0.6,
+      "reasoning": "The generated answer is highly detailed and conceptually correct, covering both immediate protection and long-term custody rules. However, it lacks legal precision as it fails to identify the correct section numbers for domestic violence (using 'Dafa Unknown' instead of Dafa 6) and several sub-clauses of the Civil Code.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_023",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly identifies Section 6 of the Domestic Violence Act for immediate protection, though it contains placeholder 'Unknown' sections. However, it completely fails to address the second part of the question regarding long-term custody after divorce under Section 115 of the Civil Code, explicitly stating that the information is unavailable.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_024",
+      "score": 0.4,
+      "reasoning": "The generated answer fails to provide the key legal provisions from the ground truth. It misses Section 6(2) of the Domestic Violence Act (labeling it as 'Dafa Unknown') and completely fails to mention Section 115 of the Muluki Devani Sanhita regarding custody after divorce, explicitly stating that this information was missing from its context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_025",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed, accurate, and perfectly aligns with the ground truth. It correctly cites Section 9 of the Domestic Violence Act for treatment costs and Section 101 of the Civil Code for post-divorce maintenance, providing precise legal conditions without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_026",
+      "score": 0.6,
+      "reasoning": "The generated answer provides an excellent and detailed explanation of the domestic violence treatment expenses under Section 9 of the Act, matching the ground truth. However, it completely fails to address the second part of the question regarding post-divorce maintenance under Section 101 of the Civil Code, claiming the information was not available in its context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_027",
+      "score": 0.6,
+      "reasoning": "The generated answer perfectly explains the domestic violence treatment cost under Section 9, including the roles of the local level and service centers. However, it completely fails to address the second part of the question regarding post-divorce maintenance (Section 101 of the Civil Code), claiming the information was not available in its context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_028",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly explains the legal provisions for partition of property before divorce under Section 99 of the Civil Code. However, it fails to address the domestic violence compensation aspect (Section 10 of the Domestic Violence Act) due to missing context, and ultimately refuses to answer the core question of whether they are the same or different rights.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_029",
+      "score": 0.0,
+      "reasoning": "The generated answer completely fails to address the question, claiming that the legal context does not contain information about partition of property before divorce. It acts as a refusal response, whereas the ground truth provides a detailed legal explanation citing specific acts and sections.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_030",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly concludes that domestic violence compensation and partition of property before divorce are distinct rights under different laws. It accurately cites Section 99 of the Civil Code, but fails to mention Section 10 of the Domestic Violence Act, claiming that details on compensation were missing from its context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_031",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed, accurate, and perfectly aligns with the ground truth. It correctly cites Section 11 of the Domestic Violence Act and Section 116 of the Civil Code, clearly distinguishing between the immediate aid provided by service centers and the long-term care obligations for minors.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_032",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly and comprehensively explains the role of the service center under Section 11 of the Domestic Violence Act. However, it completely fails to address the second part of the question regarding the long-term care of minors under Section 116 of the Civil Code, stating that this information is not available in the context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_033",
+      "score": 0.4,
+      "reasoning": "The generated answer partially covers the Domestic Violence Act provisions, though it cites Section 12 instead of Section 11. However, it completely fails to address Section 116 of the Muluki Civil Code regarding parental custody and maintenance, instead hallucinating 'Dafa Unknown' and discussing foster care/board selection which is irrelevant to the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_034",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and legally precise, perfectly matching and expanding upon the ground truth. It correctly identifies Section 13 of the Domestic Violence Act for punishment and Section 95 of the Civil Code for divorce grounds, explaining how both legal remedies can run parallelly without contradiction.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_035",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and perfectly aligns with the ground truth. It correctly identifies Section 13 of the Domestic Violence Act for punishment and Section 95 of the Muluki Civil Code for divorce, explaining how both legal remedies operate parallelly without contradiction.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_036",
+      "score": 1.0,
+      "reasoning": "The generated answer is exceptionally detailed and perfectly aligns with the ground truth. It correctly identifies and analyzes Section 13 of the Domestic Violence Act and Section 95 of the Civil Code, explaining how the criminal punishment and civil remedy of divorce operate independently yet concurrently without any contradictions.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_037",
+      "score": 0.0,
+      "reasoning": "The generated answer is a refusal response, stating that the information is not available in the provided context. It fails to provide any of the correct legal provisions, section numbers, or limitation periods specified in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_038",
+      "score": 0.0,
+      "reasoning": "The generated answer completely fails to provide the correct limitation periods for domestic violence (90 days) and divorce (3 months) as specified in the ground truth. Instead, it states that the information is not available and cites irrelevant sections of the Civil Code regarding contracts.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_039",
+      "score": 0.0,
+      "reasoning": "The generated answer completely fails to provide the correct limitation periods (90 days for domestic violence and 3 months for divorce) and relevant sections (Section 14 and Section 104) specified in the ground truth, incorrectly claiming that this information is not available in the context.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_040",
+      "score": 0.0,
+      "reasoning": "The generated answer incorrectly claims that the information is not available in the legal context and that there is no legal provision. In contrast, the ground truth clearly explains how Section 15 of the Domestic Violence Act and Section 96 of the Civil Code address this issue, showing that domestic violence proceedings do not stop a separate divorce petition.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_041",
+      "score": 0.8,
+      "reasoning": "The generated answer correctly concludes that domestic violence proceedings do not block a separate divorce petition and that both remedies can be pursued simultaneously. It correctly cites Section 96 of the Muluki Civil Code, but it misses Section 15 of the Domestic Violence Act (which explicitly permits other proceedings) and contains an 'Unknown' placeholder for one of the section numbers.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_042",
+      "score": 0.8,
+      "reasoning": "The generated answer is highly detailed and correctly concludes that domestic violence proceedings do not bar a divorce petition. It correctly cites Section 96 of the Civil Code, but it misses citing Section 15 of the Domestic Violence Act, which is the key legal provision in the ground truth that explicitly allows parallel proceedings under other laws.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_043",
+      "score": 0.0,
+      "reasoning": "The generated answer is a refusal response stating that the information is not available, completely failing to address the question or provide the legal provisions mentioned in the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_044",
+      "score": 0.4,
+      "reasoning": "The generated answer fails to identify the Muluki Civil Code, Section 115, which is the crucial second legal provision for long-term custody determination. Instead, it focuses only on interim protection under the Domestic Violence Act and cites an 'Unknown' section, missing a significant portion of the ground truth.",
+      "split": "test"
+    },
+    {
+      "id": "cross_new_045",
+      "score": 0.4,
+      "reasoning": "The generated answer correctly identifies Section 2 of the Domestic Violence Act for defining mental and economic violence. However, it completely fails to identify Section 115 of the Muluki Civil Code for custody determination, incorrectly focusing on Private International Law provisions (Section 692) and claiming that custody rules are not available in the context.",
+      "split": "test"
+    }
+  ],
+  "aggregation_policy": {
+    "primary_split": "test",
+    "primary_use": "paper_main_result",
+    "combined_use": "supplementary_only",
+    "out_of_scope_policy": "excluded_from_answer_metric"
+  },
+  "by_split": {
+    "development": {
+      "n_evaluated": 103,
+      "average_score": 0.8602
+    },
+    "test": {
+      "n_evaluated": 217,
+      "average_score": 0.8571
+    },
+    "combined": {
+      "n_evaluated": 320,
+      "average_score": 0.8581
+    }
+  },
+  "primary_split": "test",
+  "combined_average_score": 0.8581,
+  "combined_total_evaluated": 320,
+  "dataset_split_counts": {
+    "development": 103,
+    "test": 217
+  }
+}

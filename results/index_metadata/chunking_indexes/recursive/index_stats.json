@@ -1,0 +1,9 @@
+{
+  "out_dir": "B:\\Projects\\LawBot\\backend\\experiments\\chunking_ablation\\indexes\\recursive",
+  "chunk_count": 556,
+  "avg_chars": 786.06,
+  "min_chars": 116,
+  "max_chars": 1025,
+  "multi_dafa": 223,
+  "built_at": "2026-08-25T03:50:51.884933"
+}

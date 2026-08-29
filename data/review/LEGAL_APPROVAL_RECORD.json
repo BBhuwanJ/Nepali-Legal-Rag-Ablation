@@ -1,0 +1,21 @@
+{
+  "reviewer": "legal practitioner",
+  "reviewer_role": "Advocate",
+  "reviewed_at": "2026-02-24",
+  "approval_scope": "all 350 records in evalData_source_checked_350_v2.json",
+  "approval_note": "The benchmark questions and ground-truth answers were reviewed before final evaluation.",
+  "approval_recorded_from": "author_attestation",
+  "identity_independently_verified_by_system": false,
+  "gold_dataset": "data/benchmark/evalData_source_checked_350_v2.json",
+  "gold_dataset_sha256": "3abecefee7d2fb3340d3a90688edb4ddaf2bc698e24d5279121313c757394200",
+  "gold_test_dataset": "data/benchmark/evalData_gold_test_v2.json",
+  "gold_test_dataset_sha256": "d3469b336bb3c68ea86c1eb8b14b601ae6a9f61de51baa8b4bee8d14c7280290",
+  "splits": {
+    "development": 108,
+    "test": 242
+  },
+  "test_scope": {
+    "in_scope": 217,
+    "out_of_scope": 25
+  }
+}
