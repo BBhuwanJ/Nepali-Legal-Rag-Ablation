@@ -1,6 +1,6 @@
 # Evaluating Chunking and Retrieval Strategies for Nepali Legal RAG
 
-This repository contains the code, benchmark, experiment outputs, and IEEE manuscript for a Nepali legal Retrieval-Augmented Generation (RAG) study.
+This repository contains the code, benchmark, experiment outputs, and manuscript figures for a Nepali legal Retrieval-Augmented Generation (RAG) study.
 
 The study asks: **how do chunking and retrieval choices affect answers generated from Nepali statutes?** We run two controlled ablations over the same legal corpus and benchmark:
 
@@ -11,16 +11,16 @@ On the held-out answerable test set (`N = 217`), hybrid legal-first chunking ach
 
 > **Research status:** This repository accompanies a manuscript in preparation. It does not claim publication or acceptance. The system provides access to legal information and is not a substitute for advice from a qualified legal professional.
 
-## Paper
+## Study resources
 
 **Title:** *Evaluating Chunking and Retrieval Strategies for Nepali Legal Retrieval-Augmented Generation*
 
-- [IEEE manuscript source](IEEE_LawBot_Chunking_Strategies.tex)
-- [Experiment runbook](backend/experiments/RUNBOOK.md)
-- [Benchmark protocol](backend/evaluationV2/BENCHMARK_PROTOCOL.md)
-- [Gold benchmark audit](backend/evaluationV2/EVALDATA_GOLD_V2_AUDIT.md)
-- [Chunking result tables](backend/experiments/chunking_ablation/ieee_tables.txt)
-- [Retrieval result tables](backend/experiments/retrieval_ablation/ieee_tables.txt)
+- [Repository contents](REPOSITORY_CONTENTS.md)
+- [Experiment files](docs/EXPERIMENTS.md)
+- [Final experiment notes](docs/FINAL_EXPERIMENT_NOTES.md)
+- [Ground-truth review report](data/review/FINAL_GROUND_TRUTH_REVIEW_REPORT.md)
+- [Chunking result tables](results/chunking_ablation/ieee_tables.txt)
+- [Retrieval result tables](results/retrieval_ablation/ieee_tables.txt)
 
 ## Why this study
 
@@ -87,9 +87,9 @@ Source distribution across all questions:
 | Medium | 131 |
 | Hard | 113 |
 
-Ordinary answer and retrieval metrics exclude the 30 out-of-scope questions. Refusal compliance is reported separately. See the [benchmark audit](backend/evaluationV2/EVALDATA_GOLD_V2_AUDIT.md) and [held-out coverage report](backend/evaluationV2/EVALDATA_GOLD_TEST_V2_COVERAGE.md).
+Ordinary answer and retrieval metrics exclude the 30 out-of-scope questions. Refusal compliance is reported separately. See the [ground-truth review report](data/review/FINAL_GROUND_TRUTH_REVIEW_REPORT.md) and [held-out coverage report](data/review/EVALDATA_GOLD_TEST_V2_COVERAGE.md).
 
-![Benchmark question distribution](backend/evaluationV2/charts_900/question_category_distribution_350.png)
+![Benchmark question distribution](figures/question_category_distribution_350.png)
 
 ## System pipeline
 
@@ -204,7 +204,7 @@ Primary results use the held-out answerable test set (`N = 217`). Combined answe
 | Semantic | 0.5530 | 0.6774 | 0.1382 | 0.6336 | 0.5982 |
 | **Hybrid legal-first** | **0.7558** | **0.9217** | **0.2147** | **0.8779** | **0.8223** |
 
-![Chunking answer-quality results](backend/experiments/chunking_ablation/chunking_answer_metrics.png)
+![Chunking answer-quality results](figures/chunking_answer_metrics.png)
 
 ### Retrieval: held-out answer quality
 
@@ -224,7 +224,7 @@ Primary results use the held-out answerable test set (`N = 217`). Combined answe
 | Hybrid | 0.7327 | **0.9217** | 0.2120 | 0.8687 | 0.8073 |
 | Source-aware routed hybrid | 0.7558 | **0.9217** | **0.2147** | **0.8779** | 0.8223 |
 
-![Retrieval answer-quality results](backend/experiments/retrieval_ablation/retrieval_answer_metrics.png)
+![Retrieval answer-quality results](figures/retrieval_answer_metrics.png)
 
 ### Supplementary combined results
 
@@ -281,85 +281,51 @@ git clone https://github.com/BBhuwanJ/Nepali-Legal-Rag-Ablation.git
 Set-Location Nepali-Legal-Rag-Ablation
 python -m venv .venv
 & .\.venv\Scripts\Activate.ps1
-pip install -r backend\requirements.txt
+pip install -r requirements.txt
 ```
 
-Add at least one Gemini API key to `backend/.env`. Do not commit this file. Index construction may download the embedding model on first use.
+Add at least one Gemini API key to `.env`. Do not commit this file. Index construction may download the embedding model on first use.
 
-### 2. Run local, API-free checks
+### 2. Review the frozen inputs and experiment layout
 
-```powershell
-python backend/experiments/benchmark_audit.py `
-  --dataset backend/evaluationV2/evalData_gold_v2.json `
-  --strict
+The benchmark is in [`data/benchmark`](data/benchmark/), the experiment scripts are in [`src/experiments`](src/experiments/), and the retained outputs are in [`results`](results/). See the [final experiment notes](docs/FINAL_EXPERIMENT_NOTES.md) before rerunning any API-backed step.
 
-python -m unittest backend.experiments.tests.test_multi_document_corpus
+Population and evaluation scripts call Gemini and save progress after each question. Run one strategy at a time when API quotas are limited.
 
-python backend/experiments/retrieval_only_eval.py `
-  --dataset backend/evaluationV2/evalData_gold_v2.json `
-  --experiment all `
-  --k 5 `
-  --output-dir backend/experiments/reproduction_retrieval
-```
-
-### 3. Run the full frozen experiment
+### 3. Regenerate paper tables
 
 ```powershell
-python backend/experiments/run_experiment.py `
-  --dataset backend/evaluationV2/evalData_gold_v2.json `
-  --benchmark-manifest backend/evaluationV2/benchmark_release_manifest.json `
-  --restart-population
-```
-
-This step calls Gemini for answer generation and judging. It can take hours under API rate limits. Population and evaluation scripts save progress after each question.
-
-For quota-controlled execution, run one strategy at a time. The full commands, resume rules, expected API load, and troubleshooting steps are in the [experiment runbook](backend/experiments/RUNBOOK.md).
-
-### 4. Regenerate paper tables
-
-```powershell
-python backend/experiments/chunking_ablation/05_summarize_results.py
-python backend/experiments/retrieval_ablation/05_summarize_results.py
-```
-
-### 5. Compile the IEEE manuscript
-
-XeLaTeX is required for Nepali Unicode text.
-
-```powershell
-xelatex -interaction=nonstopmode -halt-on-error IEEE_LawBot_Chunking_Strategies.tex
-xelatex -interaction=nonstopmode -halt-on-error IEEE_LawBot_Chunking_Strategies.tex
+python src/experiments/chunking_ablation/05_summarize_results.py
+python src/experiments/retrieval_ablation/05_summarize_results.py
 ```
 
 ## Repository structure
 
 ```text
 .
-├── IEEE_LawBot_Chunking_Strategies.tex    # IEEE manuscript
-├── backend/
-│   ├── data/                              # Nepali legal corpus and indexes
-│   ├── evaluationV2/                      # Frozen benchmark, audits, and protocols
-│   └── experiments/
-│       ├── shared/                        # Shared chunking, retrieval, and evaluation code
-│       ├── chunking_ablation/             # Four chunking conditions and results
-│       ├── retrieval_ablation/            # Four retrieval conditions and results
-│       ├── RUNBOOK.md                     # Full reproduction instructions
-│       └── final_paper_analysis.json       # Additional paper analysis
-└── frontend/                              # Nepali legal-chatbot interface
+├── data/                 # Corpus, benchmark, and review records
+├── docs/                 # Experiment documentation
+├── figures/              # Final manuscript figures
+├── results/              # Metrics, outputs, and index metadata
+├── src/                  # Evaluation and experiment code
+├── README.md
+├── REPOSITORY_CONTENTS.md
+└── requirements.txt
 ```
 
 ## Key evidence files
 
 | Purpose | Artifact |
 |---|---|
-| Frozen benchmark | [`evalData_gold_v2.json`](backend/evaluationV2/evalData_gold_v2.json) |
-| Held-out test | [`evalData_gold_test_v2.json`](backend/evaluationV2/evalData_gold_test_v2.json) |
-| Benchmark audit | [`EVALDATA_GOLD_V2_AUDIT.md`](backend/evaluationV2/EVALDATA_GOLD_V2_AUDIT.md) |
-| Test coverage | [`EVALDATA_GOLD_TEST_V2_COVERAGE.md`](backend/evaluationV2/EVALDATA_GOLD_TEST_V2_COVERAGE.md) |
-| Chunking outputs | [`chunking_ablation/results`](backend/experiments/chunking_ablation/results/) |
-| Retrieval outputs | [`retrieval_ablation/results`](backend/experiments/retrieval_ablation/results/) |
-| Chunking summary | [`chunking_ablation/ieee_tables.txt`](backend/experiments/chunking_ablation/ieee_tables.txt) |
-| Retrieval summary | [`retrieval_ablation/ieee_tables.txt`](backend/experiments/retrieval_ablation/ieee_tables.txt) |
+| Frozen benchmark | [`evalData_source_checked_350_v2.json`](data/benchmark/evalData_source_checked_350_v2.json) |
+| Held-out test | [`evalData_gold_test_v2.json`](data/benchmark/evalData_gold_test_v2.json) |
+| Benchmark review | [`FINAL_GROUND_TRUTH_REVIEW_REPORT.md`](data/review/FINAL_GROUND_TRUTH_REVIEW_REPORT.md) |
+| Test audit | [`EVALDATA_GOLD_TEST_V2_AUDIT.md`](data/review/EVALDATA_GOLD_TEST_V2_AUDIT.md) |
+| Test coverage | [`EVALDATA_GOLD_TEST_V2_COVERAGE.md`](data/review/EVALDATA_GOLD_TEST_V2_COVERAGE.md) |
+| Chunking outputs | [`results/chunking_ablation`](results/chunking_ablation/) |
+| Retrieval outputs | [`results/retrieval_ablation`](results/retrieval_ablation/) |
+| Chunking summary | [`results/chunking_ablation/ieee_tables.txt`](results/chunking_ablation/ieee_tables.txt) |
+| Retrieval summary | [`results/retrieval_ablation/ieee_tables.txt`](results/retrieval_ablation/ieee_tables.txt) |
 
 ## Result interpretation
 
